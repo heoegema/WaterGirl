@@ -1239,8 +1239,6 @@ label makoto_jump_1:
     
     y "..."
     
-    
-    
     stop music
     
     return
