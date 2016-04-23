@@ -194,6 +194,8 @@ label start:
     y "Good morning, Sensei. I’m glad to meet your acquaintance."
     
     d "She laughs slightly before continuing."
+    show Miho_Reassuring at center 
+    with dissolve
     
     ma "I’m about to start class, if you wouldn’t mind, could you sit at the chair 
     next to my desk so I can introduce you?"
@@ -203,6 +205,9 @@ label start:
     d "I nod to her and make my way to the front as the bell rings."
     
     d "Miho gently closes the door and follows me in."
+    show Miho_Neutral at center
+    with dissolve
+    
     
     ma "Good morning class. Before we begin, I have an introduction to make."
     
@@ -222,12 +227,14 @@ label start:
     d "Kind of standard for introductions, but sometimes the classic approach is the best."
     
     d "The class gives a small round of applause. When it dies down, Miho speaks again."
+    show Miho_Reassuring at center
+    with dissolve 
     
     ma "Thank you everyone. %(povFirstName)s, you may take the open seat in the back by the window."
     
     d "I nod again to her and make my way to my desk."
     
-    hide Miho_Neutral at center
+    hide Miho_Reassuring at center
     with dissolve
     
     d "My seating pleases me."
@@ -246,10 +253,14 @@ label start:
     d "I understand what the teacher is saying, but I’m having trouble writing any of it down."
     
     d "I’ll really need to pay attention."
+    show Miho_Neutral at center 
+    with dissolve
     
     ma "Everyone, please put away your books and leave only a blank piece of paper with a pencil out."
     
     ma "I will administer a short quiz on basic Japanese."
+    hide Miho_Neutral at center 
+    with dissolve
     
     d "That was not what I wanted to hear. I’m really struggling here, and a quiz already?"
     
@@ -257,9 +268,13 @@ label start:
     
     d "Also, I’m pretty sure I didn’t even come close to passing, based on my eraser marks 
     and lack of content actually written."
+    show Miho_Reassuring at center
+    with dissolve
     
     ma "Thank you all. Please study quietly while I grade these, I’ll have them back to you just before lunch."
     
+    hide Miho_Reassuring at center
+    with dissolve
     d "I go over my notes, which suspiciously look a lot like what I just tried to pass off as the answers to the quiz."
     
     d "That’s probably not a good sign. I shake my head sadly."
@@ -306,11 +321,16 @@ label start:
     y "No, that’s okay. I can go get an independent tutor, or ask for a remedial class. 
     I don’t want to impose on you."
     
+    show Makoto_Sad at center
+    with dissolve
+    
     unknown "You wouldn’t be imposing. I mean, considering you’re an American you already speak and 
     understand spoken Japanese well. It shouldn’t be too hard to get you writing it."
     
     d "I’m not sure what kind of look I’m giving him, but it must be making him nervous, as he keeps talking 
     like he’s trying to smooth things over with me."
+    show Makoto_Worried at center
+    with dissolve
     
     unknown "I’m sorry, I haven’t even introduced myself. I’m Tachibana Makoto. I don’t mind if you just call 
     me Makoto, though. Let me help you become proficient at Japanese this year!"
@@ -319,14 +339,12 @@ label start:
     
     y "Thanks, but it’s okay. You don’t have to force yourself to be friends with me."
     
-    hide Makoto_Neutral at center
-    show Makoto_Worried at center
+    show Makoto_Sad at center
     with dissolve
     
     d "He gives me a puzzled look."
     
-    hide Makoto_Worried at center
-    show Makoto_Neutral at center
+    show Makoto_Neutral at center 
     with dissolve
     
     mt "I’m not forcing myself to do that. You look like you need a friend and it just so happens 
@@ -525,12 +543,14 @@ label start:
     y "Hey, litterbug, just who are you?"
     
     unknown "..."
+    show Haru_Sad at center 
+    with dissolve
     
     d "He finally opens his mouth and says something, but he’s barely audible."
     
     y "You mind speaking up for those of us who can’t translate the language of the wind?"
     
-    hide Haru_Neutral at center
+    hide Haru_Sad at center
     show Haru_Annoyed at center
     with dissolve
     
@@ -616,6 +636,8 @@ label start:
     y "Why? WHY? Because you’re getting naked in public in front of me. Why are you stripping down?"
     
     d "He looks back in the direction of the pool."
+    show Haru_Sad at center
+    with dissolve
     
     unknown "I just wanted to go for a swim."
     
@@ -628,6 +650,9 @@ label start:
     d "I mean to go on, but the bell rings, signaling the end of lunch."
     
     d "He quickly gets dressed and heads away from me."
+    
+    show Haru_Neutral at center
+    with dissolve
     
     unknown "Lunch is over. Next time, use the ladder."
     
@@ -759,15 +784,15 @@ label start:
     
     mt "Oh so you’ve seen that? Yeah, Haruka kind of has a habit of stripping down every so often when he gets near water."
     
-    show Miho_Neutral at left
+    show Miho_Mad at left
     with dissolve
     
     ma "Tachibana-kun, I’m glad you’re getting so familiar with our new exchange student, but I’d appreciate it if you’d wait until after class for it."
-    
+    show Makoto_Worried at right with dissolve
     mt "Apologies Ama-chan. I’ll be more mindful of the lesson."
     
-    hide Miho_Neutral at left
-    hide Makoto_Neutral at center
+    hide Miho_Mad at left
+    hide Makoto_Worried at center
     hide Haru_Neutral at right
     with dissolve
     
@@ -819,6 +844,8 @@ label start:
     y "It’s okay, Makoto-kun, but I don’t want to make you late for your club."
     
     mt "No really, it’s not a bother at all."
+    show Makoto_Sad at center 
+    with dissolve
     
     mt "I mean, you don’t seem to have spoken to anyone today."
     
@@ -832,7 +859,7 @@ label start:
     
     y "Who knows how many young minds he’s defiling by stripping in public right now?"
     
-    hide Makoto_Neutral at center
+    hide Makoto_Sad at center
     show Makoto_Worried at center
     with dissolve
     
@@ -848,9 +875,15 @@ label start:
     
     mt "Like where to get the newest manga and the sweetest red bean paste buns."
     
+    show Makoto_Worried at center 
+    with dissolve
+    
     mt "Though they’re not in the same shop."
     
     mt "I mean obviously a book seller isn’t going to have baked goods."
+    hide Makoto_Worried at center with dissolve
+    show Makoto_Neutral at center
+    with dissolve
     
     mt "Sorry for rambling. Anyway, let’s go!"
     
@@ -863,6 +896,7 @@ label start:
     d "Either way, I need to get out of here."
     menu:
         "Push past his arm quickly.":
+            
                 d "I’ve really got to get out of here."
     
                 d "I’ve never dealt with such forward people very well, and this is just getting too uncomfortable."
@@ -871,11 +905,16 @@ label start:
     
                 d "I push past his arm as quickly as I can and head for the exit."
     
-                d "He kind of gives a grunt as I push past him, but doesn’t say anything."    
+                d "He kind of gives a grunt as I push past him, but doesn’t say anything."   
+                show Makoto_Sad at center 
+                with dissolve
     
                 y "I’ve really got to go, Makoto."
     
                 y "Good luck finding the naked kid."
+                
+                show Makoto_Neutral at center
+                with dissolve
        
                 d "I think I heard him chuckle just a little."
       
@@ -910,6 +949,8 @@ label start:
             d "I gather up the rest of my things while still speaking."
             
             y "I appreciate the offer Makoto-kun, but it’s a bit early for that sort of thing just yet."
+            show Makoto_Sad at center
+            with dissolve
             
             mt "I’m not quite sure I understand what you mean."
             
@@ -928,7 +969,8 @@ label start:
             y "So she wanted to make sure she got to walk me home."
             
             y "You understand right?"
-            
+            show Makoto_Neutral at center with dissolve
+          
             mt "Oh, that’s all? Why didn’t you say so?"
             
             d "He gives another one of his award-winning smiles to me."
@@ -947,7 +989,8 @@ label start:
             
             d "She’s probably been waiting while I was talking with Makoto."
             
-            jump makoto_jump_1                     
+            jump makoto_jump_1  
+   
         
 label makoto_jump_1:
     
@@ -984,6 +1027,9 @@ label makoto_jump_1:
     
     gm "Finally, I get to see you for a few minutes!"
     
+    show Gou_Worried 1 at center
+    with dissolve
+    
     gm "Club is starting a bit late today."
     
     gm "Our supervisor had some urgent errands to run right after class, 
@@ -993,6 +1039,9 @@ label makoto_jump_1:
     
     d "I start changing books around in my locker 
     and bookbag for going home as she continues."
+    
+    show Gou_Neutral at center
+    with dissolve
     
     gm "No need to call me senpai, you’re a year ahead of me.
     So not a great start today, I take it?"
@@ -1042,9 +1091,8 @@ label makoto_jump_1:
     gm "…Ha ha… Not even a full day in and you’ve already gotten the Haru 
     experience."
     
-    hide Gou_Worried 1 at center
-    show Gou_Neutral at center
-    with dissolve
+ 
+    show Gou_Determined with dissolve
     
     gm "Classic."
     
@@ -1059,6 +1107,9 @@ label makoto_jump_1:
     y "Yeah, he’s the overly-friendly guy I mentioned earlier."
     
     y "It appears they’re both in my homeroom."
+    
+    show Gou_Neutral at center
+    with dissolve
     
     gm "So you’re in Ama-chan’s class then?"
     
@@ -1093,6 +1144,9 @@ label makoto_jump_1:
     
     y "I earned my fair share of ribbons and medals at summer camp swim meets."
     
+    show Gou_Determined at center
+    with dissolve
+    
     gm "Oh even better."
     
     y "Uhm, why is that even better?"
@@ -1120,9 +1174,14 @@ label makoto_jump_1:
     
     y "I'm terrible at group events."
     
+    show Gou_Determined at center 
+    with dissolve
+    
     gm "Bah. You’ll get over it."
     
     gm "I’ll be here the whole time with you."
+   
+    show Gou_Neutral with dissolve
     
     gm "And the club needs to add some girl swimmers to maximize points at meets."
     
@@ -1131,8 +1190,9 @@ label makoto_jump_1:
     d "She pulls me outside to the pool."
     
     d "Currently, there are four members hanging around the edge."
-    
-    #show haru
+    hide Gou_Neutral at center with dissolve
+    show Haru_Neutral at left with dissolve
+    show Gou_Neutral at right with dissolve
     
     d "All males."
     
@@ -1146,13 +1206,9 @@ label makoto_jump_1:
     mt "Gou! You managed to convince %(povFirstName)s-chan to come check out our club!"
     
     d "Oh no. No wonder she was so familiar with Makoto."
-    
-    hide Makoto_Neutral at center
-    with dissolve
-    show Makoto_Neutral at left
-    show Gou_Neutral at right
-    with dissolve
-    
+   
+    show Gou_Worried 1 at right with dissolve
+   
     gm "And you already know Haru over there, who’s been in the water since 
     10 seconds before the end-of-day bell rang."
     
@@ -1161,6 +1217,10 @@ label makoto_jump_1:
     hn "..."
     
     gm "He’s a man of few words. You’ll get used to it."
+    hide Gou_Worried 1 at right with dissolve
+    hide Gou_Neutral at right with dissolve
+    hide Makoto_Neutral at center with dissolve
+    show Makoto_Neutral at right with dissolve
     
     show Nagisa_Determined 1 at center
     with dissolve
@@ -1177,6 +1237,9 @@ label makoto_jump_1:
     
     y "Who’s the rude kid?"
     
+    hide Haru_Neutral at left with dissolve
+    show Gou_Worried 1 at left with dissolve
+    
     gm "Oh, that’s Hazuki Nagisa."
     
     gm "He kind of has a tendency to speak first and then speak some more later."
@@ -1189,6 +1252,7 @@ label makoto_jump_1:
     
     d "That leaves just the guy over on the 
     bleachers working on his calculus homework."
+    show Gou_Neutral at left with dissolve
     
     d "As if reading my mind, Gou points him to me."
     
@@ -1205,6 +1269,8 @@ label makoto_jump_1:
     
     y "You guys have practice and I have homework."
     
+    show Gou_Determined at left with dissolve
+    
     gm "Homework can wait."
     
     gm "I’m serious, I think you should become the first 
@@ -1217,7 +1283,8 @@ label makoto_jump_1:
     
     gm "Wouldn’t you agree, Ama-chan?"
     
-    show Makoto_Neutral at left
+    hide Nagisa_Determined 1 at center with dissolve
+    show Makoto_Neutral at center 
     with dissolve
     
     show Miho_Neutral at right

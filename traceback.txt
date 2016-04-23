@@ -1,27 +1,33 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 580, in script
-    with fastdissolve
-  File "game/script.rpy", line 580, in <module>
-    with fastdissolve
-NameError: name 'fastdissolve' is not defined
+  File "renpy/common/00start.rpy", line 218, in script call
+    python:
+  File "game/script.rpy", line 1201, in script
+    show Gou_Neutral at Right with dissolve
+  File "game/script.rpy", line 1201, in <module>
+    show Gou_Neutral at Right with dissolve
+NameError: name 'Right' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 580, in script
-    with fastdissolve
-  File "C:\Users\Admin\Desktop\Folders\Programs\Renpy\renpy\ast.py", line 1259, in execute
-    trans = renpy.python.py_eval(self.expr)
-  File "C:\Users\Admin\Desktop\Folders\Programs\Renpy\renpy\python.py", line 1606, in py_eval
+  File "renpy/common/00start.rpy", line 218, in script call
+    python:
+  File "game/script.rpy", line 1201, in script
+    show Gou_Neutral at Right with dissolve
+  File "/Users/newuser/projects/renpy-6.99.10-sdk/renpy/ast.py", line 1065, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/Users/newuser/projects/renpy-6.99.10-sdk/renpy/ast.py", line 1026, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "/Users/newuser/projects/renpy-6.99.10-sdk/renpy/python.py", line 1606, in py_eval
     return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\Admin\Desktop\Folders\Programs\Renpy\renpy\python.py", line 1601, in py_eval_bytecode
+  File "/Users/newuser/projects/renpy-6.99.10-sdk/renpy/python.py", line 1601, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 580, in <module>
-    with fastdissolve
-NameError: name 'fastdissolve' is not defined
+  File "game/script.rpy", line 1201, in <module>
+    show Gou_Neutral at Right with dissolve
+NameError: name 'Right' is not defined
 
-Windows-8-6.2.9200
+Darwin-13.0.0-x86_64-i386-64bit
 Ren'Py 6.99.10.1227
 Water Girl 0.0
