@@ -306,8 +306,7 @@ label start:
     
     d "I turn around to face him."
     
-    show Makoto_Neutral at center
-    with dissolve
+    show Makoto_Neutral at center with dissolve
     
     d "I wasn’t expecting to see such a tall, good-looking guy."
     
@@ -321,16 +320,15 @@ label start:
     y "No, that’s okay. I can go get an independent tutor, or ask for a remedial class. 
     I don’t want to impose on you."
     
-    show Makoto_Sad at center
-    with dissolve
+    show Makoto_Sad at center with dissolve
     
     unknown "You wouldn’t be imposing. I mean, considering you’re an American you already speak and 
     understand spoken Japanese well. It shouldn’t be too hard to get you writing it."
     
     d "I’m not sure what kind of look I’m giving him, but it must be making him nervous, as he keeps talking 
     like he’s trying to smooth things over with me."
-    show Makoto_Worried at center
-    with dissolve
+    hide Makoto_Sad
+    show Makoto_Neutral at center with dissolve
     
     unknown "I’m sorry, I haven’t even introduced myself. I’m Tachibana Makoto. I don’t mind if you just call 
     me Makoto, though. Let me help you become proficient at Japanese this year!"
@@ -339,13 +337,13 @@ label start:
     
     y "Thanks, but it’s okay. You don’t have to force yourself to be friends with me."
     
-    show Makoto_Sad at center
-    with dissolve
+    hide Makoto_Neutral
+    show Makoto_Sad at center with dissolve
     
     d "He gives me a puzzled look."
     
-    show Makoto_Neutral at center 
-    with dissolve
+    hide Makoto_Sad 
+    show Makoto_Neutral at center with dissolve
     
     mt "I’m not forcing myself to do that. You look like you need a friend and it just so happens 
     that I like making new friends."
@@ -356,18 +354,17 @@ label start:
     
     y "Thanks, but I’ll be okay."
     
-    hide Makoto_Neutral at center
-    show Makoto_Worried at center
-    with dissolve
+    hide Makoto_Neutral
+    show Makoto_Worried at center with dissolve
     
     mt "Look, it’s alright. You probably don’t realize it, but with how lunch rush is, 
     you’re going to have a hard time getting any food."
     
     mt "And then barely have any time to scarf it down before classes start again."
     
-    hide Makoto_Worried at center
-    show Makoto_Neutral at center
-    with dissolve
+    hide Makoto_Worried 
+    
+    show Makoto_Neutral at center with dissolve
     
     y "It’s no big deal, and it can’t be helped anyway."
     
@@ -385,9 +382,8 @@ label start:
     
     y "That’s really not necessary. I’ll manage."
     
-    hide Neutral_Neutral at center
-    show Makoto_Worried at center
-    with dissolve
+    hide Makoto_Neutral
+    show Makoto_Worried at center with dissolve
     
     d "Somehow."
     
@@ -712,17 +708,13 @@ label start:
     
     d "The door opens and Makoto steps in."
     
-    hide Miho_Neutral at center
-    show Miho_Neutral at left
+    show Miho_Neutral at left with dissolve
     
-    show Makoto_Worried at center
-    with dissolve
+    show Makoto_Worried with dissolve
     
     mt "Excuse our tardiness, Ama-chan."
     
-    hide Miho_Neutral at left
-    show Miho_Mad at left
-    with dissolve
+    show Miho_Mad with dissolve
     
     ma "Makoto, I hope you have a good explanation for this."
     
@@ -734,8 +726,7 @@ label start:
     
     mt "I guess Haru lost track of time again, teacher."
     
-    show Haru_Neutral at right
-    with dissolve
+    show Haru_Neutral at right with dissolve
     
     hn "Pool."
     
@@ -744,23 +735,20 @@ label start:
     
     ma "Nanase-kun, physical education comes AFTER classical literature, not before it. Please go take your seat."
     
-    hide Miho_Mad at left
-    hide Makoto_Worried at center
-    hide Haru_Neutral at right
-    with dissolve
+    hide Miho_Mad with dissolve
+    hide Makoto_Worried with dissolve
+    hide Haru_Neutral with dissolve
     
     d "The two boys walk back. I’m not surprised at Makoto sitting next to me, but Stripper takes 
     the seat immediately behind me. I turn and point at his face."
     
-    show Haru_Neutral at center
-    with dissolve
+    show Haru_Neutral at center with dissolve
     
     y "What in the world are you doing here now?"
     
     unknown "This is my homeroom."
     
-    show Makoto_Neutral at right
-    with dissolve
+    show Makoto_Neutral at right with dissolve
     
     mt "Oh, have you two met already?"
     
@@ -770,13 +758,12 @@ label start:
     
     y "Stripping?"
     
-    hide Makoto_Neutral at right
+    hide Makoto_Neutral 
     show Makoto_Sad at right
     with dissolve
     
     with Pause(1)
         
-    hide Makoto_Sad at right
     show Makoto_Neutral at right
     with dissolve
     
@@ -784,17 +771,15 @@ label start:
     
     mt "Oh so you’ve seen that? Yeah, Haruka kind of has a habit of stripping down every so often when he gets near water."
     
-    show Miho_Mad at left
-    with dissolve
+    show Miho_Mad at left with dissolve
     
     ma "Tachibana-kun, I’m glad you’re getting so familiar with our new exchange student, but I’d appreciate it if you’d wait until after class for it."
     show Makoto_Worried at right with dissolve
     mt "Apologies Ama-chan. I’ll be more mindful of the lesson."
     
-    hide Miho_Mad at left
-    hide Makoto_Worried at center
-    hide Haru_Neutral at right
-    with dissolve
+    hide Miho_Mad with dissolve
+    hide Makoto_Worried with dissolve
+    hide Haru_Neutral with dissolve
     
     d "Great. Just great. The two people sitting closest to me are friends, compatriots and absolute weirdos."
     
@@ -828,8 +813,7 @@ label start:
     
     d "I feel as if I’m forgetting something…"
     
-    show Makoto_Neutral at center
-    with dissolve
+    show Makoto_Neutral at center with dissolve
     
     mt "%(povFirstName)s-chan, I have some spare time before my club starts."
     
@@ -844,6 +828,7 @@ label start:
     y "It’s okay, Makoto-kun, but I don’t want to make you late for your club."
     
     mt "No really, it’s not a bother at all."
+    hide Makoto_Neutral
     show Makoto_Sad at center 
     with dissolve
     
@@ -859,7 +844,7 @@ label start:
     
     y "Who knows how many young minds he’s defiling by stripping in public right now?"
     
-    hide Makoto_Sad at center
+    hide Makoto_Sad
     show Makoto_Worried at center
     with dissolve
     
@@ -867,7 +852,7 @@ label start:
     
     mt "I don’t think there’s a female at this school who hasn’t seen him strip to his trunks."
     
-    hide Makoto_Worried at center
+    hide Makoto_Worried
     show Makoto_Neutral at center
     with dissolve
     
@@ -881,7 +866,7 @@ label start:
     mt "Though they’re not in the same shop."
     
     mt "I mean obviously a book seller isn’t going to have baked goods."
-    hide Makoto_Worried at center with dissolve
+    hide Makoto_Worried 
     show Makoto_Neutral at center
     with dissolve
     
