@@ -124,7 +124,6 @@ label splashscreen:
     
 
 label start:
-    show screen mini_phone
     
     stop music
     
@@ -140,6 +139,8 @@ label start:
      
     scene bg School Gates_Morning
     with dissolve
+    
+    show screen mini_phone
     
     d "Standing at the door of my new school, I can feel the warmth of the sun on my shoulders."
     
