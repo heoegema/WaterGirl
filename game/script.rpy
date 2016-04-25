@@ -1354,7 +1354,7 @@ label makoto_jump_1:
     
     show Rei Neutral at center with dissolve
     
-    d "Wait a minute, when did he pop his head up from his calculus book." 
+    d "Wait a minute, when did he pop his head up from his calculus book?" 
     
     show Rei Reassuring with dissolve
     
@@ -1383,7 +1383,7 @@ label makoto_jump_1:
     
     nh "You know what I Mean. Dive in-literally!" 
     
-    y "But I didn't even pack a swimsuit, I mean, I brought my tennis racket on the off-chance of joining the tennis club...but I left my swimsuit at home." 
+    y "But I didn't even pack a swimsuit, I mean, I brought my tennis racket on the off-chance of joining the tennis club... But I left my swimsuit at home." 
     
     hide Nagisa with dissolve
     hide Rei with dissolve
@@ -1391,7 +1391,7 @@ label makoto_jump_1:
     
     gm "But that's not a problem!" 
     
-    gm "We can get you a swimsuit, the only guidelines are it has our school symbol on it, it has to be a one piece and the main colour be black like the rest of the team..." 
+    gm "We can get you a swimsuit, the only guidelines are it has our school symbol on it, it has to be a one piece and the main color be black like the rest of the team..." 
     
     gm "But you can have whatever color trim you want." 
     
@@ -1401,9 +1401,9 @@ label makoto_jump_1:
     
     gm "Please, I'll feel like a bad hostless if I let you become a member of the Just Go Home Club." 
     
-    y "I s there really a club for that?"
+    y "Is there really a club for that?"
     
-    y "I always thought it was a joke, But if there's a club for that point me towards it." 
+    y "I always thought it was a joke, But if there's a club for that, point me towards it." 
     
     d "I thought my joke was kind of funny, but the reaction I got was not from whom I expected." 
     
@@ -1443,13 +1443,13 @@ label makoto_jump_1:
     
     ma "And with that the Iwatobi Swim Club officially has its first female member!"
     
-    ma "Welcome to the team %(povLastName)s-Chan!" 
+    ma "Welcome to the team, %(povLastName)s-Chan!" 
     
     scene bg white 
     
     scene bg School Gates_Afternoon with flash 
     
-    d "Me and my big mouth. With that slip of tonge in anger, I was now part of the swim club." 
+    d "Me and my big mouth. With that slip of tongue in anger, I was now part of the swim club." 
     
     d "Gou and Miho wasted no time ushering me to the back to get my size and measurements for a suit." 
     
@@ -1528,7 +1528,7 @@ label makoto_jump_1:
     
     show Makoto Devious with dissolve
     
-    mt "No was, that was an alert from ''Destiny's Ultimate Challenge' wasn't it?"
+    mt "That was an alert from 'Destiny's Ultimate Challenge', wasn't it?"
     
     y "I have no idea what you're talking about." 
     
@@ -1544,7 +1544,7 @@ label makoto_jump_1:
     
     y "I had to backdoor my way into the app since it's only available from the App Center in Japan." 
     
-    y "So yes....I'm a dork." 
+    y "So yes.... I'm a dork." 
     
     show Makoto Neutral with dissolve
     
@@ -1554,7 +1554,7 @@ label makoto_jump_1:
     
     d "Hitting the start key reveals Makoto's character screen." 
     
-    y "Oh man! How did you get the Class-A Duelist d'Artagnan?!?!" 
+    y "Oh man! How did you get the Class-A Duelist d'Artagnan?!" 
     
     y "I wanted her so much, but my draws were all unlucky." 
     
@@ -1616,7 +1616,7 @@ label makoto_jump_1:
     
     mt "You're part of the team now so maybe you'd like to hang out. Get to know us, have some fun. Show off your dance moves." 
     
-    y "You know what-you're on!" 
+    y "You know what-, you're on!" 
     
     y "I may not be up to speed at swimming with you guys yet, but I'm sure I can be master of the mosh pit." 
     
