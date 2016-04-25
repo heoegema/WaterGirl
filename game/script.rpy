@@ -217,7 +217,7 @@ label start:
     show Miho Reassuring at center 
     with dissolve
     
-    ma "I’m about to start class, if you wouldn’t mind, could you sit at the chair 
+    ma "I’m about to start class. If you wouldn’t mind, could you sit at the chair 
     next to my desk so I can introduce you?"
     
     d "I don’t really want to be introduced in such a way, but her smile and demeanor seem to urge me forward."
@@ -259,7 +259,7 @@ label start:
     
     d "My seating pleases me."
     
-    d "I’m in the back, so no one can easily stare at me. And I get to look out the window."
+    d "I’m in the back, so no one can easily stare at me, and I get to look out the window."
     
     d "Looking at the schedule we have Geography, Language Arts, and Japanese before lunch."
     
