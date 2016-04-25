@@ -1319,7 +1319,7 @@ label makoto_jump_1:
     
     hn "..." 
     
-    d "Thinking back I probably should ahve figured out this would be the end result of the day." 
+    d "Thinking back I probably should have figured out this would be the end result of the day." 
     
     d "Not that it was my intention or anything." 
     
@@ -1366,7 +1366,7 @@ label makoto_jump_1:
     
     rr "What can I say? There's a certain beauty to swimming missing from running." 
     
-    rr "Especailly when the competitor has the potential for world-class talent." 
+    rr "Especially when the competitor has the potential for world-class talent." 
     
     d "He appears to be glancing at Haru as he says this." 
     
@@ -1375,7 +1375,7 @@ label makoto_jump_1:
     show Nagisa Pouty at right with dissolve
     show Rei Bashful at left with moveoutleft 
     
-    nh "Why not! YOu're here. You know how to swim. You have people who want you around!" 
+    nh "Why not! You're here. You know how to swim. You have people who want you around!" 
     
     nh "So like, carne diet or whatever it is Americans say!" 
     
