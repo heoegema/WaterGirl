@@ -16,6 +16,10 @@ image bg Swimming Pool A_1 = "Swimming Pool A (1).jpg"
 image bg Swimming Pool A_2 = "Swimming Pool A (2).jpg"
 image bg White = "WHITE.jpg"
 
+#Background Effects
+init: 
+    
+    $ flash =Fade(.25, 1.00, .75, color="fff")
 #MISC.
 image LOGO = "OFFICIAL LOGO.png"
 
@@ -50,6 +54,19 @@ image Nagisa Mad = "Nagisa Hazuki_Expression_07.png"
 image Nagisa Bashful 1 = "Nagisa Hazuki_Expression_08.png"
 image Nagisa Unamused 1 = "Nagisa Hazuki_Expression_09.png"
 image Nagisa Unamused 2 = "Nagisa Hazuki_Expression_10.png"
+#Rei
+image Rei Neutral = "Rei Ryugazaki_Expression_01.png" 
+image Rei Annoyed = "Rei Ryugazaki_Expression_02.png" 
+image Rei Reassuring = "Rei Ryugazaki_Expression_03.png" 
+image Rei Bashful = "Rei Ryugazaki_Expression_04.png" 
+image Rei Upset = "Rei Ryugazaki_Expression_05.png" 
+image Rei Sad = "Rei Ryugazaki_Expression_06.png" 
+image Rei Mad = "Rei Ryugazaki_Expression_07.png" 
+image Rei Mad 2= "Rei Ryugazaki_Expression_08.png" 
+image Rei Cry = "Rei Ryugazaki_Expression_09.png" 
+image Rei Cry 2 = "Rei Ryugazaki_Expression_10.png" 
+
+
 #Gou
 image Gou Neutral = "Gou Matsuoka_Expression_01.png"
 image Gou Worried 1 = "Gou Matsuoka_Expression_02.png"
@@ -84,6 +101,8 @@ define nh = Character('Nagisa', show_two_window=True, font="CaviarDreams.ttf")
 define gm = Character('Gou', show_two_window=True, font="CaviarDreams.ttf", color="#000000")
 define mt = Character('Makoto', show_two_window=True, font="CaviarDreams.ttf")
 define ma = Character('Miho Amakata', show_two_window=True, font="CaviarDreams.ttf")
+define rr = Character('Rei', show_two_window=True, font = "CaviarDreams.ttf")
+define rm = Character('Rin', show_two_window=True, font="CaviarDreams.ttf") 
 define unknown = Character('???', show_two_window=True, font="CaviarDreams.ttf")
 define d = Character(' ',)
 
@@ -1281,6 +1300,379 @@ label makoto_jump_1:
     d "I’m shocked, and I’m not really sure how to respond."
     
     y "..."
+    
+    scene bg School Gates_Afternoon with dissolve 
+    
+    d "It's nice to finally be on the way back to my host's home again." 
+    
+    d "After the long, crazy day I've had, I want nothing more than to just flop on my bed and get a good nap." 
+    
+    d "Maybe wake up and take a soak in the bathtub as well." 
+    
+    d "I just can't wait to do that. My body is practically begging my mind to obey." 
+    
+    d "But it looks like I'll have other plans..." 
+    
+    mt "And after all that I still get to walk you home!" 
+    
+    
+    hn "..." 
+    
+    d "Thinking back I probably should ahve figured out this would be the end result of the day." 
+    
+    d "Not that it was my intention or anything." 
+    
+    d "But when Gou gets an idea in her head, it appears it's hard to go against her." 
+    
+    scene bg white 
+    
+    scene bg Swimming Pool A_2 with flash 
+    
+    show Gou Determined at left with dissolve 
+    show Miho Neutral at right with dissolve
+    
+    gm "I think you should become the first female member of the Iwatobi High School Swimming Club." 
+    
+    show Gou Neutral with dissolve 
+    
+    gm "This will give you a chance to socialize and make the most of your time in Japan." 
+    
+    ma "I think it's a fabulous idea!" 
+    
+    ma "Just think, as a foreigner your name would appear as the very first female member of the club." 
+    
+    ma "How cool does that sound?"
+    
+    y "But it's been ages since I've actually been in a swim competition. Are you really wanting me to disgrace the school by coming in last all the time?"
+    
+    d "I was hoping to work their competitive nature against them and free myself. No dice." 
+    
+    rr "Actually just having swam before you'd be further ahead of me when I joined." 
+    hide Gou 
+    hide Miho
+    
+    show Rei Neutral at center with dissolve
+    
+    d "Wait a minute, when did he pop his head up from his calculus book." 
+    
+    show Rei Reassuring with dissolve
+    
+    rr "I actually ran track my first year here, and I'd never swam before. It took a while before I could even compete for last place." 
+    
+    y "So you gave up track to do something you'd never done before?" 
+    
+    show Rei Bashful with dissolve
+    
+    rr "What can I say? There's a certain beauty to swimming missing from running." 
+    
+    rr "Especailly when the competitor has the potential for world-class talent." 
+    
+    d "He appears to be glancing at Haru as he says this." 
+    
+    y "I'm just not sure I'm ready to do this." 
+    
+    show Nagisa Pouty at right with dissolve
+    show Rei Bashful at left with moveoutleft 
+    
+    nh "Why not! YOu're here. You know how to swim. You have people who want you around!" 
+    
+    nh "So like, carne diet or whatever it is Americans say!" 
+    
+    y "I think you just told me to become a carnivore in really bad Tex-Mex." 
+    
+    nh "You know what I Mean. Dive in-literally!" 
+    
+    y "But I didn't even pack a swimsuit, I mean, I brought my tennis racket on the off-chance of joining the tennis club...but I left my swimsuit at home." 
+    
+    hide Nagisa with dissolve
+    hide Rei with dissolve
+    show Gou Determined at center with dissolve
+    
+    gm "But that's not a problem!" 
+    
+    gm "We can get you a swimsuit, the only guidelines are it has our school symbol on it, it has to be a one piece and the main colour be black like the rest of the team..." 
+    
+    gm "But you can have whatever color trim you want." 
+    
+    y "But..." 
+    
+    show Gou Worried 1 with dissolve
+    
+    gm "Please, I'll feel like a bad hostless if I let you become a member of the Just Go Home Club." 
+    
+    y "I s there really a club for that?"
+    
+    y "I always thought it was a joke, But if there's a club for that point me towards it." 
+    
+    d "I thought my joke was kind of funny, but the reaction I got was not from whom I expected." 
+    
+    hide Gou 
+    
+    show Haru Annoyed at center with dissolve   
+    hn "Coward." 
+    
+    y "Wait...what did you just say?"
+    
+    hn "..." 
+    
+    show Makoto Worried at right with dissolve
+    
+    mt "That might have been a little too far there, Haru..." 
+    
+    mt "Maybe you should apologize." 
+    
+    hn "No." 
+    
+    d "Well now I'm seriously pissed at this kid." 
+    
+    y "Coward? COWARD? I'll show you, Naked Boy." 
+    
+    y "I'll jump in that pool and whoop your butt in a race by the end of the year!" 
+    
+    show Haru Neutral with dissolve
+    
+    hn "Good luck." 
+    
+    hide Haru with dissolve
+    hide Makoto with dissolve
+    
+    d "With that he walks off. I think I saw him smile just a bit as well." 
+    
+    show Miho Neutral at center with dissolve
+    
+    ma "And with that the Iwatobi Swim Club officially has its first female member!"
+    
+    ma "Welcome to the team %(povLastName)s-Chan!" 
+    
+    scene bg white 
+    
+    scene bg School Gates_Afternoon with flash 
+    
+    d "Me and my big mouth. With that slip of tonge in anger, I was now part of the swim club." 
+    
+    d "Gou and Miho wasted no time ushering me to the back to get my size and measurements for a suit." 
+    
+    d "I told them I wanted gray trim, but I get the feeling they'll end up making it yellow or pink." 
+    
+    d "I have to fill out some forms and the nurse gave me a general check-up. Finding nothing wrong phsyically, she cleared me for swimming against my better protests." 
+    
+    d "Gou then instructed Makoto and Haru to walk me home, as she had some errands to run."
+    
+    d "One being getting my swimsuit ordered..." 
+    
+    d "She also mentioned dropping off some things for her older brother at a different school." 
+    
+    
+    scene bg white 
+    
+    scene bg Swimming Pool A_2 with flash 
+    
+    show Gou Neutral at left with dissolve 
+    
+    show Makoto Neutral at right with dissolve
+    
+    gm "Makoto, could you make sure to get %(povFirstName)s home?" 
+    
+    show Gou Determined with dissolve
+    
+    gm "I don't think we want her getting lost on her way back. Or trying to escape by jumping a ship at the harbor." 
+    
+    y "I heard that!" 
+    
+    mt "Just leave it to me and Haru, we'll get her back to your house safe!" 
+    
+    gm "Great! I'll tell Rin you said hi." 
+    
+    scene bg white 
+    
+    scene bg School Gates_Afternoon with flash 
+    
+    d "And so here we are, the three of us misfits, walking back to Rin's place." 
+    
+    d "I guess it's technically my place for the time being as well." 
+    
+    d "It's kind of tense walking home, and Makoto is trying his best to make conversation."
+    
+    d "It's just so awkward..." 
+    
+    show Makoto Mad at right with dissolve
+    
+    show Haru Neutral at left with dissolve
+    
+    mt "Haru, did you know what you were doing when you taunted %(povFirstName)s?"
+    
+    show Makoto Worried with dissolve
+    
+    mt "I mean, that seemed kind of cold..." 
+    
+    hn "It was what it was." 
+    
+    d "That may be a record for the most words in a sentence from Haru." 
+    
+    d "The awkwardness continues into silence...." 
+    
+    d "That is until my phone decides to pipe up." 
+    
+    unknown "Mistress, our quest for the chalice awaits!" 
+    
+    show Makoto Bashful with dissolve
+    
+    d "Oh man, I had forgotten I had set the alerts for when my quest energy was full." 
+    
+    d "Makoto is grinning at me right now." 
+    
+    mt "Was that what I think it was?"
+    
+    y "No, I'm pretty sure you're imaging things." 
+    
+    show Makoto Devious with dissolve
+    
+    mt "No was, that was an alert from ''Destiny's Ultimate Challenge' wasn't it?"
+    
+    y "I have no idea what you're talking about." 
+    
+    d "Makoto is now going through his side pocket." 
+    
+    d "He pulls out his smartphone and starts tapping. A couple of minutes later he hands it to me." 
+    
+    d "A familiar start screen brightens the face of his phone." 
+    
+    y "Okay, Okay. Yes, that was an alert from DUC." 
+    
+    y "...I liked the visual novel and wanted to play the app...." 
+    
+    y "I had to backdoor my way into the app since it's only available from the App Center in Japan." 
+    
+    y "So yes....I'm a dork." 
+    
+    show Makoto Neutral with dissolve
+    
+    mt "Dork? Then I guess you fit in with us even more. We play it!" 
+    
+    mt "Even Haru over there, when he isn't climbing into a fountain or something." 
+    
+    d "Hitting the start key reveals Makoto's character screen." 
+    
+    y "Oh man! How did you get the Class-A Duelist d'Artagnan?!?!" 
+    
+    y "I wanted her so much, but my draws were all unlucky." 
+    
+    mt "I got lucky and won a secret code drawing that gave me that Champion." 
+    
+    show Makoto Bashful with dissolve
+    
+    show Haru Annoyed with dissolve
+    
+    mt "I don't think I've seen Haru so upset since the time he missed swim practice with a cold." 
+    
+    hn "..." 
+    
+    y "You play as well? Who's your primary Champion?"
+    
+    show Haru Neutral with dissolve
+    
+    hn "Eliminator. Class-B. Wilkes Booth." 
+    
+    y "I'm not sure I'm more disturbed that your main Champion is the man who killed Abe Lincoln...." 
+    
+    y "Or that it totally fits your personality." 
+    
+    hn "..." 
+    
+    show Makoto Sad with dissolve
+    
+    mt "Look, I hope you don't find this too pushy, but maybe I can send you an ally request." 
+    
+    show Makoto Neutral with dissolve 
+    
+    mt "BackMakoto is my user ID. And WaterboyHaru is Haru's." 
+    
+    d "After a few quick flicks and some typing, I've sent the requests." 
+    
+    y "You should have my requests. My user ID is Silent Gone." 
+    
+    y "I have a Class-A Sorcerer as my main Champion. Morgan le Fay." 
+    
+    y "Hey don't you guys find it odd that a Japanese product uses so many figures from European history in it?"
+    
+    show Makoto Sad with dissolve
+    
+    mt "Only a little. But I think they'd run out of epic characters if they stuck to only Japan." 
+    
+    y "I supposed you're right..." 
+    
+    show Makoto Neutral with dissolve
+    
+    mt "Are you into any other video games?"
+    
+    y "Sure, I left my Station-Xcite console at home, but I had some games I enjoyed." 
+    
+    mt "Want to join the gang over at Haru's place this Saturday?" 
+    
+    show Makoto Bashful with dissolve
+    
+    mt " I just picked up 'Strut, Slide and Slam Master 3' and we were all going to try it out." 
+    
+    mt "You're part of the team now so maybe you'd like to hang out. Get to know us, have some fun. Show off your dance moves." 
+    
+    y "You know what-you're on!" 
+    
+    y "I may not be up to speed at swimming with you guys yet, but I'm sure I can be master of the mosh pit." 
+    
+    hn "Unlikely." 
+    
+    show Makoto Worried with dissolve
+    
+    mt "Haru currently owns that title among us. I was so close to beating him last time..." 
+    
+    mt "But he got just a little extra oomph into his last slam on me and won." 
+    
+    show Makoto Neutral with dissolve
+    
+    hn "..." 
+    
+    d "We chat a little bit longer as we approach the house I'm staying out." 
+    
+    d"Once we get there Makoto looks at me and smiles." 
+    
+    show Makoto Bashful with dissolve 
+    
+    mt "Hey, is it cool to get your phone number?"
+    
+    mt "This way, I can text you the plans for this Saturday." 
+    
+    y "Sure, that makes sense." 
+    
+    d "He holds up his phone, and I match mine to it." 
+    
+    d "A few seconds later, our contacts are swapped. Then looking to the other side, I see Haru. He's holding up his phone." 
+    
+    y "You want my number?"
+    
+    hn "..." 
+    
+    hn "Yes." 
+    
+    y "Well, okay, just don't send me anything weird." 
+    
+    d "We use the beam exchange and our contacts are swapped." 
+    
+    show Makoto Sad with dissolve
+    
+    mt "Well we have to get going so we can work on our homework as well." 
+    
+    mt "Catch you at school tomorrow!" 
+    
+    hide Makoto with dissolve
+    
+    hide Haru with dissolve
+    
+    d "They both wave as they leave me on the doorstep of Gou's house." 
+    
+    d "Maybe this won't be so bad after all." 
+    
+    
+    
     
     stop music
     
