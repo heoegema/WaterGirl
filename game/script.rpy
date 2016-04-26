@@ -14,6 +14,18 @@ image bg School Rooftop Entrance = "School Rooftop Entrance.jpg"
 image bg School Rooftop Entrance Top = "School Rooftop Entrance Top.jpg"
 image bg Swimming Pool A_1 = "Swimming Pool A (1).jpg"
 image bg Swimming Pool A_2 = "Swimming Pool A (2).jpg"
+image bg Neighbourhood A_1 = "Neighbourhood A_01.jpg" 
+image bg Neighbourhood A_2 = "Neighbourhood A_02.jpg" 
+image bg Neighbourhood A_3 = "Neighbourhood A_03.jpg" 
+image bg Neighbourhood A_4 = "Neighbourhood A_04.jpg" 
+image bg Park 1 = "Park A_01.jpg" 
+image bg Park 2 = "Park A_02.jpg" 
+image bg Park 3 = "Park A_03.jpg" 
+image bg River Pathway 1 = "River Pathway_01.jpg" 
+image bg River Pathway 2 = "River Pathway_02.jpg" 
+image bg River Pathway 3 = "River Pathway_03.jpg" 
+image bg River Pathway 4 = "River Pathway_04.jpg" 
+image bg River Pathway Rain = "River Pathway_Rainy.jpg" 
 image bg White = "WHITE.jpg"
 
 #Background Effects
@@ -1303,7 +1315,7 @@ label makoto_jump_1:
     y "..."
     
     scene bg School Gates_Afternoon with dissolve 
-    
+    scene bg Neighbourhood A_1 with dissolve     
     d "It's nice to finally be on the way back to my host's home again." 
     
     d "After the long, crazy day I've had, I want nothing more than to just flop on my bed and get a good nap." 
@@ -1447,7 +1459,7 @@ label makoto_jump_1:
     
     scene bg white 
     
-    scene bg School Gates_Afternoon with flash 
+    scene bg Neighbourhood A_1 with flash 
     
     d "Me and my big mouth. With that slip of tongue in anger, I was now part of the swim club." 
     
@@ -1486,7 +1498,7 @@ label makoto_jump_1:
     
     scene bg white 
     
-    scene bg School Gates_Afternoon with flash 
+    scene bg Neighbourhood A_1 with flash 
     
     d "And so here we are, the three of us misfits, walking back to Rin's place." 
     
