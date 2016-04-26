@@ -14,10 +14,10 @@ image bg School Rooftop Entrance = "School Rooftop Entrance.jpg"
 image bg School Rooftop Entrance Top = "School Rooftop Entrance Top.jpg"
 image bg Swimming Pool A_1 = "Swimming Pool A (1).jpg"
 image bg Swimming Pool A_2 = "Swimming Pool A (2).jpg"
-image bg Neighbourhood A_1 = "Neighbourhood A_01.jpg" 
-image bg Neighbourhood A_2 = "Neighbourhood A_02.jpg" 
-image bg Neighbourhood A_3 = "Neighbourhood A_03.jpg" 
-image bg Neighbourhood A_4 = "Neighbourhood A_04.jpg" 
+image bg Neighborhood A_1 = "Neighborhood A_01.jpg" 
+image bg Neighborhood A_2 = "Neighborhood A_02.jpg" 
+image bg Neighborhood A_3 = "Neighborhood A_03.jpg" 
+image bg Neighborhood A_4 = "Neighborhood A_04.jpg" 
 image bg Park 1 = "Park A_01.jpg" 
 image bg Park 2 = "Park A_02.jpg" 
 image bg Park 3 = "Park A_03.jpg" 
@@ -1315,7 +1315,7 @@ label makoto_jump_1:
     y "..."
     
     scene bg School Gates_Afternoon with dissolve 
-    scene bg Neighbourhood A_1 with dissolve     
+    scene bg Neighborhood A_2 with dissolve     
     d "It's nice to finally be on the way back to my host's home again." 
     
     d "After the long, crazy day I've had, I want nothing more than to just flop on my bed and get a good nap." 
@@ -1325,6 +1325,10 @@ label makoto_jump_1:
     d "I just can't wait to do that. My body is practically begging my mind to obey." 
     
     d "But it looks like I'll have other plans..." 
+    
+    show Makoto Neutral at right with dissolve
+    
+    show Haru Neutral at left with dissolve
     
     mt "And after all that I still get to walk you home!" 
     
@@ -1459,7 +1463,7 @@ label makoto_jump_1:
     
     scene bg white 
     
-    scene bg Neighbourhood A_1 with flash 
+    scene bg Neighborhood A_2 with flash 
     
     d "Me and my big mouth. With that slip of tongue in anger, I was now part of the swim club." 
     
@@ -1498,7 +1502,7 @@ label makoto_jump_1:
     
     scene bg white 
     
-    scene bg Neighbourhood A_1 with flash 
+    scene bg Neighborhood A_2 with flash 
     
     d "And so here we are, the three of us misfits, walking back to Rin's place." 
     
@@ -1536,7 +1540,7 @@ label makoto_jump_1:
     
     mt "Was that what I think it was?"
     
-    y "No, I'm pretty sure you're imaging things." 
+    y "No, I'm pretty sure you're imagining things." 
     
     show Makoto Devious with dissolve
     
