@@ -1415,11 +1415,11 @@ label makoto_jump_1:
     
     show Gou Worried 1 with dissolve
     
-    gm "Please, I'll feel like a bad hostless if I let you become a member of the Just Go Home Club." 
+    gm "Please, I'll feel like a bad hostess if I let you become a member of the Just Go Home Club." 
     
     y "Is there really a club for that?"
     
-    y "I always thought it was a joke, But if there's a club for that, point me towards it." 
+    y "I always thought it was a joke, but if there's a club for that, point me towards it." 
     
     d "I thought my joke was kind of funny, but the reaction I got was not from whom I expected." 
     
@@ -1428,7 +1428,7 @@ label makoto_jump_1:
     show Haru Annoyed at center with dissolve   
     hn "Coward." 
     
-    y "Wait...what did you just say?"
+    y "Wait... What did you just say?"
     
     hn "..." 
     
@@ -1457,9 +1457,9 @@ label makoto_jump_1:
     
     show Miho Neutral at center with dissolve
     
-    ma "And with that the Iwatobi Swim Club officially has its first female member!"
+    ma "And with that, the Iwatobi Swim Club officially has its first female member!"
     
-    ma "Welcome to the team, %(povLastName)s-Chan!" 
+    ma "Welcome to the team, %(povLastName)s-chan!" 
     
     scene bg white 
     
@@ -1526,7 +1526,7 @@ label makoto_jump_1:
     
     d "That may be a record for the most words in a sentence from Haru." 
     
-    d "The awkwardness continues into silence...." 
+    d "The awkwardness continues into silence..." 
     
     d "That is until my phone decides to pipe up." 
     
@@ -1554,13 +1554,13 @@ label makoto_jump_1:
     
     d "A familiar start screen brightens the face of his phone." 
     
-    y "Okay, Okay. Yes, that was an alert from DUC." 
+    y "Okay, okay. Yes, that was an alert from DUC." 
     
     y "...I liked the visual novel and wanted to play the app...." 
     
     y "I had to backdoor my way into the app since it's only available from the App Center in Japan." 
     
-    y "So yes.... I'm a dork." 
+    y "So yes... I'm a dork." 
     
     show Makoto Neutral with dissolve
     
@@ -1590,7 +1590,7 @@ label makoto_jump_1:
     
     hn "Eliminator. Class-B. Wilkes Booth." 
     
-    y "I'm not sure I'm more disturbed that your main Champion is the man who killed Abe Lincoln...." 
+    y "I'm not sure I'm more disturbed that your main Champion is the man who killed Abe Lincoln..." 
     
     y "Or that it totally fits your personality." 
     
@@ -1610,7 +1610,7 @@ label makoto_jump_1:
     
     y "I have a Class-A Sorcerer as my main Champion. Morgan le Fay." 
     
-    y "Hey don't you guys find it odd that a Japanese product uses so many figures from European history in it?"
+    y "Hey, don't you guys find it odd that a Japanese product uses so many figures from European history in it?"
     
     show Makoto Sad with dissolve
     
@@ -1628,9 +1628,9 @@ label makoto_jump_1:
     
     show Makoto Bashful with dissolve
     
-    mt " I just picked up 'Strut, Slide and Slam Master 3' and we were all going to try it out." 
+    mt " I just picked up 'Strut, Slide and Slam Master 3'. We were all going to try it out." 
     
-    mt "You're part of the team now so maybe you'd like to hang out. Get to know us, have some fun. Show off your dance moves." 
+    mt "You're part of the team now, so maybe you'd like to hang out. Get to know us, have some fun. Show off your dance moves." 
     
     y "You know what-, you're on!" 
     
@@ -1650,7 +1650,7 @@ label makoto_jump_1:
     
     d "We chat a little bit longer as we approach the house I'm staying out." 
     
-    d"Once we get there Makoto looks at me and smiles." 
+    d"Once we get there, Makoto looks at me and smiles." 
     
     show Makoto Bashful with dissolve 
     
@@ -1676,7 +1676,7 @@ label makoto_jump_1:
     
     show Makoto Sad with dissolve
     
-    mt "Well we have to get going so we can work on our homework as well." 
+    mt "Well, we have to get going so we can work on our homework as well." 
     
     mt "Catch you at school tomorrow!" 
     
