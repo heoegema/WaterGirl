@@ -229,7 +229,7 @@ init -2:
     # Make all game menu navigation buttons the same size.
     style gm_nav_button:
         size_group "gm_nav"
-
+        font "CaviarDreams.ttf" 
 
 ##############################################################################
 # Save, Load
@@ -355,7 +355,6 @@ screen preferences():
             frame:
                 style_group "pref"
                 has vbox
-
                 label _("Display")
                 textbutton _("Window") action Preference("display", "window")
                 textbutton _("Fullscreen") action Preference("display", "fullscreen")
@@ -386,7 +385,7 @@ screen preferences():
             frame:
                 style_group "pref"
                 has vbox
-
+                
                 label _("Skip")
                 textbutton _("Seen Messages") action Preference("skip", "seen")
                 textbutton _("All Messages") action Preference("skip", "all")
