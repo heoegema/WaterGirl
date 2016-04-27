@@ -166,7 +166,7 @@ label start:
     
     #play nature
     
-    play music "Friendship.wav"
+    play music "Hamari.mp3"
      
     scene bg School Gates_Morning
     with dissolve
