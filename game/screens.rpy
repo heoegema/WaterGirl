@@ -292,7 +292,7 @@ screen file_picker:
         
         
     #Setting up hotspots
-            hotspot(136,649,112,44) action Return()
+            hotspot(136,649,114,44) action Return()
             hotspot(290,649,121,44) action ShowMenu("save") 
             hotspot(453,649,124,44) action ShowMenu("load") 
             hotspot(621,649,105, 44) action ShowMenu("preferences")  
@@ -396,7 +396,7 @@ screen preferences():
         
         
     #Setting up hotspots
-        hotspot(136,649,112,44) action Return()
+        hotspot(136,649,114,44) action Return()
         hotspot(290,649,121,44) action ShowMenu("save") 
         hotspot(453,649,124,44) action ShowMenu("load") 
         hotspot(621,649,105, 44) action ShowMenu("preferences")  
