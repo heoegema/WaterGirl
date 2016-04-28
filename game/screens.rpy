@@ -418,11 +418,11 @@ init -2 python:
     
     #size of bar
     
-    style.pref_slider.xmaximum = 380 #size of the bar (x-wise) 
+    style.pref_slider.xmaximum = 387 #size of the bar (x-wise) 
     
     style.pref_slider.ymaximum = 30 #size of bar y wise
-
-
+    
+  
 
 
 ##############################################################################

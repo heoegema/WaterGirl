@@ -77,8 +77,15 @@ image Rei Mad = "Rei Ryugazaki_Expression_07.png"
 image Rei Mad 2= "Rei Ryugazaki_Expression_08.png" 
 image Rei Cry = "Rei Ryugazaki_Expression_09.png" 
 image Rei Cry 2 = "Rei Ryugazaki_Expression_10.png" 
-
-
+#Rin 
+image Rin Neutral = "Rin Matsuoka_Expression_01.png" 
+image Rin Smile = "Rin Matsuoka_Expression_02.png"
+image Rin Annoyed = "Rin Matsuoka_Expression_03.png"
+image Rin Upset = "Rin Matsuoka_Expression_04.png"
+image Rin Bashful = "Rin Matsuoka_Expression_05.png"
+image Rin Reassuring = "Rin Matsuoka_Expression_06.png"
+image Rin Cry = "Rin Matsuoka_Expression_07.png"
+image Rin Annoyed 2 = "Rin Matsuoka_Expression_08.png"
 #Gou
 image Gou Neutral = "Gou Matsuoka_Expression_01.png"
 image Gou Worried 1 = "Gou Matsuoka_Expression_02.png"
