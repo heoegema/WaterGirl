@@ -2,9 +2,6 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 230: invalid syntax
-    init -2 python:
-                  ^
-    
+File "game/screens.rpy", line 287: indentation mismatch.
 
 Ren'Py Version: Ren'Py 6.99.10.1227

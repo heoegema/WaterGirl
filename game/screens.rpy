@@ -283,6 +283,22 @@ screen file_picker:
                 key "save_delete" action FileDelete(6)
             
             #add "ui/menus/saveload/sl_overlay.png"
+            
+    imagemap: 
+            ground "gui/PrefMenu.png" 
+            idle "gui/PrefMenu.png" 
+            hover "gui/PrefMenuHoverNav.png" 
+            alpha False
+        
+        
+    #Setting up hotspots
+            hotspot(136,649,112,44) action Return()
+            hotspot(290,649,121,44) action ShowMenu("save") 
+            hotspot(453,649,124,44) action ShowMenu("load") 
+            hotspot(621,649,105, 44) action ShowMenu("preferences")  
+            hotspot(767,649,95,44) action MainMenu() 
+            hotspot(905,649,105,54) action Help() 
+            hotspot(1049,649,106,51) action Quit() 
 
 screen save():
 
@@ -316,7 +332,7 @@ screen load_save_slot:
                         FileSaveName(number))
 
     add FileScreenshot(number) xpos 120 ypos 20
-    text file_text xpos 135 ypos 90 size 23 drop_shadow [(1, 2)] #font "palooka-bb.regular.ttf"
+    text file_text xpos 127 ypos 55 size 23 drop_shadow [(1, 2)] #font "palooka-bb.regular.ttf"
     
     
     
@@ -345,128 +361,68 @@ screen preferences():
     # Include the navigation.
     use navigation
 
-    # Put the navigation columns in a three-wide grid.
-    grid 3 1:
-        style_group "prefs"
-        xfill True
+    #Imagemap for preferences menu 
+    
+    imagemap: 
+        ground "gui/PrefMenuGround.png" 
+        idle "gui/PrefMenuIdle.png" 
+        hover "gui/PrefMenuHover.png"
+        selected_idle "gui/PrefMenuSelectedIdle.png"
+        selected_hover "gui/PrefMenuHover.png" 
+        alpha False 
+        
+    #setting up hotspots 
+        hotspot(148,91,121,29) action Preference("display", "window")
+        hotspot(314, 92, 148, 29) action Preference("display", "fullscreen")
+        hotspot(69, 223,200, 35) action Preference("skip", "all")
+        hotspot(308, 224,242,35) action Preference("skip", "seen")
+        hotspot(815, 224, 128, 30) action Preference("transitions", "all") 
+        hotspot(981, 226, 180, 31) action Preference("transitions", "none") 
+        hotspot(1008, 91, 215, 33) action Preference("after choices", "skip") 
+        hotspot(760, 89,210, 33) action Preference("after choices", "stop") 
+        bar pos(115,360) value Preference("auto-forward time") style "pref_slider" 
+        bar pos(115, 472) value Preference("text speed") style "pref_slider" 
+        bar pos(813, 360) value Preference("music volume") style "pref_slider" 
+        bar pos(813, 471) value Preference("sound volume") style "pref_slider" 
+    
+    
+    #imagemap for menu 
+    
+    imagemap: 
+        ground "gui/PrefMenu.png" 
+        idle "gui/PrefMenu.png" 
+        hover "gui/PrefMenuHoverNav.png" 
+        alpha False
+        
+        
+    #Setting up hotspots
+        hotspot(136,649,112,44) action Return()
+        hotspot(290,649,121,44) action ShowMenu("save") 
+        hotspot(453,649,124,44) action ShowMenu("load") 
+        hotspot(621,649,105, 44) action ShowMenu("preferences")  
+        hotspot(767,649,95,44) action MainMenu() 
+        hotspot(905,649,105,54) action Help() 
+        hotspot(1049,649,106,51) action Quit() 
+    
+#for the slider
 
-        # The left column.
-        vbox:
-            frame:
-                style_group "pref"
-                has vbox
-                label _("Display")
-                textbutton _("Window") action Preference("display", "window")
-                textbutton _("Fullscreen") action Preference("display", "fullscreen")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Transitions")
-                textbutton _("All") action Preference("transitions", "all")
-                textbutton _("None") action Preference("transitions", "none")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Text Speed")
-                bar value Preference("text speed")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                textbutton _("Joystick...") action Preference("joystick")
+init -2 python: 
+    
+    #the bar when it's full
+    
+    style.pref_slider.left_bar = "gui/SliderSelect.png"
+    
+    #the bar when it's empty 
+    
+    style.pref_slider.right_bar = "gui/SliderIdle.png" 
+    
+    #size of bar
+    
+    style.pref_slider.xmaximum = 380 #size of the bar (x-wise) 
+    
+    style.pref_slider.ymaximum = 30 #size of bar y wise
 
 
-        vbox:
-            frame:
-                style_group "pref"
-                has vbox
-                
-                label _("Skip")
-                textbutton _("Seen Messages") action Preference("skip", "seen")
-                textbutton _("All Messages") action Preference("skip", "all")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                textbutton _("Begin Skipping") action Skip()
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("After Choices")
-                textbutton _("Stop Skipping") action Preference("after choices", "stop")
-                textbutton _("Keep Skipping") action Preference("after choices", "skip")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Auto-Forward Time")
-                bar value Preference("auto-forward time")
-
-                if config.has_voice:
-                    textbutton _("Wait for Voice") action Preference("wait for voice", "toggle")
-
-        vbox:
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Music Volume")
-                bar value Preference("music volume")
-
-            frame:
-                style_group "pref"
-                has vbox
-
-                label _("Sound Volume")
-                bar value Preference("sound volume")
-
-                if config.sample_sound:
-                    textbutton _("Test"):
-                        action Play("sound", config.sample_sound)
-                        style "soundtest_button"
-
-            if config.has_voice:
-                frame:
-                    style_group "pref"
-                    has vbox
-
-                    label _("Voice Volume")
-                    bar value Preference("voice volume")
-
-                    textbutton _("Voice Sustain") action Preference("voice sustain", "toggle")
-                    if config.sample_voice:
-                        textbutton _("Test"):
-                            action Play("voice", config.sample_voice)
-                            style "soundtest_button"
-
-init -2:
-    style pref_frame:
-        xfill True
-        xmargin 5
-        top_margin 5
-
-    style pref_vbox:
-        xfill True
-
-    style pref_button:
-        size_group "pref"
-        xalign 1.0
-
-    style pref_slider:
-        xmaximum 192
-        xalign 1.0
-
-    style soundtest_button:
-        xalign 1.0
 
 
 ##############################################################################
