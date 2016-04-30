@@ -1,4 +1,5 @@
 ﻿#BACKGROUNDS
+#School
 image bg School Gates_Morning =  "School Gates_01.jpg"
 image bg School Gates_Afternoon = "School Gates_02.jpg"
 image bg School Gates_Evening = "School Gates_03.jpg"
@@ -12,6 +13,7 @@ image bg Stair Well B_01 = "Stair Well B_01.jpg"
 image bg School Rooftop = "School Rooftop.jpg"
 image bg School Rooftop Entrance = "School Rooftop Entrance.jpg"
 image bg School Rooftop Entrance Top = "School Rooftop Entrance Top.jpg"
+#Neighbourhood
 image bg Swimming Pool A_1 = "Swimming Pool A (1).jpg"
 image bg Swimming Pool A_2 = "Swimming Pool A (2).jpg"
 image bg Neighborhood A_1 = "Neighborhood A_01.jpg" 
@@ -26,6 +28,28 @@ image bg River Pathway 2 = "River Pathway_02.jpg"
 image bg River Pathway 3 = "River Pathway_03.jpg" 
 image bg River Pathway 4 = "River Pathway_04.jpg" 
 image bg River Pathway Rain = "River Pathway_Rainy.jpg" 
+#Home 
+image bg Dining Table 1  = "Dining Table (1).jpg" 
+image bg Dining Table 2 = "Dining Table (2).jpg" 
+image bg Dining Table 3 = "Dining Table (3).jpg"
+image bg Dining Table 4 = "Dining Table (4).jpg" 
+image bg Hallway Entrance 1 = "Hallway Entrance (1).jpg" 
+image bg Hallway Entrance 2 = "Hallway Entrance (2).jpg" 
+image bg Hallway Entrance 3 = "Hallway Entrance (3).jpg" 
+image bg Hallway Entrance 4 = "Hallway Entrance (4).jpg" 
+image bg Kitchen = "Kitchen.png" 
+image bg Living Room 1 = "Living Room (1).jpg" 
+image bg Living Room 2 = "Living Room (2).jpg"
+image bg Living Room 3 = "Living Room (3).jpg"
+image bg Living Room 4 = "Living Room (4).jpg"
+image bg MC Bedroom 1 = "MC Bedroom (1).jpg" 
+image bg MC Bedroom 2 = "MC Bedroom (2).jpg" 
+image bg MC Bedroom 3 = "MC Bedroom (3).jpg" 
+image bg MC Bedroom 4 = "MC Bedroom (4).jpg" 
+image bg M Residence 1 = "Matsuoka Residence (1).jpg" 
+image bg M Residence 2 = "Matsuoka Residence (2).jpg" 
+image bg M Residence 3 = "Matsuoka Residence (3).jpg" 
+image bg M Residence 4 = "Matsuoka Residence (4).jpg" 
 image bg White = "WHITE.jpg"
 
 #Background Effects
@@ -39,65 +63,74 @@ image LOGO = "OFFICIAL LOGO.png"
 
 #SPRITES
 #Haruka
-image Haru Neutral = "Haruka Nanase_Expression_01.png"
-image Haru Happy = "Haruka Nanase_Expression_02.png"
-image Haru Annoyed = "Haruka Nanase_Expression_03.png"
-image Haru Worried = "Haruka Nanase_Expression_04.png"
-image Haru Cry 1 = "Haruka Nanase_Expression_05.png"
-image Haru Cry 2 = "Haruka Nanase_Expression_06.png"
-image Haru Cry 3 = "Haruka Nanase_Expression_07.png"
-image Haru Sad = "Haruka Nanase_Expression_08.png"
-image Haru Bashful = "Haruka Nanase_Expression_09.png"
+image Haru Neutral = im.FactorScale("Haruka Nanase_Expression_01.png", 0.85)
+image Haru Happy = im.FactorScale("Haruka Nanase_Expression_02.png", 0.85)
+image Haru Annoyed = im.FactorScale("Haruka Nanase_Expression_03.png", 0.85)
+image Haru Worried = im.FactorScale("Haruka Nanase_Expression_04.png", 0.85)
+image Haru Cry 1 = im.FactorScale("Haruka Nanase_Expression_05.png", 0.85)
+image Haru Cry 2 = im.FactorScale("Haruka Nanase_Expression_06.png", 0.85)
+image Haru Cry 3 = im.FactorScale("Haruka Nanase_Expression_07.png", 0.85)
+image Haru Sad = im.FactorScale("Haruka Nanase_Expression_08.png", 0.85)
+image Haru Bashful = im.FactorScale("Haruka Nanase_Expression_09.png", 0.85)
 #Makoto
-image Makoto Devious = "Makoto Tachibana_Expression_01.png"
-image Makoto Mad = "Makoto Tachibana_Expression_02.png"
-image Makoto Worried = "Makoto Tachibana_Expression_03.png"
-image Makoto Neutral = "Makoto Tachibana_Expression_04.png"
-image Makoto Sad = "Makoto Tachibana_Expression_05.png"
-image Makoto Bashful = "Makoto Tachibana_Expression_06.png"
+image Makoto Devious = im.FactorScale("Makoto Tachibana_Expression_01.png", 0.90) 
+image Makoto Mad = im.FactorScale("Makoto Tachibana_Expression_02.png", 0.90) 
+image Makoto Worried = im.FactorScale("Makoto Tachibana_Expression_03.png", 0.90) 
+image Makoto Neutral = im.FactorScale("Makoto Tachibana_Expression_04.png", 0.90) 
+image Makoto Sad = im.FactorScale("Makoto Tachibana_Expression_05.png", 0.90) 
+image Makoto Bashful = im.FactorScale("Makoto Tachibana_Expression_06.png", 0.90) 
 #Nagisa
-image Nagisa Pouty = "Nagisa Hazuki_Expression_01.png"
-image Nagisa Sarcastic = "Nagisa Hazuki_Expression_02.png"
-image Nagisa Upset 1 = "Nagisa Hazuki_Expression_03.png"
-image Nagisa Upset 2 = "Nagisa Hazuki_Expression_04.png"
-image Nagisa Determined 1 = "Nagisa Hazuki_Expression_05.png"
-image Nagisa Determined 2 = "Nagisa Hazuki_Expression_06.png"
-image Nagisa Mad = "Nagisa Hazuki_Expression_07.png"
-image Nagisa Bashful 1 = "Nagisa Hazuki_Expression_08.png"
-image Nagisa Unamused 1 = "Nagisa Hazuki_Expression_09.png"
-image Nagisa Unamused 2 = "Nagisa Hazuki_Expression_10.png"
+image Nagisa Pouty = im.FactorScale("Nagisa Hazuki_Expression_01.png", 0.75)
+image Nagisa Sarcastic = im.FactorScale("Nagisa Hazuki_Expression_02.png", 0.75) 
+image Nagisa Upset 1 = im.FactorScale("Nagisa Hazuki_Expression_03.png", 0.75)
+image Nagisa Upset 2 = im.FactorScale("Nagisa Hazuki_Expression_04.png", 0.75) 
+image Nagisa Determined 1 = im.FactorScale("Nagisa Hazuki_Expression_05.png", 0.75)
+image Nagisa Determined 2 = im.FactorScale("Nagisa Hazuki_Expression_06.png", 0.75)
+image Nagisa Mad = im.FactorScale("Nagisa Hazuki_Expression_07.png", 0.75)
+image Nagisa Bashful 1 = im.FactorScale("Nagisa Hazuki_Expression_08.png", 0.75)
+image Nagisa Unamused 1 = im.FactorScale("Nagisa Hazuki_Expression_09.png", 0.75)
+image Nagisa Unamused 2 = im.FactorScale("Nagisa Hazuki_Expression_10.png", 0.75)
 #Rei
-image Rei Neutral = "Rei Ryugazaki_Expression_01.png" 
-image Rei Annoyed = "Rei Ryugazaki_Expression_02.png" 
-image Rei Reassuring = "Rei Ryugazaki_Expression_03.png" 
-image Rei Bashful = "Rei Ryugazaki_Expression_04.png" 
-image Rei Upset = "Rei Ryugazaki_Expression_05.png" 
-image Rei Sad = "Rei Ryugazaki_Expression_06.png" 
-image Rei Mad = "Rei Ryugazaki_Expression_07.png" 
-image Rei Mad 2= "Rei Ryugazaki_Expression_08.png" 
-image Rei Cry = "Rei Ryugazaki_Expression_09.png" 
-image Rei Cry 2 = "Rei Ryugazaki_Expression_10.png" 
+image Rei Neutral = im.FactorScale("Rei Ryugazaki_Expression_01.png", 0.87) 
+image Rei Annoyed = im.FactorScale("Rei Ryugazaki_Expression_02.png", 0.87)  
+image Rei Reassuring = im.FactorScale("Rei Ryugazaki_Expression_03.png", 0.87) 
+image Rei Bashful = im.FactorScale("Rei Ryugazaki_Expression_04.png", 0.87) 
+image Rei Upset = im.FactorScale("Rei Ryugazaki_Expression_05.png", 0.87)  
+image Rei Sad = im.FactorScale("Rei Ryugazaki_Expression_06.png", 0.87) 
+image Rei Mad = im.FactorScale("Rei Ryugazaki_Expression_07.png", 0.87) 
+image Rei Mad 2= im.FactorScale("Rei Ryugazaki_Expression_08.png", 0.87) 
+image Rei Cry = im.FactorScale("Rei Ryugazaki_Expression_09.png", 0.87)  
+image Rei Cry 2 = im.FactorScale("Rei Ryugazaki_Expression_10.png", 0.87)  
 #Rin 
-image Rin Neutral = "Rin Matsuoka_Expression_01.png" 
-image Rin Smile = "Rin Matsuoka_Expression_02.png"
-image Rin Annoyed = "Rin Matsuoka_Expression_03.png"
-image Rin Upset = "Rin Matsuoka_Expression_04.png"
-image Rin Bashful = "Rin Matsuoka_Expression_05.png"
-image Rin Reassuring = "Rin Matsuoka_Expression_06.png"
-image Rin Cry = "Rin Matsuoka_Expression_07.png"
-image Rin Annoyed 2 = "Rin Matsuoka_Expression_08.png"
+image Rin Neutral = im.FactorScale("Rin Matsuoka_Expression_01.png", 0.85) 
+image Rin Smile = im.FactorScale("Rin Matsuoka_Expression_02.png", 0.85) 
+image Rin Annoyed = im.FactorScale("Rin Matsuoka_Expression_03.png",0.85) 
+image Rin Upset = im.FactorScale("Rin Matsuoka_Expression_04.png", 0.85) 
+image Rin Bashful = im.FactorScale("Rin Matsuoka_Expression_05.png", 0.85) 
+image Rin Reassuring = im.FactorScale("Rin Matsuoka_Expression_06.png", 0.85) 
+image Rin Cry = im.FactorScale("Rin Matsuoka_Expression_07.png", 0.85) 
+image Rin Annoyed 2 = im.FactorScale("Rin Matsuoka_Expression_08.png", 0.85) 
+#Sousuke 
+image Sosuke Neutral 1= im.FactorScale("Sousuke Yamazaki_Expression_01.png", 0.90) 
+image Sosuke Smile = im.FactorScale("Sousuke Yamazaki_Expression_02.png", 0.90) 
+image Sosuke Cry = im.FactorScale("Sousuke Yamazaki_Expression_03.png", 0.90) 
+image Sosuke Unsure = im.FactorScale("Sousuke Yamazaki_Expression_04.png", 0.90)  
+image Sosuke Annoyed = im.FactorScale("Sousuke Yamazaki_Expression_05.png", 0.90)  
+image Sosuke Worried = im.FactorScale("Sousuke Yamazaki_Expression_06.png", 0.90) 
+image Sosuke Neutral 2 = im.FactorScale("Sousuke Yamazaki_Expression_07.png", 0.90)  
+image Sosuke Bashful = im.FactorScale("Sousuke Yamazaki_Expression_08.png", 0.90) 
 #Gou
-image Gou Neutral = "Gou Matsuoka_Expression_01.png"
-image Gou Worried 1 = "Gou Matsuoka_Expression_02.png"
-image Gou Worried 2 = "Gou Matsuoka_Expression_03.png"
-image Gou Mad  = "Gou Matsuoka_Expression_04.png"
-image Gou Determined = "Gou Matsuoka_Expression_05.png"
+image Gou Neutral = im.FactorScale("Gou Matsuoka_Expression_01.png",0.70)
+image Gou Worried 1 = im.FactorScale("Gou Matsuoka_Expression_02.png",0.70)
+image Gou Worried 2 = im.FactorScale("Gou Matsuoka_Expression_03.png",0.70)
+image Gou Mad  = im.FactorScale("Gou Matsuoka_Expression_04.png",0.70)
+image Gou Determined = im.FactorScale("Gou Matsuoka_Expression_05.png",0.70)
 #Miho
-image Miho Neutral = "Miho Amakata_Expression_01.png"
-image Miho Reassuring = "Miho Amakata_Expression_02.png"
-image Miho Mad = "Miho Amakata_Expression_03.png"
-image Miho Determined = "Miho Amakata_Expression_04.png"
-image Miho Sad = "Miho Amakata_Expression_05.png"
+image Miho Neutral = im.FactorScale("Miho Amakata_Expression_01.png", 0.75)
+image Miho Reassuring = im.FactorScale("Miho Amakata_Expression_02.png", 0.75) 
+image Miho Mad = im.FactorScale("Miho Amakata_Expression_03.png", 0.75) 
+image Miho Determined = im.FactorScale("Miho Amakata_Expression_04.png", 0.75) 
+image Miho Sad = im.FactorScale("Miho Amakata_Expression_05.png", 0.75) 
 
 #ANIMATED SPRITES
 #image Makoto_Neutral:
@@ -122,6 +155,7 @@ define mt = Character('Makoto', show_two_window=True, font="CaviarDreams.ttf")
 define ma = Character('Miho Amakata', show_two_window=True, font="CaviarDreams.ttf")
 define rr = Character('Rei', show_two_window=True, font = "CaviarDreams.ttf")
 define rm = Character('Rin', show_two_window=True, font="CaviarDreams.ttf") 
+define sy = Character('Sousuke', show_two_window=True, font ="CaviarDreams.ttf") 
 define unknown = Character('???', show_two_window=True, font="CaviarDreams.ttf")
 define d = Character(' ',)
 
@@ -1654,12 +1688,13 @@ label makoto_jump_1:
     show Makoto Neutral with dissolve
     
     hn "..." 
+    scene bg M Residence 3 with dissolve 
     
-    d "We chat a little bit longer as we approach the house I'm staying out." 
+    d "We chat a little bit longer as we approach the house I'm staying at." 
     
     d"Once we get there, Makoto looks at me and smiles." 
     
-    show Makoto Bashful with dissolve 
+    show Makoto Bashful at center with dissolve 
     
     mt "Hey, is it cool to get your phone number?"
     
@@ -1672,7 +1707,8 @@ label makoto_jump_1:
     d "A few seconds later, our contacts are swapped. Then looking to the other side, I see Haru. He's holding up his phone." 
     
     y "You want my number?"
-    
+    show Haru Neutral at left with dissolve
+    show Makoto Neutral at right with moveoutright
     hn "..." 
     
     hn "Yes." 
@@ -1695,7 +1731,210 @@ label makoto_jump_1:
     
     d "Maybe this won't be so bad after all." 
     
+    d "I feel a little better about this crazy day as I head through the front door." 
     
+    scene bg MC Bedroom 2 with dissolve
+    
+    d "I decided to practice my Japanese writing for the past couple of hours." 
+    
+    d "My wrist is paying the price for that." 
+    
+    d "What's worse is my Japanese still doesn't look any different from doodling stick figures." 
+    
+    d "Maybe I should ask Makoto for help. Or Gou." 
+    
+    d "The siren's call of my empty stomach is loud and clear." 
+    
+    d "However, I'm not sure if there's anything made in the house." 
+    
+    d "As I head downstairs to look, I hear the front door open." 
+    
+    scene bg Living Room 2 with dissolve
+    
+    gm "%(povLastName)s-san I'm back!" 
+    
+    scene bg Hallway Entrance 2 with dissolve
+    
+    d "I quickly go to greet her at the door." 
+    
+    show Gou Neutral at center with dissolve
+    show Sosuke Neutral 1 at right with dissolve
+    show Rin Neutral at left with dissolve
+    
+    d "When I get there she's not alone." 
+    
+    d "Flanking her are two young men." 
+    
+    d "Actually, two rather handsome young men." 
+    
+    d "It's odd that in the states I barely noticed any guys around me." 
+    
+    d "I get to Japan and on the first day of school I've run into nothing but dudes who should start a boy band together." 
+    
+    gm "Let me introduce you to the guys here." 
+    
+    show Rin Annoyed 2 with dissolve 
+    
+    unknown "No need, sis, I can introduce myself." 
+    
+    d "The guy with hair and eyes similar in color to Gou's steps up to greet me." 
+    
+    show Rin Smile with dissolve
+    
+    unknown "Matsuoka Rin. I'm Gou's older brother. A pleasure to meet you." 
+    
+    rm "This is my best friend, Yamazaki Sosuke. We both go to Samezuka Academy." 
+    
+    show Sosuke Smile with dissolve
+    
+    sy "Nice to meet you. %(povFirstName)s was it?" 
+    
+    y "Yes, nice to meet both of you..." 
+    
+    d "I think I mumbled that line." 
+    
+    d "I'm such a dork." 
+    
+    show Sosuke Neutral 1 with dissolve
+    
+    show Rin Reassuring with dissolve
+    
+    rm "Hey, no need to be shy around us." 
+    
+    rm "After all, since you're living here I should at least treat you like a sister." 
+    
+    show Rin Smile with dissolve
+    
+    rm "Maybe you can be the sister I wanted but never got because I ended up with Gou instead!" 
+    
+    show Gou Mad with dissolve
+    
+    gm "Hey! That's totally mean." 
+    
+    show Rin Reassuring with dissolve
+    
+    rm "Relax Gou, I was only trying to make %(povFirstName)s feel at ease." 
+    
+    show Sosuke Smile with dissolve
+    
+    sy "Don't worry, Gou. You can be my sister instead." 
+    
+    show Gou Neutral with dissolve
+    
+    gm "Like I'm not already?"
+    
+    d "I can't help but laugh. Their familiarity is setting me at ease." 
+    
+    y "Rin-san, your English is impeccable." 
+    
+    show Rin Smile with dissolve
+    
+    rm "Thanks! I actually spent a good bit of time training in Australia." 
+    
+    rm "I figured it would be a good idea to learn the language so I wouldn't need an interpreter." 
+    
+    gm "Oh, %(povLastName)s-san, Makoto sent me a text a bit ago." 
+    
+    show Gou Determined with dissolve
+    
+    gm "I didn't know you played 'Destiny's Ultimate Challenge' too." 
+    
+    gm "We all play, even Rin and Sosuke. Let's exchange contact info and user IDs so we can all play and chat together." 
+    
+    y "Sure, sounds like a plan!" 
+    
+    d "We all pull out our SmartPhones and exchange contact info and send ally requests." 
+    
+    d "I'm starting to feel more at home." 
+    
+    d "Even more so when Rin asks..." 
+    
+    rm "I'm starving, sis. Where's mom?"
+    
+    show Gou Neutral with dissolve
+    
+    gm "She's working late tonight." 
+    
+    show Gou Worried 2 with dissolve
+    
+    gm "And dinner hasn't even been started yet." 
+    
+    gm "I don't know if we even have any instant ramen left." 
+    
+    show Gou Worried 1 with dissolve
+    
+    gm "So our current dinner options are moan and starve or keep quiet and starve." 
+    
+    show Rin Neutral with dissolve
+    show Sosuke Neutral 1 with dissolve
+    
+    rm "This sucks. I left my money back at the academy." 
+    
+    y "Hey Gou, you mentioned not having any easy instant stuff." 
+    
+    y "But do you think there's ingredients to do normal cooking with?"
+    
+    gm "Probably, but I bombed Home Economics." 
+    
+    gm "And don't expect either of those two to know how to cook." 
+    
+    show Gou Neutral with dissolve
+    
+    gm "Rin's lucky if he doesn't burn his ramen in the microwave." 
+    
+    show Rin Annoyed 2 with dissolve
+    
+    rm "That was only one time three years ago." 
+    
+    gm "And it's still a hilarious memory three years later." 
+    
+    show Rin Neutral with dissolve
+    
+    y "Let me go root around the kitchen." 
+    
+    gm "You can cook? Really?" 
+    
+    y "I wouldn't put myself up against Masaharu Morimoto or anything, But I can make some dishes that taste pretty decent." 
+    
+    scene bg Kitchen with dissolve
+    
+    d "I check the pantry for dry goods and canned foods first." 
+    
+    d "I spot several cans of adzuki beans and grab those." 
+    
+    d "Looking in the fridge there's a package of lean ground beef." 
+    
+    d "There's also some onions and peppers." 
+    
+    d "Gou walks over to see what I'm doing." 
+    
+    show Gou Neutral at center with dissolve
+    
+    gm "Looks like you have something in mind." 
+    
+    y "Point me towards the spice rack and pull me a big pot out." 
+    
+    y "I'm going to make a pot of chili con carne for everyone!" 
+    
+    show Gou Worried 1 with dissolve
+    
+    gm "Seriously? Wow!" 
+    
+    y "it's not that amazing." 
+    
+    y "When your parents are prone to working late you can either learn to cook..." 
+    
+    y "Or learn not to get tired of instant food." 
+    
+    d "Gou gets me the pot while I get out the spices." 
+    
+    show Gou Neutral with dissolve
+    
+    gm "Come to think of it, I bet one of the guys would get a kick out of this dish." 
+    
+    gm "Want me to call one of them over for you?" 
+    
+    y "Hmmmmmmm..." 
     
     
     stop music
