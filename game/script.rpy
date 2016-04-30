@@ -50,7 +50,7 @@ image bg M Residence 1 = "Matsuoka Residence (1).jpg"
 image bg M Residence 2 = "Matsuoka Residence (2).jpg" 
 image bg M Residence 3 = "Matsuoka Residence (3).jpg" 
 image bg M Residence 4 = "Matsuoka Residence (4).jpg" 
-image bg White = "WHITE.jpg"
+image bg white = "WHITE.jpg"
 
 #Background Effects
 init: 
@@ -181,7 +181,7 @@ init:
     
 # THE GAMES STARTS HERE
 label splashscreen:
-    scene bg White 
+    scene bg white 
     with Pause(1)
     
     #play sound "ping.ogg"
@@ -199,7 +199,7 @@ label start:
     
     stop music
     
-    scene bg White
+    scene bg white
     
     $ povFirstName = renpy.input("What is your first name?\n\n", length=15) or "Sarah"
     $ povLastName = renpy.input("What is your last name?\n\n", length=30) or "Henderson"
