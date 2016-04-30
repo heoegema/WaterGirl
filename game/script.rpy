@@ -1382,8 +1382,6 @@ label makoto_jump_1:
     
     d "But when Gou gets an idea in her head, it appears it's hard to go against her." 
     
-    scene bg white 
-    
     scene bg Swimming Pool A_2 with flash 
     
     show Gou Determined at left with dissolve 
@@ -1502,8 +1500,6 @@ label makoto_jump_1:
     
     ma "Welcome to the team, %(povLastName)s-chan!" 
     
-    scene bg white 
-    
     scene bg Neighborhood A_2 with flash 
     
     d "Me and my big mouth. With that slip of tongue in anger, I was now part of the swim club." 
@@ -1519,9 +1515,6 @@ label makoto_jump_1:
     d "One being getting my swimsuit ordered..." 
     
     d "She also mentioned dropping off some things for her older brother at a different school." 
-    
-    
-    scene bg white 
     
     scene bg Swimming Pool A_2 with flash 
     
@@ -1540,8 +1533,6 @@ label makoto_jump_1:
     mt "Just leave it to me and Haru, we'll get her back to your house safe!" 
     
     gm "Great! I'll tell Rin you said hi." 
-    
-    scene bg white 
     
     scene bg Neighborhood A_2 with flash 
     
