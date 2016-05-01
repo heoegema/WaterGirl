@@ -525,7 +525,7 @@ label start:
     
     with Pause (1)
     
-    play music "Lazy Days.mp3"
+    play music "Lull.mp3"
     with dissolve
     
     d "Hey, there’s the stairs to the roof. And the door up above is open."
