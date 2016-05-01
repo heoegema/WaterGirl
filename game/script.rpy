@@ -747,6 +747,8 @@ label start:
     
     with Pause(1)
     
+    play music "Hamari.mp3"
+    
     d "I barely ate anything at all."
     
     d "And I didn’t even get that strange kid’s name."
