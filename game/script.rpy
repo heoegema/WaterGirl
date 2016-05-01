@@ -1683,7 +1683,7 @@ label makoto_jump_1:
     
     d "We chat a little bit longer as we approach the house I'm staying at." 
     
-    d"Once we get there, Makoto looks at me and smiles." 
+    d "Once we get there, Makoto looks at me and smiles." 
     
     show Makoto Bashful at center with dissolve 
     
@@ -1742,7 +1742,7 @@ label makoto_jump_1:
     
     scene bg Living Room 2 with dissolve
     
-    gm "%(povLastName)s-san I'm back!" 
+    gm "%(povLastName)s-san, I'm back!" 
     
     scene bg Hallway Entrance 2 with dissolve
     
@@ -1752,7 +1752,7 @@ label makoto_jump_1:
     show Sosuke Neutral 1 at right with dissolve
     show Rin Neutral at left with dissolve
     
-    d "When I get there she's not alone." 
+    d "When I get there, she's not alone." 
     
     d "Flanking her are two young men." 
     
@@ -1774,11 +1774,11 @@ label makoto_jump_1:
     
     unknown "Matsuoka Rin. I'm Gou's older brother. A pleasure to meet you." 
     
-    rm "This is my best friend, Yamazaki Sosuke. We both go to Samezuka Academy." 
+    rm "This is my best friend, Yamazaki Sousuke. We both go to Samezuka Academy." 
     
     show Sosuke Smile with dissolve
     
-    sy "Nice to meet you. %(povFirstName)s was it?" 
+    sy "Nice to meet you. %(povFirstName)s, was it?" 
     
     y "Yes, nice to meet both of you..." 
     
@@ -1792,7 +1792,7 @@ label makoto_jump_1:
     
     rm "Hey, no need to be shy around us." 
     
-    rm "After all, since you're living here I should at least treat you like a sister." 
+    rm "After all, since you're living here, I should at least treat you like a sister." 
     
     show Rin Smile with dissolve
     
@@ -1830,17 +1830,19 @@ label makoto_jump_1:
     
     gm "I didn't know you played 'Destiny's Ultimate Challenge' too." 
     
-    gm "We all play, even Rin and Sosuke. Let's exchange contact info and user IDs so we can all play and chat together." 
+    gm "We all play. Even Rin and Sousuke."
+    
+    gm "Let's exchange contact info. and user ID's so we can all play and chat together." 
     
     y "Sure, sounds like a plan!" 
     
-    d "We all pull out our SmartPhones and exchange contact info and send ally requests." 
+    d "We all pull out our Smart Phones and exchange contact info and send ally requests." 
     
     d "I'm starting to feel more at home." 
     
     d "Even more so when Rin asks..." 
     
-    rm "I'm starving, sis. Where's mom?"
+    rm "I'm starving, Sis. Where's mom?"
     
     show Gou Neutral with dissolve
     
@@ -1854,7 +1856,7 @@ label makoto_jump_1:
     
     show Gou Worried 1 with dissolve
     
-    gm "So our current dinner options are moan and starve or keep quiet and starve." 
+    gm "So, our current dinner options are moan and starve or keep quiet and starve." 
     
     show Rin Neutral with dissolve
     show Sosuke Neutral 1 with dissolve
@@ -1885,13 +1887,13 @@ label makoto_jump_1:
     
     gm "You can cook? Really?" 
     
-    y "I wouldn't put myself up against Masaharu Morimoto or anything, But I can make some dishes that taste pretty decent." 
+    y "I wouldn't put myself up against Masaharu Morimoto or anything, but I can make some dishes that taste pretty decent." 
     
     scene bg Kitchen with dissolve
     
     d "I check the pantry for dry goods and canned foods first." 
     
-    d "I spot several cans of adzuki beans and grab those." 
+    d "I spot several cans of Adzuki beans and grab those." 
     
     d "Looking in the fridge there's a package of lean ground beef." 
     
@@ -1905,15 +1907,15 @@ label makoto_jump_1:
     
     y "Point me towards the spice rack and pull me a big pot out." 
     
-    y "I'm going to make a pot of chili con carne for everyone!" 
+    y "I'm going to make a pot of Chili Con Carne for everyone!" 
     
     show Gou Worried 1 with dissolve
     
     gm "Seriously? Wow!" 
     
-    y "it's not that amazing." 
+    y "It's not that amazing." 
     
-    y "When your parents are prone to working late you can either learn to cook..." 
+    y "When your parents are prone to working late, you can either learn to cook..." 
     
     y "Or learn not to get tired of instant food." 
     
@@ -1925,8 +1927,34 @@ label makoto_jump_1:
     
     gm "Want me to call one of them over for you?" 
     
-    y "Hmmmmmmm..." 
+    y "Hmmmmmm..." 
     
+    menu:
+        "Haru":
+            
+           return
+
+        "Makoto":
+            
+           return
+            
+        "Nagisa":
+            
+            return
+            
+        "Rei":
+            
+            return
+            
+        "Rin":
+            
+            return
+            
+        "Sousuke":
+            
+            return
+        
+        
     
     stop music
     
