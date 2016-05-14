@@ -540,7 +540,7 @@ label start:
     with Pause (1)
     
     d "I break open my slightly squished melon bread and take a bite, enjoying the silence of the 
-    empty rooftop and the view of the cherry trees neaby."
+    empty rooftop and the view of the cherry trees nearby."
     
     d "Been quite a morning so far. Flunked a quiz, fended off a weird guy, got tossed 
     around the cafeteria and flunked a quiz."
