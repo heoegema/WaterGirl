@@ -2060,7 +2060,7 @@ label Haru_Romance_Route:
     
     d "Gou is talking with Rin and Sosuke, and checks with me every so often." 
     
-    show Rin Smile at center wtih dissolve 
+    show Rin Smile at center with dissolve 
     
     rm "Wow, that smells really good. My mouth's watering." 
     
@@ -2206,7 +2206,7 @@ label Haru_Romance_Route:
     
     gm "Stop that, Makoto, you idiot! I work out so I'd be fine." 
     
-    show Rin Smile at left wtih dissolve 
+    show Rin Smile at left with dissolve 
     
     rm "Hey sis, I started the dishwasher. Sosuke and I need to get back to campus." 
     
@@ -2259,7 +2259,7 @@ label Haru_Romance_Route:
     
     d "...and I'm greeted to the sight of Haru soaking in the bathtub." 
     
-     show Haru Neutral at center with dissolve 
+    show Haru Neutral at center with dissolve 
     
     hn "Water. Feels good." 
     
@@ -2483,7 +2483,7 @@ label Haru_Romance_Route:
     
     mt "I'm not sure what you're driving at..." 
     
-    show Rei Reassuring wtih dissolve
+    show Rei Reassuring with dissolve
     
     rr "My dear Makoto, you couldn't be easier to read if you had a huge neon sign over your head." 
     

@@ -2,6 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 287: indentation mismatch.
+File "game/script.rpy", line 2063: end of line expected.
+    show Rin Smile at center wtih dissolve 
+                             ^
 
 Ren'Py Version: Ren'Py 6.99.10.1227
