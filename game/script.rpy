@@ -2014,7 +2014,7 @@ label Haru_Romance_Route:
     
     gm "The new girl made some chili and wants you to try it out." 
     
-    y "wait a minute! That's not what I said!" 
+    y "Wait a minute! That's not what I said!" 
     
     gm "Of course she does. After all, she figures she's a better cook than you." 
     
@@ -2040,7 +2040,7 @@ label Haru_Romance_Route:
     
     show Gou Worried 1 with dissolve
     
-    gm "I did? Well, don't worry-Haru's kind of thickheaded." 
+    gm "I did? Well, don't worry, Haru's kind of thickheaded." 
     
     gm "He probably just heard the word food and figured walking was easier than cooking." 
     
@@ -2058,7 +2058,7 @@ label Haru_Romance_Route:
     
     d "I spend the next 15 minutes or so stirring the chili and making garlic bread." 
     
-    d "Gou is talking with Rin and Sosuke, and checks with me every so often." 
+    d "Gou is talking with Rin and Sousuke, also checking with me every so often." 
     
     show Rin Smile at center with dissolve 
     
@@ -2130,11 +2130,11 @@ label Haru_Romance_Route:
     
     mt "After all, she did cook the meal, it's only polite." 
     
-    hn "So...hungry." 
+    hn "So... Hungry." 
     
     gm "Deal with it. She won't be long." 
     
-    d "Guess, I'd best get out there." 
+    d "Guess I'd best get out there." 
     
     d "Hanging back up the hand towel, I walk back into the kitchen." 
     
@@ -2162,11 +2162,11 @@ label Haru_Romance_Route:
     
     show Makoto Worried at right with dissolve
     
-    mt "What?!? I like AFC. It's delicious and affordable." 
+    mt "What?! I like AFC. It's delicious and affordable." 
     
     show Makoto Neutral with dissolve
     
-    mt "God bless American for bringing it to Japan!" 
+    mt "God bless Americans for bringing it to Japan!" 
     
     y "Why are you saluting me as you say that?" 
     
@@ -2182,7 +2182,7 @@ label Haru_Romance_Route:
     
     d "It turned out better than I had hoped for." 
     
-    d "I really got the spices right for that pot. And everyone seems to be enjoying it." 
+    d "I really got the spices right for that pot, and everyone seems to be enjoying it." 
     
     d "Soon everyone is done, with Rin volunteering to clear up the table." 
     
@@ -2190,7 +2190,7 @@ label Haru_Romance_Route:
     
     show Gou Neutral at center with dissolve
     
-    gm "Oooooh, that was so good %(povLastName)s-chan." 
+    gm "Oooooh, that was so good, %(povLastName)s-chan." 
     
     gm "I could eat that every day." 
     
@@ -2208,7 +2208,7 @@ label Haru_Romance_Route:
     
     show Rin Smile at left with dissolve 
     
-    rm "Hey sis, I started the dishwasher. Sosuke and I need to get back to campus." 
+    rm "Hey sis, I started the dishwasher. Sousuke and I need to get back to campus." 
     
     show Gou Neutral with dissolve
     
@@ -2241,13 +2241,15 @@ label Haru_Romance_Route:
     
     show Gou Neutral with dissolve
     
-    gm "I prefer to clean up int he morning, so if you want to get a bath or shower it's all yours." 
+    gm "I prefer to clean up in the morning, so if you want to get a bath or shower, it's all yours." 
     
     y "Thanks! I could really use a bath. Your mom left towels in my room, so I'm gonna clean up." 
     
     scene bg MC Bedroom 2 with dissolve
     
-    d "We head back to our bedrooms, once inside I grab some fresh pajamas, strip down and wrap a towel around myself." 
+    d "We head back to our bedrooms."
+    
+    d "Once inside, I grab some fresh pajamas, strip down and wrap a towel around myself."
     
     d "I'm beat, and a nice long soak sounds good about now." 
     
@@ -2257,7 +2259,7 @@ label Haru_Romance_Route:
     
     y "WHAT ARE YOU DOING IN HERE?" 
     
-    d "...and I'm greeted to the sight of Haru soaking in the bathtub." 
+    d "...And I'm greeted to the sight of Haru soaking in the bathtub." 
     
     show Haru Neutral at center with dissolve 
     
@@ -2265,7 +2267,7 @@ label Haru_Romance_Route:
     
     y "That's besides the point, why are you soaking in another family's bathtub?" 
     
-    y "Get out already, not only is it rude, but I need a bath." 
+    y "Get out already. Not only is it rude, but I need a bath." 
     
     d "He goes to stand up and I quickly remember I need to turn away." 
     
@@ -2323,7 +2325,7 @@ label Haru_Romance_Route:
     
     sm "I was afraid your uptight way of never speaking to anyone made you forget how." 
     
-    unknown "Ha, you tell that bitch Summi." 
+    unknown "Ha, you tell that bitch, Summi." 
     
     d "The girl on the left pipes in like the butt-kissing lackey she is." 
     
@@ -2343,7 +2345,7 @@ label Haru_Romance_Route:
     
     d "But she never stands up for me directly." 
     
-    d "it hurts worst of all. My former best friend won't even help me." 
+    d "It hurts worst of all. My former best friend won't even help me." 
     
     d "Even though she knows everything that happened to me before..." 
     
@@ -2443,9 +2445,9 @@ label Haru_Romance_Route:
     
     y "Makoto, uhm, hi. What are you and Haru doing here?" 
     
-    mt "Gou asked us to accompany you to this bus, so that your experience here would be better." 
+    mt "Gou asked us to accompany you to the bus, so that your experience here would be better." 
     
-    d "If my mind were a meme it would involve Picard around now." 
+    d "If my mind were a meme, it would involve Picard around now." 
     
     y "I give up. Let's get going." 
     
@@ -2489,7 +2491,7 @@ label Haru_Romance_Route:
     
     show Nagisa Determined 2 with dissolve
     
-    nh "Can't you just admit that you did the new girl and want to be around her?" 
+    nh "Can't you just admit that you dig the new girl and want to be around her?" 
     
     nh "I mean, it was so obvious yesterday." 
     
@@ -2509,7 +2511,7 @@ label Haru_Romance_Route:
     
     mt "I mean, she doesn't have anyone here and her host sister couldn't help her on her first day of school." 
     
-    mt "I was just trying to be a good host is all." 
+    mt "I was just trying to be a good friend is all." 
     
     show Makoto Sad with dissolve
     
@@ -2563,7 +2565,7 @@ label Haru_Romance_Route:
     
     show Nagisa Upset 2 with dissolve 
     
-    d "........" 
+    d "......" 
     
     d "Well that's an odd statement coming from Haru." 
     
@@ -2579,11 +2581,11 @@ label Haru_Romance_Route:
     
     show Makoto Mad with dissolve
     
-    mt "Oh HELL no. I'm so not gay. I totally love the ladies. 24-7-265 and every Leap Year." 
+    mt "W-what? I'm not gay! I totally love the ladies. 24-7-265 and every Leap Year." 
     
-    y "Okay, then what did you mean Haru?" 
+    y "Okay, then what did you mean, Haru?" 
     
-    hn "Isn't it obvious. I'm hydrosexual. It's all about water." 
+    hn "Isn't it obvious? I'm hydrosexual. It's all about water." 
     
     d "The guys are all laughing at this completely absurd statement." 
     
@@ -2591,9 +2593,9 @@ label Haru_Romance_Route:
     
     show Nagisa Sarcastic with dissolve 
     
-    y "That...doesn't make any sense whatsoever." 
+    y "That... Doesn't make any sense whatsoever." 
     
-    y "Wait, I take that back...nevermind, no I don't. There is absolutely no cohesion in what you're saying." 
+    y "Wait, I take that back... Nevermind, no I don't. There is absolutely no cohesion in what you're saying." 
     
     hn "Bus." 
     
