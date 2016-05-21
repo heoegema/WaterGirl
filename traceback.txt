@@ -1,27 +1,21 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/screens.rpy", line 409, in script
-    init -2 python:
-  File "game/screens.rpy", line 426, in <module>
-    style.pref_slider.tumb_offset = 15
-Exception: Style property tumb_offset is not known.
+  File "game/script.rpy", line 2989, in script
+    rr "This is simply scrumptious, %(povLastName)-chan."
+TypeError: %c requires int or char
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/screens.rpy", line 409, in script
-    init -2 python:
-  File "/Users/newuser/projects/renpy-6.99.10-sdk/renpy/ast.py", line 806, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/Users/newuser/projects/renpy-6.99.10-sdk/renpy/python.py", line 1577, in py_exec_bytecode
-    exec bytecode in globals, locals
-  File "game/screens.rpy", line 426, in <module>
-    style.pref_slider.tumb_offset = 15
-  File "renpy/style.pyx", line 370, in renpy.style.StyleCore.__setattr__ (gen/renpy.style.c:6072)
-    raise Exception("Style property {} is not known.".format(name))
-Exception: Style property tumb_offset is not known.
+  File "game/script.rpy", line 2989, in script
+    rr "This is simply scrumptious, %(povLastName)-chan."
+  File "/Users/newuser/projects/renpy-6.99.10-sdk/renpy/ast.py", line 604, in execute
+    renpy.exports.say(who, what, interact=self.interact)
+  File "/Users/newuser/projects/renpy-6.99.10-sdk/renpy/exports.py", line 1114, in say
+    what = what % tag_quoting_dict
+TypeError: %c requires int or char
 
 Darwin-13.0.0-x86_64-i386-64bit
 Ren'Py 6.99.10.1227
- 
+Water Girl 0.0
