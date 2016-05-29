@@ -2311,6 +2311,8 @@ label Haru_Romance_Route:
     
     scene bg white with dissolve 
     
+    stop music
+    
     unknown "Oh look at you, still putting on airs even now, huh?" 
     
     d "Wait a second, this can't be right. This voice shouldn't be here." 
@@ -2403,7 +2405,9 @@ label Haru_Romance_Route:
     
     d "I don't even say anything as her fist comes flying at my face and just as it's about to strike..." 
     
-    y "Aaahhh!" 
+    y "Aaahhh!"
+    
+    play music "Natsu No Owari.mp3"
     
     d "...I wake up." 
     
