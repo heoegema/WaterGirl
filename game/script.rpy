@@ -152,6 +152,7 @@ define mc = Character('Male Classmate',show_two_window=True, font="CaviarDreams.
 define sm = Character('Summi', show_two_window=True, font="CaviarDreams.ttf") 
 define js = Character('Jeseri', show_two_window=True, font="CaviarDreams.ttf") 
 define ly = Character('Leya', show_two_window=True, font="CaviarDreams.ttf")
+define bg = Character('Blonde Girl', show_two_window=True, font="CaviarDreams.tif") 
 #MAIN CHARACTERS
 define y = Character('[povFirstName]', show_two_window=True, font="CaviarDreams.ttf")
 define hn = Character('Haruka', show_two_window=True, font="CaviarDreams.ttf")
@@ -1944,7 +1945,7 @@ label makoto_jump_1:
 
         "Makoto":
             
-           return
+           jump Makoto_Romance_Route
             
         "Nagisa":
             
@@ -3523,6 +3524,1511 @@ label Haru_Romance_Route:
     
     hn "Hope you enjoy it." 
     
+label Makoto_Romance_Route:
     
+    #Chapter 1
+    y "I guess." 
     
+    y "How does Makoto sound?" 
     
+    y "He's been wanting to hang out ever since we met." 
+    
+    d "Gou's contemplating this in her head." 
+    
+    show Gou Worried 1 at center with dissolve
+    
+    gm "Sure, I believe he's over at Haru's place right now." 
+    
+    gm "Although, he may bring Haru over with him." 
+    
+    gm "The two of them are basically attached at the hip." 
+    
+    d "Gou dials Makoto's number as I stir the chili, pretending to be uninterested." 
+    
+    show Gou Neutral with dissolve
+    
+    gm "Hey Makoto, %(povFirstName)s is dying for you to try this meal she is making." 
+    
+    y "Gou, stop it!" 
+    
+    d "Gou flashes me a sly smile as she continues her conversation." 
+    
+    gm "Are you avilable to come over for dinner?"
+    
+    mt "Sure! Is it ok if Haru tags along? He seems eager to come." 
+    
+    d "Haru, eager? I don't think I want to know what that looks like." 
+    
+    gm "Great! %(povFirstName)s is gonna be thrilled!" 
+    
+    y "Stop it!" 
+    
+    gm "See you guy's in a bit." 
+    
+    d "Gou hangs up as Rin walks in behind her." 
+    
+    show Gou Neutral at left with moveoutleft
+    
+    show Rin Smile at right with dissolve
+    
+    rm "Who's coming over?"
+    
+    gm "Makoto and Haru, %(povFirstName)s is eager to have Makoto try her chili." 
+    
+    d "Gou turns to me and winks." 
+    
+    y "Only you could turn something as pure as a chili cookout into something dirty." 
+    
+    show Rin Neutral with dissolve
+    
+    rm "I'm a little offended. Is the two of us eating your chili not good enough?" 
+    
+    gm "Ew, I don't want to think about you eating anybody's chili!" 
+    
+    y "If one more person says something dirty about the chili, I'm gonna throw it out the window!" 
+    
+    rm "Alright, I'm sorry." 
+    
+    show Rin Smile with dissolve
+    
+    rm "I was hoping to talk to you more, you'll have to spare some time for me later." 
+    
+    y "No promises." 
+    
+    d "Rin smirks at me and heads back to the living room." 
+    
+    hide Rin with dissolve
+    
+    hide Gou with dissolve    
+    
+    d "Geez, I go from having practically no friends in the U.S. to having far too many here in Japan." 
+    
+    d "With all the excitment finally calming down, I can get to work on the chili. I gather the ingredients and get to work. Sooner than I expected, the door rings." 
+    
+    rm "I'll get it." 
+    
+    d "Rin heads to the door, stops to put on a disinterested face, and opens it to reveal Haru and Makoto." 
+    
+    rm "We don't want any." 
+    
+    d "Makoto smiles weakly at Rin, unable to tell if his greeting was meant to be rude or humorous." 
+    
+    mt "Hi Rin, good to see you." 
+    
+    hn "...." 
+    
+    mt "May we come in?"
+    
+    rm "I'm not gonna stop you." 
+    
+    d "Makoto and Haru enter as Rin walks away from the door and back to the couch." 
+    
+    d "As they walk further into the house Makoto's gaze meets mine." 
+    
+    show Makoto Neutral at center with dissolve 
+    
+    mt "%(povLastName)s, there you are!"
+    
+    d "My god, his face just lit up. Is this normal? Is he part light post? He's tall enough to be." 
+    
+    d "Who on Earth exudes this much positivity?!" 
+    
+    show Makoto Sad with dissolve
+    
+    mt "%(povLastName)s, are you ok?" 
+    
+    d "Oh god. How long was I staring?" 
+    
+    y "Yea, I was just thinking about all the work I still have to do. Hehe...I better get back to it!" 
+    
+    d  "Just as I was about to scramble away I hear Makoto call out to me." 
+    
+    show Makoto Worried with dissolve
+    
+    mt "Wait %(povLastName)s! Do you need any help?" 
+    
+    d "I could use the help..." 
+    
+    y "Sure, mind cutting some onions? I hate doing it." 
+    
+    show Makoto Neutral with dissolve
+    
+    d "Makoto lights up once again at the chance to help." 
+    
+    mt "Sure, it would be my pleasure." 
+    
+    d "I lead Makoto into the kitchen and show him where I've laid out the cutting board." 
+    
+    y "Alright, while you work on those I'll start mixing some of the other ingredients." 
+    
+    mt "Sounds like a plan." 
+    
+    d "We both set to work. It's a little awkward with no one talking." 
+    
+    mt "So, any idea what stroke you're going to specialize in? I'm really looking forward to seeing you swim." 
+    
+    y "I wouldn't set your hopes too high, I haven't swam in a whle, I'm probably rusty." 
+    
+    mt "No way, swimming is like riding a bicycle, you never really forget." 
+    
+    y "What if I've never learned how to ride a bicycle?" 
+    
+    mt "Well then you're out of luck, I'm not sure what to tell you." 
+    
+    d "I smile slightly at that." 
+    
+    y "I actually am really excited to swim competitively again. Although, I'm a little disappointed that I won't be able to compete with you guys." 
+    
+    mt "It'll still be fun, you'll see! There's tons of solo competitions for women in the area, and we'll be there to cheer you on. YOu should see Haru when he's fired up, it's inspiring!" 
+    
+    y "Haha!" 
+    
+    d "We each go back to our task and soon return to working in silence." 
+    
+    d "After a while, I turn around to check on Makoto's progress with the onions." 
+    
+    show Makoto Worried with dissolve
+    
+    d "He seems to be struggling. As I walk closer, I realize that he's rubbing his eyes vigorously to fight back tears." 
+    
+    d "I grab his wrist in concern." 
+    
+    y "Makoto! Why don't you say something? I'm so sorry for asking you to cut all of these onions yourself, it's obviously a two person job." 
+    
+    mt "No, I'm a man. I can do this!" 
+    
+    d "Makoto rubs his eyes and strikes a heroic pose as he continues. I can't help but laugh at his antics." 
+    
+    y "Hahahahaha!" 
+    
+    d "I laugh wholeheartedly, for the first time in a while, and Makoto looks at me like I've grown a second head." 
+    
+    d "I try to calm myself so I can make sure Makoto is ok." 
+    
+    y "Hehe...oh. Are you ok Makoto? Is something wrong?" 
+    
+    show Makoto Bashful with dissolve
+    
+    mt "No...I mean...it's just." 
+    
+    d "He blushes slightly as he fumbles to find the right words." 
+    
+    d "I feel heat pooling in my cheeks as my face turns bright red." 
+    
+    d "As I struggle to find a response, I hear the chili pot boiling over." 
+    
+    y "Oh No!" 
+    
+    show Makoto Worried with dissolve
+    
+    mt "I'll get it!" 
+    
+    d "Makoto and I both rush to turn down the heat." 
+    
+    d "I reach the knob first but Makoto rushes besides me and bumps into me as he too reaches for the knob." 
+    
+    d "I quickly turn only to realize I'm flush against Makoto's chest." 
+    
+    show Makoto Bashful with dissolve
+    
+    d "We both blush at our closeness." 
+    
+    y "I..." 
+    
+    d "I'm about to apologize when Haru suddenly enters the kitchen." 
+    
+    show Haru Neutral at left with dissolve
+    
+    hn "Hey is the food almost...What are you guys doing?"
+    
+    d "Makoto and I yank ourselves away from each other." 
+    
+    show Makoto Worried at right with moveoutright
+    
+    mt "Nothing!" 
+    
+    y "Nothing!" 
+    
+    hn "Haru looks confused, but quickly gets over it." 
+    
+    hn "Whatever, is the special dish you're making going to have mackerel in it?" 
+    
+    y "No Haru." 
+    
+    d "Makoto and I look at each other and begin to laugh." 
+    
+    show Makoto Bashful with dissolve
+    
+    hn "Whatever, you guys are acting weird." 
+    
+    hide Haru with dissolve
+    
+    show Makoto at center with moveoutleft
+    
+    d "Haru walks back into the living room as Makoto and I continue laughing." 
+    
+    d "Finally, we calm down and meet each other's gaze." 
+    
+    mt "I guess we better take the food out." 
+    
+    y "Yea, I hope everyone likes it. Apparently Haru is already disappointed." 
+    
+    mt "Aw, don't mind him. He just has very particular taste. I'm sure everyone will love it." 
+    
+    Y "Yeah." 
+    
+    d "We fill bowls for everyone and yell for them to head to the dining room. As Makoto leaves I call out to him." 
+    
+    y "Wait! Makoto!" 
+    
+    mt "Makoto stops and turns to look at me." 
+    
+    mt "Yea?" 
+    
+    d "I look down at my feet as I feel my cheeks growing hot again." 
+    
+    y "Thanks for helping!" 
+    
+    show Makoto Neutral with dissolve
+    
+    mt "Anything for you %(povFirstName)s." 
+    
+    d "With that said, Makoto walks out to meet Haru." 
+    
+    hide Makoto with dissolve
+    
+    scene bg Dining Table 2 with dissolve
+    
+    d "I rub my cheeks as I walk to the dining room." 
+    
+    y "I guess the chili isn't going to be the only hot thing at the dinner table." 
+    
+    d "I walk in to find the table set and everyone sitting." 
+    
+    d "Rin and Sousuke are sitting across from each other at the ends of the table, while Makoto and Haru sit next to each other on one side of the table." 
+    
+    d "That leaves me the spot next to Gou on the side of the table opposite Makoto." 
+    
+    d "I wonder if Gou planned this." 
+    
+    d "Seeming to read my thoughts, Gou turns to me and winks." 
+    
+    d "I take my seat as Makoto smiles at me from across the table." 
+    
+    y "Alright everyone, dig in!" 
+    
+    d "Everyone fills their bowl and stares." 
+    
+    show Gou Worried 1 at center with dissolve
+    
+    gm "Is it...supposed to look like this?" 
+    
+    y "Yes Gou. Geez, if you keep talking like that you're going to hurt the chili's feelings." 
+    
+    hide Gou with dissolve
+    
+    d "Despite my use of humor, it's my own feelings that are being hurt. I had really hoped everyone would like it." 
+    
+    d "Everyone is looking, horrified, at their bowls and I feel my heart begin to sink." 
+    
+    d "Across from me, Makoto is holding his spoonful of chili to his mouth as if it were a spoonful of poison." 
+    
+    y "Psst...Makoto." 
+    
+    show Makoto Worried at center with dissolve
+    
+    d "Startled, Makoto puts down his spoon to look at me." 
+    
+    mt "Yeah %(povFirstName)s?"
+    
+    y "You don't have to eat it if you don't want to." 
+    
+    d "Suddenly, Makoto perks up and his eyes glow with a newfound confidence." 
+    
+    show Makoto Neutral with dissolve
+    
+    mt "No %(povFirstName)s, it's like the onions, I am a man and I can do this." 
+    
+    d "Makoto bravely picks up his spoon and takes a large bite." 
+    
+    d "His eyes widen as he chews, and swallows." 
+    
+    show Makoto Bashful with dissolve 
+    
+    mt "Wow %(povFirstName)s, this is really good!" 
+    
+    hide Makoto with dissolve
+    
+    d "Makoto starts to eagerly eat his meal, which encourages the others to dig in." 
+    
+    show Rin Smile at center with dissolve
+    
+    rm "Wow %(povLastName)s, this is really good!"
+    
+    show Gou Neutral at left with dissolve
+    
+    gm "It's so spicy, I love it!"
+    
+    show Makoto Neutral at right with dissolve
+    
+    mt "We never should have doubted you you %(povFirstName)s. If you made it, it's bound to be great." 
+    
+    d "Makoto shoots another blinding smile from across the table and all of my insecurities melt away as I begin to enjoy my dinner." 
+    
+    d "Once everyone decided that their food wouldn't kill them, it went pretty fast." 
+    
+    gm "I'm stuffed!" 
+    
+    mt "I couldn't eat another bite." 
+    
+    d "Everyone is holding their stomach contently." 
+    
+    rm "Who knew something so disgusting looking could taste so good." 
+    
+    hide Makoto with dissolve
+    
+    hide Rin with dissolve
+    
+    hide Gou with dissolve
+    
+    show Haru Neutral at center with dissolve
+    
+    hn "It was no mackerel, but it wasn't bad." 
+    
+    hide Haru with dissolve
+    
+    show Sosuke Smile at center with dissolve
+    
+    sy "You'll have to cook for us again sometime %(povLastName)s." 
+    
+    y "I'd be happy to." 
+    
+    hide Sosuke with dissolve
+    
+    show Makoto Neutral at center with dissolve
+    
+    mt "Why don't I clean up the dishes?" 
+    
+    show Gou Worried 1 at right with dissolve
+    
+    gm "Nonsense, you and $%(povFirstName)s did all the work cooking. Rin and I will clean up while you four relax." 
+    
+    show Rin Neutral at left with dissolve
+    
+    rm "What, why me?!" 
+    
+    show Gou Neutral with dissolve
+    
+    gm "Because they're our guests you jerk. Come on." 
+    
+    hide Gou with dissolve
+    
+    hide Rin with dissolve
+    
+    hide Makoto with dissolve
+    
+    d "Gou and Rin begin clearing the table while Makoto, Haru, Sousuke, and I head to the living room." 
+    
+    d "I'm starting to think I'll really enjoy my time here in Japan." 
+    
+    scene bg Living Room 2 with dissolve
+    
+    d "After dinner, we all sat in the living room and talked." 
+    
+    d "As the sun began to set, everyone began to file out." 
+    
+    scene bg MC Bedroom 2 with dissolve
+    
+    d "Finally time to get some sleep." 
+    
+    scene bg white with dissolve 
+     
+    y "I don't understand! Why do we have to leave?!" 
+     
+    unknown "Hush %(povFirstName)s, we don't get a choice." 
+     
+    y "But I don't wanna go!" 
+     
+    unknown "Neither do I Hun." 
+     
+    y "Then make dad change his mind!" 
+     
+    unknown "Come on honey, get in the car." 
+     
+    y "Nooo!" 
+     
+    scene bg MC Bedroom 1 with dissolve
+     
+    y "Ah!" 
+     
+    d "I jolt upright, breathing heavily." 
+     
+    d "I haven't thought of that day in a while." 
+     
+    d "I use the breathing techniques I've learned to try to calm myself down." 
+     
+    d "Looking at the clock, I realize that it's about time for me to get up anyway." 
+     
+    scene bg Bathroom with dissolve
+     
+    d "I change into my uniform and head to the bathroom to continue getting ready." 
+     
+    scene bg Hallway Entrance 1 
+     
+    d "Once ready, I grab my bag and open the door." 
+     
+    d "Only to see Haru and Makoto standing on the other side of it." 
+     
+    y "Ah!" 
+     
+    d "Startled, I slam the door in their faces." 
+     
+    d "I've had enough surprises for one day, thank you!" 
+     
+    d "What do they even want?" 
+     
+    d "I decide that shutting the door in my new friends faces, may not be the best way to keep them." 
+    
+    d "I slowly open the door again." 
+     
+    scene bg M Residence 1 with dissolve
+     
+    y "Hey guys, what do you want?" 
+     
+    show Makoto Neutral at right with dissolve
+     
+    show Haru Neutral at left with dissolve
+     
+    d "Makoto smiles at me, in his usual luminescent fashion." 
+     
+    mt "All we want is to accompany you to school." 
+     
+    y "How did you even know I was leaving?" 
+     
+    mt "Gou may have helped with that." 
+     
+    d "Of course she did." 
+     
+    y "Well, since you came all this way, I supposed I can give you the pleasure of accompanying me to school." 
+     
+    show Makoto Bashful with dissolve
+     
+    mt "We're honored." 
+     
+    hn "..." 
+     
+    scene bg Neighborhood A_1
+     
+    d "Makoto, Haru and I start walking to the station, where we meet with Rei and Nagisa." 
+     
+    show Nagisa Sarcastic at center with dissolve
+     
+    nh "Hey lovebirds, you're gonna miss the bus!" 
+     
+    y "Who are you calling lovebirds Nagisa?" 
+     
+    nh "Isn't it obvious?" 
+     
+    nh "Makoto is just using Gou as an excuse, he'd have come to walk you to school anyway." 
+     
+    nh "Cause he's in love~!" 
+     
+    d "Everyone goes wide eyed at Nagisa's statement, and poor Makoto looks mortified." 
+     
+    show Makoto Worried at right with dissolve
+     
+    mt "What, Nagisa, don't you think that's going too far?!" 
+     
+    nh "Hey, I call it like I see it." 
+     
+    show Haru Neutral at left with dissolve
+     
+    hn "Pft, what do you need a girlfriend for Makoto. You have me." 
+     
+    d "Haru's comment makes me think." 
+     
+    d "Maybe he's gay, that would explain why he was so comfortable stripping in front of me." 
+     
+    y "Hey Haru, in all seriousness, can I ask you a question." 
+     
+    hn "Sure." 
+     
+    y "Are you gay?" 
+     
+    hn "I'm water sexual." 
+     
+    d "Everyone laughs, but Haru's face seems pretty serious." 
+     
+    d "Maybe he just doesn't think about romance very much." 
+     
+    show Makoto Sad with dissolve
+     
+    mt "As much as I would love to continue embarassing myself, the bus is here." 
+     
+    d "We all pile onto the bus and head to school." 
+     
+    scene bg School Gates_Morning with dissolve
+     
+    scene bg School Lockers_01 with dissolve
+     
+    d "Once we arrive, we change our shoes and stop by our lockers." 
+     
+    scene bg Classroom A_01 with dissolve
+     
+    d "As I'm entering the door to homeroom, I brush up against Makoto's shoulder." 
+     
+    d "He smiles, and gestures for me to enter first." 
+     
+    d "As the bell rings, we all take our seats and take out our books." 
+     
+    d "Today goes a lot better than yesterday. I think my Japanese is improving." 
+     
+    scene bg Hallway A_01 with dissolve
+     
+    scene bg Stair Well A_01 with dissolve
+     
+    scene bg Stair Well B_01 with dissolve
+     
+    d "Once the lunch bell rings, I head to the roof." 
+     
+    d "According to Gou, the club meets on the roof to eat." 
+     
+    d "Either anime isn't lying or these guys are weirder than I thought." 
+     
+    d "As I'm walking up the stairs I notice Makoto at top of the stairs about to open the door leading to the roof." 
+     
+    d "I'm about to call out a greeting when I feel myself lose footing and start to fall backwards." 
+     
+    y "Makoto!" 
+     
+    d "I briefly see him turn around before my vision drifts to the roof." 
+     
+    d "Suddenly, I feel a pressure on the small of my back and something wrapped around my wrist."
+     
+    show Makoto Sad with dissolve
+     
+    d "I tilt my head up to find Makoto's concerned eyes looking into mine." 
+     
+    d "He had grabbed my hand and back, which put us in a bit of a salsa dancing situation." 
+     
+    y "Makoto..." 
+     
+    hn "Is someone dead?" 
+     
+    d "Haru must have heard the commotion." 
+     
+    d "Makoto lifts me up." 
+     
+    y "No, we're ok." 
+     
+    hn "That's good, I guess." 
+     
+    d "Haru turns in the doorway and goes back to the roof; Makoto and I follow him." 
+     
+    scene bg School Rooftop Entrance with dissolve
+     
+    scene bg School Rooftop with dissolve
+     
+    show Gou Neutral at center with dissolve
+     
+    gm "Hey %(povFirstName)s!" 
+     
+    show Gou Worried 1 with dissolve
+     
+    gm "Gosh, are you ok? You look like you might have a fever." 
+     
+    y "I'm fine. I think it might be the start of a cold." 
+     
+    d "I do feel a little light headed, but I know it's not because of a cold." 
+     
+    hide Gou with dissolve
+     
+    show Makoto Worried at center with dissolve
+     
+    mt "Oh no, %(povFirstName)s, is that why you fell back there?" 
+     
+    mt "Do you feel lightheaded?" 
+     
+    d "Makoto reaches up to feel my forehead, which grows hotter every second his hand remains." 
+     
+    y "I'm fine, I think I just need to get some food in me." 
+     
+    hide Makoto with dissolve
+     
+    d "I sit down and open my bento, which encourages everyone to sit and eat." 
+     
+    d "After I made the chili last night I started to miss food from home." 
+     
+    d "I ended up making a little smorgasbord of my favorite foods for lunch." 
+     
+    show Gou Neutral at center with dissolve
+     
+    gm "%(povFirstName)s, that looks so good!" 
+     
+    gm "Can I try some?" 
+     
+    y "Sure, you all can if you'd like." 
+     
+    hide Gou with dissolve
+     
+    d "Everyone goes in to try a bit of everything." 
+     
+    show Nagisa Determined 1 at center with dissolve
+     
+    nh "So yummy, Makoto will be lucky to have you as a wife." 
+     
+    show Makoto Mad at right with dissolve 
+     
+    mt "Nagisa!" 
+     
+    show Makoto Neutral with dissolve
+     
+    mt "It's really good %(povFirstName)s." 
+     
+    show Haru Neutral at left with dissolve 
+     
+    hn "Is that mackerel?" 
+     
+    d "Haru is scrutinizing a piece of fish from my bento." 
+     
+    y "Yea, I fried it in oil, lemon, and fennel." 
+     
+    d "Haru, tenatively, takes a bite." 
+     
+    d "Surprisingly, his face brightens a bit and his eyes widen." 
+     
+    hn "Not bad." 
+     
+    d "Haru grabs another piece." 
+     
+    mt "Wow %(povFirstName)s, Haru is really picky about his mackerel, you should feel really proud." 
+     
+    d "Actually, I do feel kind of proud. Maybe I should consider culinary school." 
+     
+    d "I see Haru eyeing the mackerel and gesture for him to come over to grab more." 
+     
+    d "He sits down next to me to continue eating." 
+     
+    d "I see Makoto gives Haru a surprisingly dirty look, but it's gone in an instant." 
+     
+    d "Haru continues eating the mackerel until there is only one piece left." 
+     
+    d "Just as he is about to grab it, I snatch it away." 
+     
+    d "Everyone laughs as Haru mopes." 
+     
+    d "The bell rings, signaling the end of lunch, so we all pack up our lunches and head back to class." 
+     
+    scene bg Classroom A_01 with dissolve
+     
+    d "The rest of the school day was, surprisingly, uneventful." 
+     
+    scene bg Swimming Pool A_2 with dissolve
+     
+    d "I pack up my supplies and follow Makoto and Haru to the school pool." 
+     
+    show Gou Neutral at center with dissolve
+     
+    gm "Alright everybody, Let's get to work!" 
+     
+    gm "As we all know, we have a new member with us." 
+     
+    d "The team stops to applaud." 
+     
+    gm "Now, as team manager, I have decided that the best person to help %(povFirstName)s get back in shape would be out team captain, Makoto." 
+     
+    d "Why am I not surprised." 
+     
+    gm "Oh, but first!" 
+     
+    d "Gou reaches into her bag and pulls out a swimsuit." 
+     
+    gm "Tada!" 
+     
+    gm "You're new swimsuit %(povFirstName)s!" 
+     
+    d "Guess, I'd have to put one on eventually." 
+     
+    scene bg School Lockers A_01 with dissolve
+     
+    d "Hesitantly, I take the suit from Gou and go to the bathroom to change." 
+     
+    scene bg Swimming Pool B_01 with dissolve
+     
+    d "I peek out the door to make sure the entire team isn't waiting to see me." 
+     
+    d "Thank goodness, everyone's started to warm up." 
+     
+    d "Gou is the eexception; she's waiting outside eagerly." 
+     
+    d "I sign, resignedly, and exit the bathroom." 
+     
+    show Gou Neutral with dissolve 
+     
+    gm "Wow %(povFirstName)s, you look so cute!" 
+     
+    d "At least the swimsuit isn't too flamboyant. It's the same navy like color that the boys' suits are, but it has a white trim, and is a one piece." 
+     
+    gm "You know, you have surprisingly good muscle tone for someone who hasn't swam in a while." 
+     
+    y "The suit feels really tight. I feel like a sausage, and I asked for gray trim." 
+     
+    show Gou Worried 1 with dissolve
+     
+    gm "Hey, there's no moping during training." 
+     
+    show Gou Neutral with dissolve 
+     
+    gm "You're gonna do great!" 
+     
+    gm "Alright everyone, enough stretching, time to get in the water!" 
+     
+    hide Gou with dissolve
+     
+    show Rei Neutral with dissolve
+     
+    rr "Hey %(povLastName)s, as a pretty new swimmer myself, I'm curious; which stroke are you thinking of specializing in?" 
+     
+    y "I hadn't really thought about it much, I guess freestyle for now, that way I can get to know all the strokes, and can use whichever I feel most comfortable with." 
+     
+    gm "Enough chit chat %(povFirstName)s, get in the pool!" 
+     
+    hide Rei with dissolve
+     
+    y "*Grumbles*" 
+     
+    show Gou Determined with dissolve
+     
+    gm "That better not be moping I hear!" 
+     
+    y "No." 
+     
+    d "She sure does take her job seriously." 
+     
+    hide Gou with dissolve
+     
+    mt "Come on %(povFirstName)s, the waters great!" 
+     
+    d "I hear Makoto call out to me from the pool." 
+     
+    d "Let's get this over with." 
+     
+    d "I enter the water slowly to get adjusted to the temperature." 
+     
+    show Makoto Neutral with dissolve
+     
+    mt "Alright, I heard you mentioned to Rei that you are thinking about swimming freestyle." 
+     
+    mt "The most popular stroke people use in feestyle is the front crawl, because of how fast it is." 
+     
+    mt "Want to give it a shot?" 
+     
+    y "Seems like a good place to start." 
+     
+    d "Turns out the front crawl is pretty much the first thing every person learns when they're taught to swim." 
+     
+    d "The trick is doing it fast without hurting yourself." 
+     
+    mt "Alright %(povFirstName)s, you're looking good." 
+     
+    d "He's right, I can do this. One arm up, other arm up." 
+     
+    y "Ouch!" 
+     
+    d "Suddenly, I feel a sharp pain in my side." 
+     
+    show Makoto Worried with dissolve
+     
+    mt "%(povFirstName)s!" 
+     
+    d "Makoto swims over to me and rests me against his chest." 
+     
+    mt "Are you ok?" 
+     
+    d "The new view is helping, who knew such hard muscles could feel so soft." 
+     
+    y "Yea, just a pulled muscle." 
+     
+    show Makoto Sad with dissolve
+     
+    mt "You've got to watch your form. Make sure you're lengthening your body and moving your torso with each arm." 
+     
+    y "Ok." 
+     
+    hide Makoto with dissolve
+     
+    d "After learning the front crawl, I'm ready to try other strokes." 
+     
+    d "Makoto takes me through the basics of the backstroke, and the breaststroke." 
+     
+    show Gou Neutral at center with dissolve
+     
+    gm "I like what I'm seeing %(povFirstName)s!" 
+     
+    gm "Why don't we have a friendly race?" 
+     
+    mt "It would be excellent way for you to prepare for actual competitions." 
+     
+    show Gou Determined with dissolve 
+
+    gm "I'm glad you feel that way Makoto, because you'll be her opponent." 
+     
+    mt "Me?!"
+     
+    gm "Yep, let's do this." 
+     
+    d "Everyone gets out of the pool to watch the race." 
+     
+    d "Makoto and I take our places at one end of the pool." 
+     
+    gm "Alright you two, To keep it fair you'll both be using the backstroke." 
+     
+    gm "Because %(povFirstName)s is just getting started, and her stamina is lower, we'll keep it short." 
+     
+    gm "One lap, first one back wins." 
+     
+    show Nagisa Determined at right with dissolve
+     
+    nh "Gou, Gou! Can I do the countdown!" 
+     
+    gm "Sure Nagisa, knock yourself out." 
+     
+    hide Gou with dissolve
+     
+    hide Nagisa with dissolve
+     
+    d "Makoto and I crouch down in preparation to jump." 
+     
+    mt "Hey, %(povFirstName)s." 
+     
+    d "I glance over at Makoto." 
+     
+    show Makoto Neutral with dissolve
+     
+    mt "Good luck." 
+     
+    y "I don't need it. I learned from the best." 
+     
+    d "Makoto chuckles and gets back into position." 
+     
+    nh "Ready guys, one!" 
+     
+    d "I adjust my goggles." 
+     
+    nh "Two!" 
+     
+    nh "Three!" 
+     
+    hide Makoto with dissolve
+     
+    d "I leap into the water." 
+     
+    d "Right before I hit the water, I hear Gou yelling at Makoto." 
+     
+    gm "Makoto!" 
+     
+    gm "Quit staring at %(povFirstName)s and get in the water!" 
+     
+    d "I can hear Makoto hit the water behind me." 
+     
+    d "Despite my lead, I can tell the distance between us is closing." 
+     
+    gm "They're coming back around." 
+     
+    gm "%(povFirstName)s's strokes are impressivem she's staying in perfect form!" 
+     
+    d "Makoto and I kicked off the opposite wall at about the same time, but Makoto's superior lower body strength pushes him into the lead." 
+     
+    d "I struggle to keep up. Pushing myself to go faster." 
+     
+    nh "It's gonna be close!" 
+     
+    nh "Go %(povFirstName)s!" 
+     
+    d "The world suddenly moves in slow motion as I approach the end of the lap." 
+     
+    d "I use my last burst of energy to rocket to the wall and throw my hand out of the water." 
+     
+    d "I raise my head out of the water, only to see that Makoto had already reached the wall." 
+     
+    gm "Wow %(povFirstName)s, you only lost by three seconds!" 
+     
+    mt "You really gave me a run for my money." 
+     
+    nh "You were amazing %(povFirstName)s." 
+     
+    rr "You claimed to be rusty, but I saw no evidence of that in your race." 
+     
+    hn "You're pretty good." 
+     
+    d "I hear everyone talking to me, but I'm not fully processing it." 
+     
+    d "I can't get over how amazing it felt to race again." 
+     
+    gm "%(povFirstName)s, are you ok?" 
+     
+    y "Yea, It's just..."
+     
+    y"I forgot how nice it is to be in the water." 
+     
+    y "It makes me feel..."
+     
+    y "Free." 
+     
+    d "I feel a huge grin spread across my face and watch it spread to each team member." 
+     
+    d "Makoto gets out of the pool and offers me his hand." 
+     
+    d "I accept it, and he helps me out of the pool." 
+     
+    d "We stand together as he places his free hand on top of our already intertwined hands." 
+     
+    show Makoto Bashful at center with dissolve
+     
+    mt "I'm proud of you $(povFirstName)s." 
+     
+    y "You should be proud of yourself for being such a good teacher." 
+     
+    nh "Hey %(povFirstName)s, it's time for your initiation!" 
+     
+    d "The rest of the team encircles Makoto and I, and begins shouting." 
+     
+    d "Welcome to the Swim Club!" 
+     
+    d "I feel the ethereal feeling that enveloped me in the water spread over me again." 
+     
+    y"Thank you guys. I'll do my best!" 
+     
+    d "The team continues chanting and, in the excitement, I didn't notice that Makoto never ever let go of my hand." 
+     
+    #Chapter 2 
+     
+    scene bg MC Bedroom 4 with dissolve
+     
+    d "After practice, the team dispersed and headed home." 
+     
+    d "I was finally getting a peaceful night's sleep, when a knock on the door woke me up." 
+     
+    d "Seriously, I feel like I got run over by a truck, I deserve to sleep!" 
+     
+    d "After a bit of mumbling and grumbling, I get up to see who it is." 
+     
+    show Gou Worried 1 at center with dissolve
+     
+    gm "What are you doing %(povFirstName)s? You're going to be late!" 
+     
+    y "...To what?"
+     
+    gm "*sigh* You're hopeless." 
+     
+    gm "You promised to meet Makoto at Haru's place for game day!" 
+     
+    hide Gou with dissolve
+     
+    d "...Crap."
+     
+    d "I scramble to get dressed and make myself presentable." 
+     
+    scene bg Hallway Entrance 1 with dissolve
+     
+    y "I can't believe I forgot!" 
+     
+    show Gou Neutral at center with dissolve 
+     
+    gm "I can't believe you forgot either!" 
+    
+    y "I'm gonna be late!" 
+     
+    gm "You probably are!" 
+     
+    y "Don't you have something better to do?"
+     
+    gm "Nope, you're my new hobby." 
+     
+    hide Gou with dissolve
+     
+    d "I roll my eyes at Gou's comment and race to the front door." 
+     
+    hide Gou with dissolve
+     
+    d "Before I can exit, my mind is flooded by memories of yesterday." 
+     
+    d "Makoto holding my hand, Makoto letting me rest on his chest, Makoto and his blinding smile!" 
+     
+    d "Suddenly, I feel my heart begin to beat rapidly, and my hands begin to shake." 
+     
+    d "I try to calm myself down." 
+     
+    d "It's nothing. I can't let this feeling ruin my new friendships." 
+     
+    d "Using a new found burst of confidence, I throw the door open and run out." 
+     
+    scene bg M Residence 1 with dissolve
+     
+    y "I'm going!"
+     
+    gm "Wait, you forgot your phone!" 
+     
+    d "Gou runs out the door." 
+     
+    show Gou Worried 1 at center with dissolve
+     
+    gm "How are you going to get there without your GPS?!"
+     
+    hide Gou with dissolve
+     
+    d "After making a couple of wrong turns, I manage to find Haru's house." 
+     
+    scene bg Neighborhood A_1 with dissolve
+     
+    scene bg M Residence 1 with dissolve 
+     
+    d "It's a cute little house. Like the rest of the town, it's quaint and old-fashioned."
+     
+    d "I'm surprised. I never expected Haru to live somewhere so homey." 
+     
+    d "After admiring the house for a bit, I knock on the door." 
+     
+    scene bg Hallway Entrance 1 with dissolve
+     
+    show Haru Neutral at center with dissolve
+     
+    hn "You're late." 
+     
+    y "Hello to you too Haru." 
+     
+    y "Can I come in?"
+     
+    hn "Yea, come on." 
+     
+    d "The house is nice, but something feels off." 
+     
+    d "I notice there are only two pairs of shoes at the door and I don't hear any movement in the house." 
+     
+    y "Do you live alone Haru?" 
+     
+    hn "Yea, I used to live with my grandmother, but she died a couple of years ago." 
+     
+    show Haru Worried with dissolve
+     
+    y "Oh, I'm sorry I asked." 
+     
+    hn "It's fine, it's been awhile since it happened." 
+     
+    hn "My parents were overseas at the time. THey offered to come back, but I told them I would be fine." 
+    
+    y "Don't you get lonely?"
+     
+    show Haru Neutral with dissolve 
+     
+    hn "No, it's hard to be lonely with Makoto around." 
+     
+    d "I could see that." 
+     
+    d "Hearing Haru talk like that makes me a little jealous. I wish I had a friend I was that close with." 
+     
+    y "You and Makoto remind me of a friend of mine." 
+     
+    y "Before her new relationship tore us apart." 
+     
+    d "Suddenly, I'm reminded of all the pain my 'friendships' have brought me." 
+     
+    hn "Relationships will do that." 
+     
+    y "Sadly, I'm used to it." 
+     
+    hn "What about you?"
+     
+    y "What?" 
+     
+    hn "Have you ever been in a relationship?"
+     
+    y "Why do you want to know that all of a sudden." 
+     
+    hn "It's relevant to our conversation." 
+     
+    d "That's true." 
+     
+    y "I've had a couple boys ask me out, but I've never accepted." 
+     
+    y "I don't see the point in wasting my time dating if the person isn't special." 
+     
+    hn "Interesting." 
+     
+    y "Really?"
+     
+    hn "Yea, I agree with you." 
+     
+    y "Yay, we have something in common!" 
+     
+    y "We can bond over it!" 
+     
+    d "Haru rolls his eyes." 
+     
+    d "I finally hear some noise in the house as Makoto comes out of the bathroom." 
+     
+    show Haru at left with moveoutleft
+     
+    show Makoto Neutral at right with dissolve
+     
+    mt "Oh, %(povFirstName)s, I didn't know you were here." 
+     
+    y "Yep, Haru and I were just bonding." 
+     
+    d "Jokingly, I throw my arms around Haru's shoulder." 
+     
+    d "He quickly squirms from me and stands next to Makoto." 
+     
+    mt "So, how are you today?" 
+     
+    d "Makoto looks strangely flushed." 
+     
+    d "I hope whatever was going on in the bathroom wasn't serious." 
+     
+    y "I'm fine. Sorry I'm late." 
+     
+    hn "Enough chit-chat. It's time to play." 
+     
+    d "Haru had apparently slipped away and managed to, already get the game setup." 
+     
+    y "Alright Makoto, you may have beaten me at our race yesterday, but I will not lose to you here." 
+     
+    show Makoto Devious with dissolve
+     
+    mt "Challenge accepted." 
+     
+    scene bg Living Room 1 with dissolve
+     
+    d "We play a couple different games, and, surprisingly, Haru wins them all." 
+     
+    y "My god, video games, and swimming. Is there anything Haru can't do?" 
+     
+    show Makoto Neutral at right with dissolve 
+
+    show Haru Neutral at left with dissolve
+     
+    mt "Apparently not." 
+     
+    hn "I'm bored." 
+     
+    mt "We could go see a movie or something." 
+     
+    y "Sure, I'm tired of getting my butt handed to me anyway." 
+    
+    y "You know, besides school and Gou's place, I haven't seen much of the town." 
+     
+    y "I'd love to see what theaters are like in Japan." 
+     
+    show Makoto Worried with dissolve
+     
+    mt "Whoa, you've been here for this long, and you haven't gone to see the sights." 
+     
+    y "There just hasn't been much time." 
+     
+    show Makoto Neutral with dissolve 
+     
+    mt "Well we have the time now, right Haru." 
+     
+    hn "It would be a waste to be in Japan, and not actually see Japan." 
+     
+    y "Really? Let's go!" 
+     
+    scene bg Park 1 with dissolve
+     
+    d "Haru and Makoto take me to a train that runs into a city a couple miles away." 
+     
+    d "We check out a few cafes and stores, before we decide to stop in a park for a break." 
+     
+    y "I didn't think it was possible for me to feel more sore." 
+     
+    show Makoto Neutral at center with dissolve
+     
+    mt "Don't worry %(povFirstName)s, a couple more practices and you'll be back in shape." 
+     
+    y "I don't think I'll survive!" 
+     
+    hn "I'll go get us some drinks." 
+     
+    d "Haru walks across the park to the vending machine, leaving Makoto and I alone together." 
+     
+    d "Makoto takes a seat next to me on the bench, and wrings his hands nervously." 
+     
+    show Makoto Bashful with dissolve
+     
+    mt "...So it's a lovely day isn't it?" 
+     
+    y "Is that the best you could come up with?" 
+     
+    d "Makoto blushes shyly." 
+     
+    mt "Hey, I'm trying." 
+     
+    mt "I know I've said it before, but you really do have a beautiful smile." 
+     
+    d "I feel myself getting nervous as well." 
+     
+    y "It's nothing compared to yours, yours is blinding." 
+     
+    mt "What can I say, I like to smile." 
+     
+    mt "I've noticed you seem to like smiling too." 
+     
+    mt "At least, more than you did when you arrived here." 
+     
+    y "Yea, sorry for being so tense when we first met." 
+     
+    y "It's always been kinda hard for me to make friends, but you guys have made it more easy." 
+     
+    y "it's hard not to smile when you all are around." 
+     
+    d "Thoughtfully, I look down at the ground." 
+     
+    y "I really like you guys, especially you Makoto." 
+     
+    d "Makoto is taken aback." 
+     
+    d "His face turns beat red and he begins to flail his arms nervously." 
+     
+    mt "%(povFirstName)s, I'm...I'm flattered really. I don't know what to say!" 
+     
+    d "I decide to let Makoto off the hook." 
+     
+    y "Makoto, it's ok. I meant I really like you as a friend." 
+     
+    y "Especially since you were the first to talk to me." 
+     
+    d "Makoto seems relieved when I say that, but also a little bit disappointed?" 
+     
+    mt "Oh...good. Sorry I panicked like that." 
+     
+    y "It's fine. I think Haru is coming with the drinks." 
+     
+    y "Let's just try to relax." 
+     
+    show Makoto at right with moveoutright
+     
+    show Haru Neutral at left with dissolve
+     
+    hn "You ok Makoto? You look like a tomato." 
+     
+    mt "It's nothing, just thirsty." 
+     
+    d "We all sip on our drinks and enjoy light conversation." 
+     
+    d "All the awkwardness from me and Makoto's conversation seems to have dissipated." 
+     
+    d "Makoto and I were listening to Haru's tips on how to beat the video game we were playing earlier, when I notice three girls walking towards us." 
+    
+    d "I feel my stomach churn with anxiety at their approach." 
+     
+    d "The shortest girl, who seems to be leading the other two, has long blonde hair and a perfect tan." 
+     
+    d "The tallest girl has wavy brown hair and pale skin, while the middle one has short, colorful, curly hair and a naturally dark pallor." 
+     
+    d "They don't seem to notice me as they strike up a conversation with Makoto and Haru." 
+     
+    bg "Hey you two, I could see your muscles from across the park." 
+     
+    d "Makoto becomes flustered at her fowardness, while Haru seems ambivalent." 
+     
+    mt "Oh, really. WOw, thank you." 
+     
+    bg "Aw, you're shy. So Cute." 
+     
+    bg "You gotta name cutie?" 
+     
+    show Haru Annoyed with dissolve
+     
+    show Makoto Worried with dissolve
+    
+    d "Makoto looks absolutely frightened at this point and Haru seems to be getting annoyed." 
+     
+    bg "I'd love to get together with you some time." 
+     
+    d "Haru's silence seems to have turned her off." 
+     
+    d "Now she is focusing on Makoto." 
+     
+    d "Makoto turns to me with a pleading look on his face." 
+     
+    menu: 
+        "Help Makoto": 
+             y "Excuse me ladies, I hate to interrupt, but you seem to be making my boyfriend very uncomfortable." 
+             
+             d "The girls look at me, as if noticing me for the first time." 
+             
+             d "Makoto and Haru look shocked." 
+             
+             bg "Boyfriend?" 
+             
+             bg "How come he didn't say anything about you?" 
+             
+             y "You said it yourself, he's very shy and very polite." 
+             
+             y "I'm sure he just didn't want to hurt your feelings." 
+             
+             y "Right honey?" 
+             
+             d "I give Makoto a knowing look hoping he'll play along." 
+             
+             show Makoto Bashful with dissolve
+             
+             mt "Yea...That's right." 
+             
+             mt "I'm sorry I made you sit through that darling, but you know how I hate to disappoint people." 
+             
+             y "It's fine dear." 
+             
+             y "You see, he's not interested." 
+             
+             d "The blonde girl looks me up and down, and decides to back off." 
+             
+             bg "Oh, alright." 
+             
+             bg "But if you ever change your mind, here's my number." 
+             
+             d "The lader gives Makoto a slip of paper and leads her posse away." 
+             
+             show Haru Neutral with dissolve
+             
+             hn "Nice work %(povFirstName)s." 
+             
+             y "Thanks. You ok Makoto?" 
+             
+             mt "Yea, thanks for saving me %(povFirstName)s!" 
+             
+             y "No problem, I'd pretend to be your girlfriend anytime." 
+             
+             d "Makoto laughs and even Haru smiles a little." 
+             
+             y "Now, why don't we get home. I think I've had enough of the city." 
+             
+             d "The three of us head to the station, eager to get back to our little town by the sea." 
+             
+             
+        "Remain Silent.": 
+            
+            d "I decide it would be best for me to keep quiet." 
+            
+            d "I turn away from Makoto, and hope he can fend for himself." 
+            
+            mt "I...I...I"
+            
+            hn "Hey you're scaring my friend. He's not interested." 
+            
+            show Haru Annoyed with dissolve
+            
+            bg "Ugh, rude. Why would he be scared of me?" 
+            
+            hn "Because you're attaching yourself to him like a leech." 
+            
+            bg "Whatever, you both aren't worth this much work." 
+            
+            d "The blonde girl leads her posse away." 
+            
+            mt " I guess we should start heading home, right %(povFirstName)s?" 
+            
+            y "Yea, I've had enough of the city." 
+            
+            d "The three of us head back to the station, eager to get back to our tiny town by the sea." 
+            
+    scene bg M Residence 1 with dissolve 
+     
+    d "Makoto, Haru and I finally arrive back in town." 
+        
+    d "The train ride over had helped ease any lingering tension from our awkward encounter with those oddly familiar girls." 
+        
+    d "We reach Haru's house first." 
+     
+    y "Thanks for showing me around guys, I appreciate it." 
+     
+    hn "Sure." 
+     
+    mt "No problem %(povFirstName)s." 
+     
+    d "Haru walks to his front door, and turns to wave." 
+     
+    show Makoto Neutral at center with dissolve
+     
+    mt "Why don't I walk you home %(povFirstName)s? My house is back that way anyway." 
+     
+    d "We both wave goodbye to Haru and head back towards our houses." 
+     
+    scene bg Neighborhood A_1 with dissolve 
+     
+    show Makoto Neutral with dissolve 
+     
+    mt "What was your favorite part of the day %(povFirstName)s?"
+     
+    y "Hmmm, I'd have to say when we..." 
+     
+    d "*growl*" 
+     
+    d "We both go silent and look towards my stomach." 
+     
+    y "Hehe, guess my stomach wants to join the conversation." 
+     
+    mt "Don't worry, I happen to speak stomach fluently." 
+     
+    y "Really?" 
+     
+    mt "Of course." 
+     
+    d "Makoto leans his head near my stomach and pretends to be listening to it intently." 
+     
+    mt "Uh huh, of course." 
+     
+    mt "As I thought, your stomach is in desperate need of some food." 
+     
+    mt "We have to stop somewhere." 
+     
+    y "It's that serious?" 
+     
+    mt "Absolutely." 
+     
+    y "Ok, let me just clear it with Gou." 
+     
+    d "Some alone time with Makoto, this day just keeps getting better and better!" 
+     
+    d "I grab my cell and call Gou." 
+     
+    gm "Hey %(povFirstName)s, what's up?" 
+     
+    y "Not much, Makoto just asked me to go get something to eat. Is that ok?" 
+     
+    gm "Oh my god, it's you're first date! AHHHHH!" 
+     
+    d "Gou's excited squealing pierces my eardrum." 
+     
+    y "Gou, Gou, I'm gonna take the screaming as a yes. Ok?" 
+     
+    gm "AHHH, tell me everything when you get back." 
+     
+         
+         
+         
+            
+            
+            
+                
+                
+         
+         
+         
+         
+             
+             
+         
+         
+         
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        

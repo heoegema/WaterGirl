@@ -2,8 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 2063: end of line expected.
-    show Rin Smile at center wtih dissolve 
-                             ^
+File "game/script.rpy", line 4937: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation.
+    d "Makoto, Haru and I finally arrive back in town." 
+    ^
 
 Ren'Py Version: Ren'Py 6.99.10.1227
