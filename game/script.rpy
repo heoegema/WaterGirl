@@ -153,6 +153,7 @@ define sm = Character('Summi', show_two_window=True, font="CaviarDreams.ttf")
 define js = Character('Jeseri', show_two_window=True, font="CaviarDreams.ttf") 
 define ly = Character('Leya', show_two_window=True, font="CaviarDreams.ttf")
 define bg = Character('Blonde Girl', show_two_window=True, font="CaviarDreams.tif") 
+define w = Character('Waiter', show_two_window=True, font="CaviarDreams.tif")
 #MAIN CHARACTERS
 define y = Character('[povFirstName]', show_two_window=True, font="CaviarDreams.ttf")
 define hn = Character('Haruka', show_two_window=True, font="CaviarDreams.ttf")
@@ -1957,7 +1958,7 @@ label makoto_jump_1:
             
         "Rin":
             
-            return
+            jump Rin_Romance_Route
             
         "Sousuke":
             
@@ -5007,12 +5008,929 @@ label Makoto_Romance_Route:
     y "Gou, Gou, I'm gonna take the screaming as a yes. Ok?" 
      
     gm "AHHH, tell me everything when you get back." 
-     
-         
-         
-         
-            
-            
+    
+    y "Ok, I promise. I gotta hang up though, your screaming is giving me tinnitus." 
+    
+    d "I hang up my phone." 
+    
+    y "She said it's cool, let's go." 
+    
+    mt "Cool, I think there's a really good Korean barbeque place nearby." 
+    
+    ### insert image
+    
+    d "It takes a while to find the place, but the smell coming from it makes me think it will be worth it." 
+    
+    show Makoto Neutral at center with dissolve
+    
+    mt "I think I see a table over there." 
+    
+    d "We take our seats and a waiter stops by not long after." 
+    
+    w "Here are your menus, any drinks to start with?"
+    
+    mt "Waters fine." 
+    
+    y "Water for me too, please." 
+    
+    d "The waiter heads off to get our drinks while we peruse the menu." 
+    
+    mt "Get anything you want, the meals on me." 
+    
+    y "Wow, how gentlemanly. You may want to rethink that though." 
+    
+    mt "Why?"
+    
+    y "Because I'm eyeing the number twelve." 
+    
+    show Makoto Worried with dissolve
+    
+    mt "The number twelve?"
+    
+    mt "But that's a group platter for up to four people!" 
+    
+    y "only four?"
+    
+    y "I thought it said six, maybe I should go with number 14." 
+    
+    show Makoto Neutral with dissolve
+    
+    mt "Heh, I never would have thought you'd order something like that." 
+    
+    y "What can I say, I love to cook and I love to eat." 
+    
+    d "The waiter comes back by and takes our orders." 
+    
+    mt "I'm glad we're doing something together like this. Learning more about you has become my new favorite past-time." 
+    
+    y "Really?"
+    
+    mt "Yea, it's always interesting. Who knew you'd like to eat like it's going out of style." 
+    
+    y "If you like that, just wait until you learn about my killer karaoke skills." 
+    
+    mt "Haha!" 
+    
+    d "For a little while, we ogle other people's food and make small talk." 
+    
+    mt "So the whole team was shopping for swimsuits, when suddenly, Haru sees an aquarium and starts to strip down, in the middle of the store!"
+    
+    y "Haha!" 
+    
+    mt "It didn't even have water in it!" 
+    
+    y "Haha!" 
+    
+    mt "Haha!" 
+    
+    mt "That's enough of my stories, I want to hear more about you." 
+    
+    y "Alright, what do you wanna know?"
+    
+    mt "Hmmmm..." 
+    
+    mt "Favorite color?"
+    
+    y "Yellow." 
+    
+    mt "Cheerful, I like it. Cookies or cake?"
+    
+    y "Cake, obviously." 
+    
+    mt "Heh, any friends back home you miss?"
+    
+    d "I freeze up at the question. Makoto seems to notice." 
+    
+    show Makoto Sad with dissolve
+    
+    y "I..." 
+    
+    d "Suddenly, the waiter apears." 
+    
+    w "Here's your food!" 
+    
+    d "They begin setting our plates down." 
+    
+    y "Oh, the food!" 
+    
+    d "Thank goodness." 
+    
+    mt "Yea, looks good." 
+    
+    d "We eat in silence for a while." 
+    
+    d "Makoto seems to know that his question upset me." 
+    
+    mt "Hey %(povFirstName)s, I'm sorry if I made you uncomfortable." 
+    
+    y "No, it's fine. You didn't know." 
+    
+    mt "No, I shouldn't pry so much." 
+    
+    mt "I've been told my friendliness can get to the point where it seems, pushy." 
+    
+    y "I thought that at first, but now I really appreciate it. If you hadn't pushed me to talk the first day I got here, I don't think I would have had teh courage to join the swim team." 
+    
+    mt "Oh, I don't know about that." 
+    
+    y "No it's true!" 
+    
+    y "You're really great at encouraging people. It's something I love about you." 
+    
+    show Makoto Bashful with dissolve
+    
+    d "Makoto blushes at the word love." 
+    
+    mt "Oh, ugh, thanks!" 
+    
+    d "Makoto's embarrassment spreads to me." 
+    
+    d "We spend the rest of the meal looking at our plates, only glancing up to comment on the food." 
+    
+    d "After Makoto takes care of the check, we start back home." 
+    
+    scene bg Neighborhood A_3 with dissolve
+    
+    d "The sun has gone down at this point, so the temperature has dropped considerably." 
+    
+    d "I try to warm my hands by breathing in to them and rubbing them together." 
+    
+    d "Makoto looks over and notices me shivering." 
+    
+    d "Shyly, he slips his hand into mine." 
+    
+    show Makoto Bashful at center with dissolve
+    
+    mt "I hate to seem cliché, but I've heard sharing body heat is the best thing to do in a situation like this." 
+    
+    d "I look up at him and smile, gently lacing my fingers with his." 
+    
+    d "We spend the rest of the trip home quietly enjoying our newfound closeness." 
+    
+    scene bg M Residence 2 with dissolve
+    
+    d "We reach Gou's place faster than I would have hoped."
+    
+    y "Guess we're here." 
+    
+    show Makoto Sad at center with dissolve
+    
+    mt "Guess so." 
+    
+    d "I move to go inside but find myself unable to." 
+    
+    d "Makoto has not released my hand." 
+    
+    y "Ugh, Makoto?"
+    
+    d "Makoto looks down and quickly releases my hand." 
+    
+    mt "Woops, sorry." 
+    
+    show Makoto Bashful with dissolve
+    
+    d "Makoto becomes flustered and looks down at his feet as I walk to the front door." 
+    
+    d "As I'm about to enter, I hear Makoto call out to me." 
+    
+    y "%(povFirstName)s!" 
+    
+    d "I turn around curious as to what he has to say." 
+    
+    y "Yes?" 
+    
+    mt "I just..."
+    
+    d "Makoto rubs the back of his head and, once again, becomes fascinated by the floor." 
+    
+    mt "I had a really nice time tonight." 
+    
+    y "Me too." 
+    
+    mt "Really?!"
+    
+    d "Makoto looks up in surprise, and then immediately bows his head." 
+    
+    mt "Does this mean you'd like to do this again sometime?"
+    
+    y "Absolutely." 
+    
+    d "Makoto raises his head again and shoots me his signature, blinding, smile." 
+    
+    mt "I hoped you'd say that." 
+    
+    hide Makoto with dissolve
+    
+    scene bg Hallway Entrance 3 with dissolve
+    
+    d "I wave goodbye to Makoto and enter the house." 
+    
+    d "Before I can even begin to process all that has happened today, Gou peeks in from another room." 
+    
+    show Gou Neutral at center with dissolve
+    
+    gm "Sooo, how'd it go?"
+    
+    y "Come on, I'll tell you all the juicy details." 
+    
+    d "Gou squeals happily and leads me to her room." 
+    
+    gm "Tell me everything!" 
+    
+    y "Honestly, not much." 
+    
+    show Gou Worried 1 with dissolve 
+    
+    gm "What, no way!" 
+    
+    y "It's true!" 
+    
+    y "The three of us went in to the city for a while, to do some sightseeing, and then Makoto and I went to get something to eat after we dropped Haru off." 
+    
+    gm "What? No love confessions? No tentative first kiss?"
+    
+    y "We held hands for a while."
+    
+    show Gou Neutral with dissolve
+    
+    gm "Humph, I guess that's soemthing." 
+    
+    y "There was one odd thing that happened." 
+    
+    gm "Really?"
+    
+    y "Yea, these three girls showed up and started flirting with Haru and Makoto." 
+    
+    gm "Not surprising, have you seen their muscles?"
+    
+    y "The flirting wasn't that weird, it was the fact that they were oddly familiar." 
+    
+    gm "How could that be? You don't know anyone here besides us." 
+    
+    y "I think they may have been foreign." 
+    
+    show Gou Worried 1 with dissolve
+    
+    gm "Weird, maybe they were on your plane or something." 
+    
+    y "I guess..." 
+    
+    gm "I wouldn't worry about it. Come on, let's go to bed." 
+    
+    d "Gou and I head to our rooms to try and get some sleep." 
+    
+    scene bg Neighborhood A_1 with dissolve
+    
+    d "Another day, another opportunity to be escorted to school by two goregeous men." 
+    
+    d "Life is good." 
+    
+    show Haru Neutral at right with dissolve
+    
+    show Makoto Neutral at left with dissolve
+    
+    hn "What are you smiling about?"
+    
+    y "Oh, nothing." 
+    
+    d "Hehe!" 
+    
+    mt "Are you ready for the quiz today %(povFirstName)s?"
+    
+    y "I think so, my Japanese is really improving." 
+    
+    scene bg Classroom A_01 with dissolve
+    
+    d "The three of us say our goodbyes as we take our seats." 
+    
+    d "It's just a normal day, which is odd for this school, aced my quiz, learned some math." 
+    
+    d "Just as I'm about to fall asleep, during a particularly boring lecture on Japanese literature, the lunch bell rings." 
+    
+    d "I don't see any of the gang, so I decide to go to the roof myself." 
+    
+    scene bg Stair Well A_01
+    with dissolve
+    
+    with Pause(1)
+    
+    scene bg Stair Well B_01
+    with dissolve
+    
+    with Pause (1)
+    
+    scene bg Roof Top Door_01
+    with dissolve
+    
+    with Pause (1)
+    
+    scene bg School Rooftop 
+    with dissolve
+    
+    d "From my spot just behind the door I can hear flirtatious giggling, and hushed voices." 
+    
+    d "Ooo, I wonder who brought their girlfriends to lunch!" 
+    
+    d "I peek around to see an unfamiliar girl leaning towards...." 
+    
+    d "Makoto?"
+    
+    d "I can't quite make out what they're saying, but the girl sure does think it's funny." 
+    
+    d "I feel my stomach clench." 
+    
+    d "He was petrified of that flirty girl yesterday, now he's acting like a regular Casanova!" 
+    
+    d "I take a deep breath, I shoudln't rush to any conclusions, I'm just going to go in and say hi." 
+    
+    y "Hey Makoto, stealing another young maiden's heart I see." 
+    
+    d "They both jump in surprise." 
+    
+    show Makoto Worried at center with dissolve 
+    
+    mt "%(povFirstName)s!" 
+    
+    mt "What are you doing here?"  
+    
+    y "I eat lunch here, the whole team does." 
+    
+    d "I give them both a long look." 
+    
+    y "Although, you seem to be doing something else up here." 
+    
+    d "The girl gives me a dirty look for that comment, but I elect to ignore it." 
+    
+    mt "What no!" 
+    
+    mt "It's nothing like that!" 
+    
+    y "It's fine, you don't have to explain yourself to me." 
+    
+    y "After all, I'm just a team mate." 
+    
+    d "With that cutting response I decide to make my exit." 
+    
+    mt "Wait %(povFirstName)s!" 
+    
+    d "For the first time, I don't look back when he calls me." 
+    
+    
+       
+       
+   
+###Rin's Route
+label Rin_Romance_Route:
+    #Chapter 1
+    
+    d "I knew it. I shoot Gou a deathly glare in response." 
+    
+    y "Whatever you say, sis-in-law." 
+    
+    hide Gou with dissolve
+    
+    d "Gou chuckles, then she spins around and leaves the kitchen." 
+    
+    d "I hear her calling for Rin while I switch on the stove, put the big pot on it and let some oil drip on the ground." 
+    
+    y "Let's see...First, cutting the onions." 
+    
+    rm "I can do that." 
+    
+    d "In the next moment, Rin stands right beside me." 
+    
+    show Rin Smile at center with dissolve 
+    
+    d "Whoa, where did he even come from that fast?!" 
+    
+    d "He shifts his head to me and grins." 
+    
+    rm "I like meat and spicy food overall, so let's make a delicious dinner together!" 
+    
+    d "Flooded with motivation, Rin rolls up his sleeves and takes an onion into his hand." 
+    
+    show Rin Neutral with dissolve
+    
+    d "For the break of a second, I swear I can see hesitation flashing over his expression as if he's unsure of something." 
+    
+    d "Then, he puts the onion down again and grabs for a knife." 
+    
+    rm "So, then I'll cut the onion." 
+    
+    d "He pins the vegetable down on the chopping board and is about to cut it in half with the knife." 
+    
+    d "He has no idea how to cut onions, does he?" 
+    
+    d "I chuckle lightly, but cannot hide the sounds coming out, and Rin notices." 
+    
+    d "He casts his sight down and only murmurs." 
+    
+    show Rin Upset with dissolve
+    
+    rm "I haven't cooked much until now, you know..."
+    
+    d "His voice is quieter and also lesss enthusiastic as before. His hair sways lightly while speaking."
+    
+    d "Is he being embarassed about it?"
+    
+    y "I'm sorry, I didn't want to make fun of you. It's totally fine, I'm going to show you." 
+    
+    d "While I take the onion and peel off the skin's layers one by one, I steal a secretive glare from Rin from the corner of my eyes." 
+    
+    d "His cheeks are faintly flushed, but he is watching my instructions intently." 
+    
+    d "I've made him feel uncomfortable." 
+    
+    y "Have you ever eaten chili con carne before, Rin-san?" 
+    
+    d "I try to change the subject." 
+    
+    show Rin Neutral with dissolve
+    
+    rm "One time only in Australia, as far as I can remember. Though, I've forgotten the taste of it already." 
+    
+    show Rin Smile with dissolve
+    
+    rm "That's why I'm especially looking forward to this dish." 
+    
+    y "Then let's make this the best chili con carne you've ever eaten so that you'll never forget the taste of it again!" 
+    
+    d "He stares at me with furrowed brows." 
+    
+    d "Oops, that was too much, right? I truly am a dork." 
+    
+    d "But Rin starts laughing light-heartedly." 
+    
+    rm "Sure, let's do it! I think I get it now with the onions." 
+    
+    d "Rin peels the skin off the other onion while I reach for the peppers and start washing then chopping them." 
+    
+    rm "So...What's America like? I don't imagine it to be much different from Australia, though there are surely many different places for a country this big." 
+    
+    rm "Is the weather nice where you're from? How about the landscape?" 
+    
+    y "The weather? Average. I'd say. Just like the weather here in Japan. Cold in the winter and warm in the summer." 
+    
+    y "But the landscape...well, where I'm from, I cannot watch the sea like here at Iwatobi. So I hope I'll get to go to the sea very often for my stay." 
+    
+    rm "Sounds like you like the sea very much." 
+    
+    y "I do. It makes me feel at ease and calm when I go there. It also gives Iwatobi quite a peaceful atmosphere. Which I like very much." 
+    
+    rm "Yeah, Iwatobi is quite a small and peaceful town. How was your life in your hometown? Was it such a huge contrast to here?"
+    
+    d "Instinctively, whenever someone asks me a question referring to my hometown, I freeze in motion." 
+    
+    d "But after all this time, I have come to learn quite well how to dodge an answer too." 
+    
+    y "Yes, it was quite lively over there since it's a huge city." 
+    
+    rm "Ah, I can imagine after having lived in such a huge city myself. Being new here now, do you miss your friends and family?"
+    
+    y "Yeah." 
+    
+    d "The reply I've given lacks emotion, and I can literally feel the air getting heavy between us." 
+    
+    d "I somehow can sense that he knows my answer is only half-hearted, but he luckily doesn't push the topic and stays silent." 
+    
+    d "Still, to avoid having him digging deeper into that matter, I get myself busy with gathering together the vegetables we've sliced up and throwing them into the pot while I quickly find an ask to turn the attention away from me." 
+    
+    y "So you've spent some time in Australia yourself? How was it there? Maybe you can give me any tips?" 
+    
+    d "I try to smile and luckily, I don't have much difficulty in doing so when I meet Rin's own smile that he's shooting at me." 
+    
+    d "He picks up the topic right away, and I can't be more grateful for that, regardless whether it is intentional or not." 
+    
+    rm "When I first came to Australia, looking at the ocean relaxed me somehow." 
+    
+    rm "I was pretty anxious when I left Japan, even though I had talked big before. A country I didn't know....a language I did not speak..."
+    
+    rm "But when I came to the ocean, I immediately felt calmer. So for this part, we have something in common, %(povLastName)s-Chan."
+    
+    d "I watch Rin attentively as he speaks, his gaze focused, but somehow still dreamy while reminiscing about his past." 
+    
+    d "I, too, think that at some level, we understand each other, because we have similar experiences despite only knowing each other for barely an hour." 
+    
+    rm "I had a home stay with amazing parents and a puppy named Winnie who's a big dog now." 
+    
+    rm "I went to school during the day and to train under a coach afterwards. There were amazing swimmers from around the world there." 
+    
+    rm "And I learned that, even if I was pretty fast in Japan, it didn't need to mean anything at all." 
+    
+    d "Although I expect him to continue as it seems he has gotten carried away, Rin stops talking, and even after waiting for a few seconds, he doesn't continue." 
+    
+    d "Maybe I'm not the only one who needs to carry around a huge package after all." 
+    
+    d "Having been in the same situation shortly before, I do what he has done and don't push." 
+    
+    y "Australia sounds amazing. I wouldn't mind visiting there one day when I get teh chance to." 
+    
+    d "Even though he doesn't let it slip, I still notice how relieved he is about my casual reply that doesn't connect to the last part of his story." 
+    
+    rm "You definitely should! I will also take you to a sightseeing-trip then." 
+    
+    d "Wait, did we just make a promise?!"
+    
+    d "Still I nod willingly, unable to refuse as he looks at me with this gentle gaze." 
+    
+    d "It doesn't sound bad at all, now that I think of it. It could be pretty fun going there together with everybody..." 
+    
+    show Gou Neutral at left with dissolve
+    
+    show Rin Neutral at right with moveoutright
+    
+    gm "Hey you two, stop billing and cooing, and get dinner ready!" 
+    
+    d "Where did she come from?" 
+    
+    rm "It wouldn't take us so long if you'd stop sneaking around and help us!" 
+    
+    d "Gou snickers with a meaningful gaze." 
+    
+    gm "No way! I'd only interrupt what's going on here, so I'll be gone again!" 
+    
+    rm "You...!" 
+    
+    hide Gou with dissolve
+    
+    d "Rin grabs for a towel and throws it after his sister, but before it can hit her, she has already closed the door." 
+    
+    show Rin Upset at center with dissolve 
+    
+    rm "Please, don't listen to all the stuff she says, she's just-" 
+    
+    d "But he doesn't come to finish his sentence, because I can't suppress a laugh anymore." 
+    
+    d "I have almost forgotten how it is to be around people my age and actually have fun with them..." 
+    
+    show Rin Smile with dissolve
+    
+    rm "There it is. You smile again. I'm glad." 
+    
+    d "So he did indeed notice before...Has he been trying to cheer me up all this time?"
+    
+    d "Not knowing what to return, I hope to remain that smile on my lips for a little while longer so that his effort won't all go to waste." 
+    
+    rm "So, what's the next step? The ground meat, am I right?"
+    
+    d "Thank you, Rin..." 
+    
+    y "Yes. Take the wooden spoon and fry the vegetables. I'll prepare the ground meat." 
+    
+    d "He nods and we finish making dinner together." 
+    
+    scene bg Dining Table 2 with dissolve
+    
+    d "After having set up the table, everybody takes a seat. Rin seats himself beside me, and Gou and Sousuke at the opposite of us." 
+    
+    d "They both eye the dish on their plates rather suspiciously, obviously wondering whether it would taste good at all." 
+    
+    show Gou Worried 1 with dissolve
+    
+    gm "Looks...interesting." 
+    
+    d "Gou still tries to sound optimistic." 
+    
+    d "Sousuke doesn't even say a word anymore, but his face speaks more than he is probably able to express verbally right now." 
+    
+    d "I feel my heart sinking a bit. Of course, it's a western dish and must look rather unfamiliar to them, and the mix of meat and vegetables with that sauce is also not what they're used to taste in Japan." 
+    
+    d "But, I still wish they'd give it a try." 
+    
+    show Gou at right with moveoutright
+    
+    show Rin Neutral at left with dissolve
+    
+    rm "Hey, stop complaining, I even tried your poor attempt of stew which looked way more unsavory than this!" 
+    
+    gm "But it tasted well, you cannot say anything against it!" 
+    
+    rm "See? Then how about tasting this first before judging?"
+    
+    hide Gou with dissolve
+    
+    hide Rin with dissolve
+    
+    d "Rin puts her silent with this single sentence." 
+    
+    d "He really has a way with people, doesn't he?"
+    
+    d "More enthusiastic, and also less prejudiced, Gou and Sousuke take a spoonful of chili and lead it to their mouths." 
+    
+    d "Rin and I follow suit. Immediately upon tasting the dish, the spicy and aromatic flavor spreads in my mouth." 
+    
+    d "It's indeed very delicious! But will the others share the same opinion?"
+    
+    show Rin Smile at center with dissolve
+    
+    rm "How delicious!" 
+    
+    d "When I glance at Rin, he has immediately taken another spoonful, chewing happily while the others watch him in surprise." 
+    
+    hide Rin with dissolve 
+    
+    d "Then it's Sousuke who also speaks out." 
+    
+    show Sosuke Smile at center with dissolve
+    
+    sy "I've never tasted anything like this before. It's unfamiliar, but I can't deny that the flavor is delicious." 
+    
+    sy "It's spicy as well, but I can taste that you used other varieties of spices of what we're usually seasoning with here." 
+    
+    hide Sosuke with dissolve
+    
+    y "Yes, it's a Mexican dish." 
+    
+    show Gou Neutral at center with dissolve
+    
+    gm "Wow, %(povFirstName)s-san, this tastes amazing!" 
+    
+    d "Gou suddenly blurts out and takes another spoon with chili." 
+    
+    gm "I'm sorry for having been so prejudiced and judging too fast just by the look." 
+    
+    gm "I think I can say now that this is my favorite foreign dish ever!" 
+    
+    show Gou at left with moveoutleft
+    
+    show Rin Smile at right with dissolve
+    
+    rm "No need to be so humble, Gou!" 
+    
+    gm "No, I truly mean it! You two did a great job!" 
+    
+    d "She winks at me and I sink my head in slight embarrassment." 
+    
+    y "I'm glad you like it as well. Thank you." 
+    
+    d "I let out an almost inaudible sigh of relief and start eating myself now that I'm more at ease." 
+    
+    d "Everybody finishes his plate until nothing is left in the pot anymore, and I feel very happy about it since I've eaten much myself." 
+    
+    gm "I'd like you to cook more for us %(povFirstName)s-san! I want to taste all the foreign dishes you know!" 
+    
+    rm "She did not come here to be our cook!" 
+    
+    gm "But if you help her all the time, you'll learn how to cook yourself as well, and we don't need to rely on %(povFirstName)s anymore." 
+    
+    rm "In your dreams!" 
+    
+    d "I snicker slightly, clearly enjoying their banter. If this is what's going on in the Matsouka-household each day, I'm sure I'll be having a good time staying here." 
+    
+    rm "Since %(povFirstName)s-chan and I were cooking, how about you and Sousuke do the dishes?" 
+    
+    d "Gou opens her mouth to protest, but then realizes she can't actually say anything against this suggestion since it's only fair for either party, so she stands up and starts collecting the plates with the help of Sousuke." 
+    
+    hide Gou with dissolve 
+    
+    show Rin Smile with dissolve 
+    
+    rm "Hey, Sousuke..." 
+    
+    show Sosuke Neutral at left with dissolve
+    
+    sy "Hm?" 
+    
+    d "Rin leans back in his seat and crosses his arms behind his head, shifting his sight aside so that I cannot see his expression anymore as he asks his friend."
+    
+    rm "Want to spend the night here instead of going all the way back to the dorms?" 
+    
+    sy "Why?" 
+    
+    rm "I thought...because it's kind of late already, we ate too much delicious food, and %(povFirstName)s-chan might need some company since she's still new here." 
+    
+    rm "Who knows what weird things my little sis would try on her when they're left alone." 
+    
+    gm "I heard that!" 
+    
+    y "Actually..." 
+    
+    d "I want to say it's okay if we're left alone, and that he doesn't need to worry about me, but before I can finish, Sousuke already answers cooly himself." 
+    
+    sy "Fine with me." 
+    
+    hide Sosuke with dissolve
+    
+    show Rin at center with moveoutleft
+    
+    y "Uhm...guys, I really don't want to be a bother. I feel really grateful, but I don't want you to worry about me too much and get into your way." 
+    
+    rm "You're not getting in anybody's way." 
+    
+    d "He turns around and smiles at me." 
+    
+    rm "It's going to be really fun, we can all play 'Destiny's Ultimate Challenge' together!" 
+    
+    hide Rin with dissolve
+    
+    d "Now that he talks so causally about it, I can't deny his offer. Besides...playing together, having something like a sleepover..." 
+    
+    d "I haven't experienced this kind of gathering in a long time. Actually, I doubted I'd ever want to experience this again." 
+    
+    d "But this...these people...I feel happy when I'm with them. Can I give this another chance?" 
+    
+    y "Then...Yes! Let's do it!" 
+    
+    d "From the kitchen, I can hear Gou grumble again, or was it only my imagination?"
+    
+    scene bg MC Bedroom 4 with dissolve
+    
+    d "*Grumble, Grumble*" 
+    
+    d "I twist and turn around in bed, unable to sleep." 
+    
+    d "Playing 'Desinty's Ultimate Challenge' together with everybody this evening was great." 
+    
+    d "Not even once have I felt left out despite being the foreign host sister." 
+    
+    d "Maybe at Iwatobi, I can really start anew." 
+    
+    d "I push the blanket aside and stand up. I can't sleep with my stomach rumbling around like this." 
+    
+    d "And now, it even starts hurting." 
+    
+    d "Ugh, I ate way too much again, didn't I...But I cannot say no to delicious food..." 
+    
+    scene bg Kitchen with dissolve
+    
+    d "Making my way to the kitchen with my phone in one hand, I leave my room. In the kitchen, I open the refrigerator and get out a bottle of water." 
+    
+    d "I fill the liquid into a glass and take a sip." 
+    
+    d "Immeditately, I feel slightly better, but the stomachache may still take a while to vanish." 
+    
+    d "And since I cannot sleep like this, I decide to stay here and glance out the window." 
+    
+    d "The moon shines beautifully here at Iwatobi, and I can feel a somehow satisfying feeling wash over me as I close my eyes." 
+    
+    d "A moment later, my phone beeps and shows one new message as I pick it up." 
+    
+    d "A message so late? Is it from home?"
+    
+    d "'It's Rin. I wanted to thank you again for the chili, it truly tasted delicious." 
+    
+    d "Huh? Where is that coming from in the middle of the night?"
+    
+    d "But the message continues." 
+    
+    d "'Turn around.'" 
+    
+    y "What?" 
+    
+    unknown "Turn around." 
+    
+    d "This time, it's a real person speaking behind me, and I almost let out a shriek in shock if I hadn't known the voice as I instinctively spin around." 
+    
+    y "Rin! You scared me!" 
+    
+    show Rin Neutral at center with dissolve
+    
+    rm "Sorry, sorry! I heard you coming out of your room. Why are you up so late? Or should I say so early?"
+    
+    y "I have a stomachache, because I ate too much, and thus I cannot sleep." 
+    
+    d "Rin is lost for words for a moment as he stares at me with furrowed brows." 
+    
+    d "I sound like a baby, don't I? How embarrassing...He must think I'm weird." 
+    
+    show Rin Smile with dissolve
+    
+    d "Then, he bursts out laughing." 
+    
+    rm "A..hahahahahaha...hahahaha! Do you always eat that much?" 
+    
+    y "Well...it's what rids of my emotional tensions built up in my life." 
+    
+    rm "You really are a weird one, aren't you?" 
+    
+    d "I knew it!" 
+    
+    d "But the sparkles in his eyes reflecting the moonlight give his mien something so gentle that doesn't match his words, and I can tell he means it in a kind way." 
+    
+    y "Maybe I am." 
+    
+    d "I turn around and point out of the window." 
+    
+    y "Look, Rin-san. No matter where you are on earth, in Japan, America or Australia...you always look at the same moon. It's fascinating somehow, isn't it?"
+    
+    rm "You're a really interesting girl coming up with such kind of thoughts, %(povFirstName)s-chan." 
+    
+    y "Huh? What did you say?"
+    
+    d "IHe has spoken so quietly, I didn't hear each word." 
+    
+    rm "I said same with the ocean." 
+    
+    d "Within a second, he stands beside me and watches the moon as well." 
+    
+    rm "The ocean connects all continents. So wherever you are in the world, it connects you to your beloved ones." 
+    
+    rm "When I was in Australia and missed my friends, I felt like the ocean connected me to them. Because I knew they were on the other side." 
+    
+    y "You're right. I haven't thought about that before." 
+    
+    d "Saying such deep things, what have you been through so far?" 
+    
+    d "But experiencing this myself, I don't ask. I've always believed people would open themselves if they felt the right time has come, if they trust the person whole-heartedly." 
+    
+    d "Maybe our time will come as well..." 
+    
+    rm "How long are you gonna stay here?" 
+    
+    y "For until my third year. So half a year." 
+    
+    rm "Mmmmhm. You think you can catch up on me until then?"
+    
+    y "Huh? What do you mean?"
+    
+    rm "Gou causally dropped that you've joined the Iwatobi Swim Club." 
+    
+    d "This girl...!" 
+    
+    y "Well...I was more forced to join than willingly accepting. But...I don't mind, actually. Truth be told, I missed the thrill of swimming competitively and would like to do it again." 
+    
+    y "It's been quite some time since I last swam in a race, so I hope the team doesn't expect too much of me. I don't want to disappoint them in the end." 
+    
+    y "But I'm positive I can learn much while I'm here!" 
+    
+    d "Rin smiles brightly upon this proclamation as if he has sensed another challenge." 
+    
+    rm "Then do you best. Because I'd like to race you one day." 
+    
+    y "What-?? Me against you, one of the best swimmers in Samezuka, who even went to Australia to train?!"
+    
+    y "This is a joke right? I have no chance against you!" 
+    
+    rm "You're going to train with one of the best teams in Japan. If anything, I need to train even harder!" 
+    
+    d "In this moment, I cannot say wehther he is being polite or truly means it, but there is something in his tone that makes me believe him regardless." 
+    
+    y "Then...challenge accepted! I will give my best to beat you! But don't go easy on me just because I'm a girl!" 
+    
+    d "Rin's eyes flicker and he lowers his gaze as he smirks." 
+    
+    rm "I never go easy on anyone." 
+    
+    y "Then it's set." 
+    
+    rm "It is." 
+    
+    d "We laugh quietly together before my yawn shows me that it's time to finally go back to bed." 
+    
+    y "It's really bedtime for me now." 
+    
+    rm "How about your stomachache?"
+    
+    d "Oh, I've totally forgotten about it in the first place!" 
+    
+    y "it's gone...thank god, now I can sleep in peace." 
+    
+    rm "I'm glad." 
+    
+    y "Then...Goodnight, Rin-san." 
+    
+    d "I pick up my phone and am about to head towards the bedroom, when I feel a warm touch on my arm and then soft fingers wrapping around my wrist." 
+    
+    show Rin Upset with dissolve
+    
+    rm "Wait." 
+    
+    y "Hm? What is it?"
+    
+    d "In the semi-darkness, I cannot read his expression, because he has his head shifted aside, and the moonlight is only illuminating his maroon-colored hair." 
+    
+    d "He seems to struggle with something as he doesn't answer directly, but before I can even speak to him again, he finally questions me." 
+    
+    rm "Could we...chat more? I mean...is it okay for me to text or call you?"
+    
+    y "Uh...sure, why not? If you have any questions, just-" 
+    
+    d "He vehemently shakes his head." 
+    
+    rm "No, not like this. I mean...without an important reason. Can I...text or call you just casually? Wihtout an important reason?"
+    
+    rm "Just to...talk?"
+    
+    d "I'm a bit taken aback by this request." 
+    
+    d "Who even asks it like this? Isn't it normal to just casually start talking if you feel like it?" 
+    
+    d "But somehow, it's kind of funny as well. He seems slightly helpless." 
+    
+    d "It's kinda cute." 
+    
+    y "Sure!" 
+    
+    show Rin Smile with dissolve
+    
+    rm "Okay! Goodnight, %(povFirstName)s-chan!" 
+    
+    d "He heads off to bed even before me in the speed of light." 
+    
+    d "I smile to myself and head to my room right after." 
+    
+    
+    
             
                 
                 
