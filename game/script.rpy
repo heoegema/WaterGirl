@@ -54,6 +54,8 @@ image bg M Residence 2 = "Matsuoka Residence (2).jpg"
 image bg M Residence 3 = "Matsuoka Residence (3).jpg" 
 image bg M Residence 4 = "Matsuoka Residence (4).jpg" 
 image bg Bathroom = "Bathroom.jpg" 
+image bg Changeroom = "Changing Room.jpg" 
+image bg Restaurant = "Restaraunt.jpg" 
 image bg white = "WHITE.jpg"
 
 #Background Effects
@@ -3151,7 +3153,7 @@ label Haru_Romance_Route:
     
     gm "The girls changing room is over that way, so go ahead and get suited up." 
     
-    scene bg School Lockers_01 with dissolve 
+    scene bg Changeroom with dissolve 
     
     d "I simply nod, take my swimsuit and head over to the lockers." 
     
@@ -4254,7 +4256,7 @@ label Makoto_Romance_Route:
      
     d "Guess, I'd have to put one on eventually." 
      
-    scene bg School Lockers A_01 with dissolve
+    scene bg Changeroom with dissolve
      
     d "Hesitantly, I take the suit from Gou and go to the bathroom to change." 
      
@@ -5017,7 +5019,7 @@ label Makoto_Romance_Route:
     
     mt "Cool, I think there's a really good Korean barbeque place nearby." 
     
-    ### insert image
+    scene bg Restaurant with dissolve
     
     d "It takes a while to find the place, but the smell coming from it makes me think it will be worth it." 
     
