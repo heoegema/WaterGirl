@@ -154,8 +154,8 @@ define mc = Character('Male Classmate',show_two_window=True, font="CaviarDreams.
 define sm = Character('Summi', show_two_window=True, font="CaviarDreams.ttf") 
 define js = Character('Jeseri', show_two_window=True, font="CaviarDreams.ttf") 
 define ly = Character('Leya', show_two_window=True, font="CaviarDreams.ttf")
-define bg = Character('Blonde Girl', show_two_window=True, font="CaviarDreams.tif") 
-define w = Character('Waiter', show_two_window=True, font="CaviarDreams.tif")
+define bg = Character('Blonde Girl', show_two_window=True, font="CaviarDreams.ttf") 
+define w = Character('Waiter', show_two_window=True, font="CaviarDreams.ttf")
 #MAIN CHARACTERS
 define y = Character('[povFirstName]', show_two_window=True, font="CaviarDreams.ttf")
 define hn = Character('Haruka', show_two_window=True, font="CaviarDreams.ttf")
@@ -3531,6 +3531,8 @@ label Haru_Romance_Route:
     
     hn "Hope you enjoy it." 
     
+    return
+    
 label Makoto_Romance_Route:
     
     #Chapter 1
@@ -3782,7 +3784,7 @@ label Makoto_Romance_Route:
     
     mt "Aw, don't mind him. He just has very particular taste. I'm sure everyone will love it." 
     
-    Y "Yeah." 
+    y "Yeah." 
     
     d "We fill bowls for everyone and yell for them to head to the dining room. As Makoto leaves I call out to him." 
     
@@ -4260,7 +4262,7 @@ label Makoto_Romance_Route:
      
     d "Hesitantly, I take the suit from Gou and go to the bathroom to change." 
      
-    scene bg Swimming Pool B_01 with dissolve
+    scene bg Swimming Pool A_2 with dissolve
      
     d "I peek out the door to make sure the entire team isn't waiting to see me." 
      
@@ -4394,7 +4396,7 @@ label Makoto_Romance_Route:
      
     gm "One lap, first one back wins." 
      
-    show Nagisa Determined at right with dissolve
+    show Nagisa Determined 2 at right with dissolve
      
     nh "Gou, Gou! Can I do the countdown!" 
      
@@ -4442,7 +4444,7 @@ label Makoto_Romance_Route:
      
     gm "They're coming back around." 
      
-    gm "%(povFirstName)s's strokes are impressivem she's staying in perfect form!" 
+    gm "%(povFirstName)s's strokes are impressive she's staying in perfect form!" 
      
     d "Makoto and I kicked off the opposite wall at about the same time, but Makoto's superior lower body strength pushes him into the lead." 
      
@@ -4492,7 +4494,7 @@ label Makoto_Romance_Route:
      
     show Makoto Bashful at center with dissolve
      
-    mt "I'm proud of you $(povFirstName)s." 
+    mt "I'm proud of you %(povFirstName)s." 
      
     y "You should be proud of yourself for being such a good teacher." 
      
@@ -4838,7 +4840,7 @@ label Makoto_Romance_Route:
      
     d "Makoto becomes flustered at her fowardness, while Haru seems ambivalent." 
      
-    mt "Oh, really. WOw, thank you." 
+    mt "Oh, really. Wow, thank you." 
      
     bg "Aw, you're shy. So Cute." 
      
@@ -5051,7 +5053,7 @@ label Makoto_Romance_Route:
     
     mt "But that's a group platter for up to four people!" 
     
-    y "only four?"
+    y "Only four?"
     
     y "I thought it said six, maybe I should go with number 14." 
     
@@ -5131,7 +5133,7 @@ label Makoto_Romance_Route:
     
     mt "I've been told my friendliness can get to the point where it seems, pushy." 
     
-    y "I thought that at first, but now I really appreciate it. If you hadn't pushed me to talk the first day I got here, I don't think I would have had teh courage to join the swim team." 
+    y "I thought that at first, but now I really appreciate it. If you hadn't pushed me to talk the first day I got here, I don't think I would have had the courage to join the swim team." 
     
     mt "Oh, I don't know about that." 
     
@@ -5379,7 +5381,7 @@ label Makoto_Romance_Route:
     
     
        
-       
+    return 
    
 ###Rin's Route
 label Rin_Romance_Route:
@@ -5689,7 +5691,7 @@ label Rin_Romance_Route:
     
     rm "Hey, Sousuke..." 
     
-    show Sosuke Neutral at left with dissolve
+    show Sosuke Neutral 1 at left with dissolve
     
     sy "Hm?" 
     
@@ -5769,7 +5771,7 @@ label Rin_Romance_Route:
     
     d "A message so late? Is it from home?"
     
-    d "'It's Rin. I wanted to thank you again for the chili, it truly tasted delicious." 
+    d "'It's Rin. I wanted to thank you again for the chili, it truly tasted delicious.'" 
     
     d "Huh? Where is that coming from in the middle of the night?"
     
@@ -5931,7 +5933,7 @@ label Rin_Romance_Route:
     
     d "I smile to myself and head to my room right after." 
     
-    
+    return 
     
             
                 
