@@ -5565,49 +5565,49 @@ label Rin_Romance_Route:
     
     d "But he doesn't come to finish his sentence, because I can't suppress a laugh anymore." 
     
-    d "I have almost forgotten how it is to be around people my age and actually have fun with them..." 
+    d "I've almost forgotten how it's like to be around people my age and actually have fun with them..." 
     
     show Rin Smile with dissolve
     
-    rm "There it is. You smile again. I'm glad." 
+    rm "There it is. You smiled again. I'm glad." 
     
-    d "So he did indeed notice before...Has he been trying to cheer me up all this time?"
+    d "So he did notice before... Has he been trying to cheer me up all this time?"
     
-    d "Not knowing what to return, I hope to remain that smile on my lips for a little while longer so that his effort won't all go to waste." 
+    d "Not knowing how to respond, I hope to remain that smile on my lips for a little while longer so that his effort won't all go to waste." 
     
-    rm "So, what's the next step? The ground meat, am I right?"
+    rm "So, what's the next step? The ground meat?"
     
     d "Thank you, Rin..." 
     
-    y "Yes. Take the wooden spoon and fry the vegetables. I'll prepare the ground meat." 
+    y "Yeah. Take the wooden spoon and fry the vegetables. I'll prepare the ground meat." 
     
     d "He nods and we finish making dinner together." 
     
     scene bg Dining Table 2 with dissolve
     
-    d "After having set up the table, everybody takes a seat. Rin seats himself beside me, and Gou and Sousuke at the opposite of us." 
+    d "After having set up the table, everybody takes a seat. Rin seats himself beside me, as Gou and Sousuke sit opposite of us." 
     
     d "They both eye the dish on their plates rather suspiciously, obviously wondering whether it would taste good at all." 
     
     show Gou Worried 1 with dissolve
     
-    gm "Looks...interesting." 
+    gm "Looks... Interesting." 
     
     d "Gou still tries to sound optimistic." 
     
-    d "Sousuke doesn't even say a word anymore, but his face speaks more than he is probably able to express verbally right now." 
+    d "Sousuke doesn't even say a word, but his face speaks more than he is probably able to express verbally right now." 
     
     d "I feel my heart sinking a bit. Of course, it's a western dish and must look rather unfamiliar to them, and the mix of meat and vegetables with that sauce is also not what they're used to taste in Japan." 
     
-    d "But, I still wish they'd give it a try." 
+    d "Although, I still wish they'd give it a try." 
     
     show Gou at right with moveoutright
     
     show Rin Neutral at left with dissolve
     
-    rm "Hey, stop complaining, I even tried your poor attempt of stew which looked way more unsavory than this!" 
+    rm "Hey, stop complaining. I even tried your poor attempt of stew which looked way more unsavory than this!" 
     
-    gm "But it tasted well, you cannot say anything against it!" 
+    gm "But it tasted okay! You can't say anything against it!" 
     
     rm "See? Then how about tasting this first before judging?"
     
@@ -5615,19 +5615,19 @@ label Rin_Romance_Route:
     
     hide Rin with dissolve
     
-    d "Rin puts her silent with this single sentence." 
+    d "Rin silences Gou with that single sentence." 
     
     d "He really has a way with people, doesn't he?"
     
     d "More enthusiastic, and also less prejudiced, Gou and Sousuke take a spoonful of chili and lead it to their mouths." 
     
-    d "Rin and I follow suit. Immediately upon tasting the dish, the spicy and aromatic flavor spreads in my mouth." 
+    d "Rin and I follow suit. Immediately upon tasting the dish, the spicy and aromatic flavor spreads inside my mouth." 
     
-    d "It's indeed very delicious! But will the others share the same opinion?"
+    d "It's delicious! But will the others share the same opinion?"
     
     show Rin Smile at center with dissolve
     
-    rm "How delicious!" 
+    rm "Woh..." 
     
     d "When I glance at Rin, he has immediately taken another spoonful, chewing happily while the others watch him in surprise." 
     
