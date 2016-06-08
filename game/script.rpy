@@ -2818,11 +2818,11 @@ label Haru_Romance_Route:
     
     menu: 
         "Pull back and thank Haru": 
-            d "Loathe as I am to remove myself so quickly from what's kept me from a set of head stitches, I slowly get from Haru's grip." 
+            d "I slowly get up from Haru's grip." 
             
             y "Thank you Haru, I'm so glad you were behind me." 
             
-            y "I was running behind and I didn't notice anything on the stairs and I slipped." 
+            y "I was running behind and didn't notice anything on the stairs. So I slipped." 
             
             y "If you hadn't been there, I would have cracked my head open." 
             
@@ -2830,7 +2830,7 @@ label Haru_Romance_Route:
             
             show Haru Bashful with dissolve
             
-            hn "I'm...just glad you're okay." 
+            hn "I'm... Just glad you're okay." 
             
             y "Yeah, I'm okay now, thanks to you." 
             
@@ -2849,7 +2849,7 @@ label Haru_Romance_Route:
             
             hn "Hey, you're okay. I've got you." 
             
-            y "I know, I know. It's just...I'm not normally so careless." 
+            y "I know, I know. It's just... I'm not normally so careless." 
             
             y "If you hadn't been behind me, things could have gotten really bad." 
             
@@ -2879,13 +2879,13 @@ label Haru_Romance_Route:
             
             show Haru Annoyed with dissolve
             
-            hn "Hello..." 
+            hn "Hello..?" 
             
             d "Now there's one on the steps heading to the roof." 
             
             d "Though I guess it could be two different people tossing their empties around." 
             
-            hn "%(povLastName)s-CHAN!" 
+            hn "%(povFirstName)s!" 
             
             y "Hey, you don't have to yell, Haru." 
             
@@ -2895,7 +2895,7 @@ label Haru_Romance_Route:
             
             hn "Can we go eat lunch?"
             
-            y "Ooops. Sorry, Haru." 
+            y "Oops. Sorry, Haru." 
             
             d "I let go and we both head up the stairs to the roof." 
     
@@ -2915,10 +2915,6 @@ label Haru_Romance_Route:
     
     d "You'd think the school would just close off the roof, but it seems they feel that's a losing battle." 
     
-    d "So the hope was with nowhere to sit, the kids would stop going." 
-    
-    d "Clearly our prescence here today shows the fruits of that policy are also futile." 
-    
     show Nagisa Determined 1 at right with dissolve
     
     nh "Took you guys long enough." 
@@ -2931,7 +2927,7 @@ label Haru_Romance_Route:
     
     gm "Hey, %(povFirstName)s-chan, your face looks flushed. Are you okay?" 
     
-    d "I guess in the excitement of the stairwell accident I turned a tad red again." 
+    d "I guess in the excitement of the stairwell accident, I turned a tad red again." 
     
     hide Rei with dissolve
     
@@ -2975,7 +2971,7 @@ label Haru_Romance_Route:
     
     show Makoto Neutral at center with dissolve
     
-    mt "Just when I thought you couldn't top your chili from last night." 
+    mt "Just when I thought you couldn't top your chili from last night..." 
     
     mt "You go and bring something that smells even more delicious." 
     
@@ -2999,7 +2995,7 @@ label Haru_Romance_Route:
     
     show Rei Neutral with dissolve
     
-    rr "This is simply scrumptious, %(povLastName)s-chan." 
+    rr "This is simply scrumptious, %(povLastName)s-san." 
     
     rr "You really need to let everyone else have a taste." 
     
@@ -3009,7 +3005,7 @@ label Haru_Romance_Route:
     
     hide Rei with dissolve 
     
-    d "It's not use. Just looking at the shine in their eyes and I've got no choice." 
+    d "It's no use. Just looking at the shine in their eyes, I've got no choice." 
     
     y "Fine, go ahead and carefully get some." 
     
@@ -3123,7 +3119,7 @@ label Haru_Romance_Route:
     
     mt "Soon we will dominate both the boys and girls races!" 
     
-    y "Funny thing, if someone were to just scan the team's list of names, They'd probably think we were an all girls' school." 
+    y "Funny thing, if someone were to just scan the team's list of names, they'd probably think we were an all girls' school." 
     
     show Makoto Worried with dissolve
     
@@ -3183,7 +3179,7 @@ label Haru_Romance_Route:
     
     y "And did you get the wrong size or something?" 
     
-    y "I know I'm not oppai but uhm, the twins are feeling really squished in here." 
+    y "I know I don't have a large chest, but uhm, the twins are feeling really squished in here." 
     
     gm "Oh, that's because that's a competition swimsuit." 
     
@@ -3225,7 +3221,7 @@ label Haru_Romance_Route:
     
     y "Gou, really? Are we going to meme my body now?" 
     
-    y "Anyway, I was taking hakido lessons, and we warmed up with yoga." 
+    y "Anyway, I was taking Hakido lessons, and we warmed up with yoga." 
     
     y "So that's probably the main reason why you're drooling over my butt." 
     
@@ -3331,7 +3327,7 @@ label Haru_Romance_Route:
     
     d "I think I'm picking it back up quickly, and Haru seems satisfied." 
     
-    d "After about an hour or so Gou tells us to go take a short break." 
+    d "After about an hour or so, Gou tells us to go take a short break." 
     
     d "I go to the water fountain, and Haru follows me there." 
     
@@ -3343,7 +3339,7 @@ label Haru_Romance_Route:
     
     hn "So it's just your body readjusting to using the stroke again." 
     
-    y "Thanks, but I dont' think I'm doing that well." 
+    y "Thanks, but I don't think I'm doing that well." 
     
     hn "Trust me, you are." 
     
@@ -3419,9 +3415,9 @@ label Haru_Romance_Route:
     
     nh "And three..." 
     
-    nh "two..." 
+    nh "Two..." 
     
-    nh "one..." 
+    nh "One..." 
     
     nh "GO!"
     
@@ -3435,7 +3431,7 @@ label Haru_Romance_Route:
     
     gm "She's faster than I thought she'd be for not having been in the pool for a while." 
     
-    gm "Of course, she was doing hakido and yoga so she's probably in decent shape." 
+    gm "Of course, she was doing Hakido and yoga, so she's probably in decent shape." 
     
     nh "Her legs seem to be keeping an even rhythm, too." 
     
@@ -3447,7 +3443,7 @@ label Haru_Romance_Route:
     
     d "Not so much the race, but just swimming in general." 
     
-    d "When we go underwater for the turn I notice that Haru is looking at me." 
+    d "When we go underwater for the turn, I notice that Haru is looking at me." 
     
     d "I can't tell his expression through his eyes underwater though." 
     
@@ -3481,11 +3477,11 @@ label Haru_Romance_Route:
     
     d "Haru has extended his hand out to help me out." 
     
-    d "I grab hold and climb up, and Rei hands me my towel." 
+    d "I grab hold, climb up, and Rei hands me my towel." 
     
     hn "Nice job out there. You did great." 
     
-    y "Well, you did help me remember how it was done, senpai." 
+    y "Well, you did help me remember how it was done, Senpai." 
     
     hn "Cut it out, we're in the same grade." 
     
@@ -3521,13 +3517,13 @@ label Haru_Romance_Route:
     
     mt "Let's clean up and get going home." 
     
-    d "Everyone starts filling out. Just as I head for the girls locker room. I see Haru waiting and looking at me." 
+    d "Everyone starts filling out. Just as I head for the girls locker room, I see Haru waiting and looking at me." 
     
-    scene bg School Lockers_01 with dissolve
+    scene bg School Changeroom with dissolve
     
     show Haru Neutral at center with dissolve
     
-    hn "By the way, %(povFirstName)s, welcome to Japan, and to Swim club." 
+    hn "By the way, %(povFirstName)s, welcome to Japan, and to the swim club." 
     
     hn "Hope you enjoy it." 
     
