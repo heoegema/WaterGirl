@@ -2007,7 +2007,7 @@ label Haru_Romance_Route:
     
     hide Gou with dissolve
     
-    d "Haru huh? Maybe I overreacted to him earlier." 
+    d "Haru, huh? Maybe I overreacted to him earlier." 
     
     d "Of course, the first time I met him he decided to strip down and dive to his death." 
     
@@ -2057,9 +2057,9 @@ label Haru_Romance_Route:
     
     gm "Makoto's coming too." 
     
-    y "Well, okay than. Do we have some sort of bread around here?"
+    y "Well, okay then. Do we have some sort of bread around here?"
     
-    y "I can toast that up and add some butter and garlic salt to make as a side." 
+    y "I can toast that up and add some butter with garlic salt to make as a side." 
     
     gm "Yeah, let me get that for you." 
     
@@ -2097,11 +2097,11 @@ label Haru_Romance_Route:
     
     d "Just as I'm done setting up the table, there's a knock at the door." 
     
-    rm "Well, well Haru. Nice to see you finally showed up." 
+    rm "Well well, Haru. Nice to see you finally showed up." 
     
     rm "A little slow as usual, eh?" 
     
-    mt "Ha, ha Rin. Funny. It's my fault we're a tad late." 
+    mt "Aha, It's my fault we're a tad late." 
     
     rm "Is that so, Haru?"
     
@@ -2109,9 +2109,7 @@ label Haru_Romance_Route:
     
     gm "Now, now, boys, this is supposed to be a friendly dinner." 
     
-    gm "You can go about your pathetic display of manhood later." 
-    
-    mt "Hey, that's not fair." 
+    gm "You can go about your pathetic display of manhood later."
     
     gm "I was talking to Rin and Haru, mostly." 
     
@@ -2135,7 +2133,7 @@ label Haru_Romance_Route:
     
     gm "I mean, sheesh manners much?"
     
-    mt "Yeah, man. We should wait for her." 
+    mt "Yeah, Haru. We should wait for her." 
     
     mt "After all, she did cook the meal, it's only polite." 
     
@@ -2199,7 +2197,7 @@ label Haru_Romance_Route:
     
     show Gou Neutral at center with dissolve
     
-    gm "Oooooh, that was so good, %(povLastName)s-chan." 
+    gm "Oooh, that was so good, %(povFirstName)s-chan." 
     
     gm "I could eat that every day." 
     
@@ -2258,7 +2256,7 @@ label Haru_Romance_Route:
     
     d "We head back to our bedrooms."
     
-    d "Once inside, I grab some fresh pajamas, strip down and wrap a towel around myself."
+    d "Once inside, I grab some fresh pajamas, strip down, then wrap a towel around myself."
     
     d "I'm beat, and a nice long soak sounds good about now." 
     
@@ -2294,6 +2292,8 @@ label Haru_Romance_Route:
     
     hn "Nice towel. See you tomorrow." 
     
+    hide Haru Neutral at center with dissolve 
+    
     y "Why would you say something like that?" 
     
     d "Oh, he's already gone. What a weirdo." 
@@ -2326,7 +2326,7 @@ label Haru_Romance_Route:
     
     unknown "I'm sick of you always acting like you're so much better than everyone." 
     
-    d "Turning around I see three familiar faces that I would rather never see again." 
+    d "Turning around, I see three familiar faces that I would rather never see again." 
     
     d "Two taller girls flanking a shorter, blonde-haired girl, and it's the blonde addressing me." 
     
@@ -2516,11 +2516,11 @@ label Haru_Romance_Route:
     
     d "And I'm not even the one getting roasted by the guys here." 
     
-    d "Makoto looks kind of flustered. It's kind of cute, actually." 
+    d "Makoto looks kind of flustered. It's cute, actually." 
     
     show Makoto Mad with dissolve
     
-    mt "Whoa whoa whoa whoa whoa. I was just trying to welcome %(povLastName)s to Japan." 
+    mt "Hey now... I was just trying to welcome %(povLastName)s to Japan." 
     
     mt "I mean, she doesn't have anyone here and her host sister couldn't help her on her first day of school." 
     
@@ -2540,7 +2540,7 @@ label Haru_Romance_Route:
     
     show Makoto Sad with dissolve
     
-    mt "But duh, of course you're cute. Ask any of the guys here and they'd say the same." 
+    mt "But y-yeah, of course you're cute. Ask any of the guys here and they'd say the same." 
     
     mt "So it's no indication of any romantic interest that I think you're cute." 
     
@@ -2594,7 +2594,7 @@ label Haru_Romance_Route:
     
     show Makoto Mad with dissolve
     
-    mt "W-what? I'm not gay! I totally love the ladies. 24-7-265 and every Leap Year." 
+    mt "W-what? I'm not gay!" 
     
     y "Okay, then what did you mean, Haru?" 
     
@@ -2658,7 +2658,7 @@ label Haru_Romance_Route:
     
     d "Turning around I see a familiar face." 
     
-    y "Oh, hi Haru. I...didn't realize your locker was next to mine." 
+    y "Oh, hi Haru. I... Didn't realize your locker was next to mine." 
     
     show Haru Neutral at center with dissolve
     
@@ -2674,23 +2674,23 @@ label Haru_Romance_Route:
     
     d "I'm not sure what to tell him, but I know it's not a fever." 
     
-    d "Before I can ever stammer out something, he's put his hand to my forehead." 
+    d "Before I can even stammer out something, he's put his hand to my forehead." 
     
     d "He has a gentle touch, and his hand is cool." 
     
     d "Crap, What the hell am I thinking?" 
     
-    d "I mean, so what if he has a lean, muscular body, watery blue eyes and has a gentle touch." 
+    d "I mean, so what if he has a lean, muscular body, watery blue eyes and has a gentle touch?" 
     
     d "He's weird, right? I mean he strips in public!" 
     
-    d "Strips to his rather...nice...STOP IT ALREADY!" 
+    d "Strips to his rather... Nice... STOP IT ALREADY!" 
     
     hn "You don't seem to have a fever. Maybe dehydration?"
     
     hn "Make sure to drink plenty of water." 
     
-    y "Uhm, yeah, great idea! And if I can't find any I'll follow you to it." 
+    y "Uhm, yeah, great idea! And if I can't find any, I'll follow you to it." 
     
     d "Welcome to Lamesburg. Population: Me." 
     
@@ -2708,11 +2708,11 @@ label Haru_Romance_Route:
     
     ma "Good morning %(povFirstName)s and Haru. Wow, this may be a first." 
     
-    y "What do you mean, sensei?" 
+    y "What do you mean, Sensei?" 
     
     show Miho Reassuring with dissolve
     
-    ma "usually Haru either walks in dripping wet..." 
+    ma "Usually Haru either walks in dripping wet..." 
     
     ma "Or Makoto is dragging him in before the truant bell rings." 
     
@@ -2728,7 +2728,7 @@ label Haru_Romance_Route:
     
     y "So we just ended up walking here." 
     
-    ma "Hmmmmmmm, interesting." 
+    ma "Hmmm, interesting." 
     
     ma "Anyway, go ahead and take your seat, we'll be starting shortly." 
     
@@ -2789,17 +2789,17 @@ label Haru_Romance_Route:
     
     d "Sprinting out I head for the stairs, and once there I see Makoto ahead of me." 
     
-    y "Hey Makoto, wait up...aaaaahhhhh!" 
+    y "Hey Makoto, wait up... Aaahhh!" 
     
     scene bg Stair Well B_01 with vpunch
     
-    d "In my haste I didn't notice someone had left a crumpled water bottle on the steps." 
+    d "In my haste, I didn't notice someone had left a crumpled water bottle on the steps." 
     
-    d "My foot found it and I slip, and I'm about to get a special trip to the nurse's office." 
+    d "My foot found it and I slip, about to get a special trip to the nurse's office." 
     
     d "Because I'm falling backwards and my head is going to hit something hard." 
     
-    d "Wait...this isn't hard at all." 
+    d "Wait... This isn't hard at all." 
     
     d "I've been grabbed by a pair of soft hands and strong arms." 
     
@@ -2807,7 +2807,7 @@ label Haru_Romance_Route:
     
     show Haru Neutral at center 
     
-    hn "Hey, are you okay there?" 
+    hn "Hey, are you okay?" 
     
     y "Haru!" 
     
