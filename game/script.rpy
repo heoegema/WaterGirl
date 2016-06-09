@@ -2817,7 +2817,7 @@ label Haru_Romance_Route:
     
     
     menu: 
-        "Pull back and thank Haru": 
+        "Pull back and thank Haru.": 
             d "I slowly get up from Haru's grip." 
             
             y "Thank you Haru, I'm so glad you were behind me." 
